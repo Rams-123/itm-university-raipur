@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+.card-scroll::-webkit-scrollbar {
+    @apply h-1 w-2;
+}
+
+.card-scroll::-webkit-scrollbar-track {
+    background: #8888882e;
+    border-radius: 5px;
+}
+
+.card-scroll::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #A91D54;
+}
+
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.swiper-slide img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.375rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.swiper-slide div div div img {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+    filter: invert(100%);
+}
+
+.swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+    filter: invert(100%);
+
+}
