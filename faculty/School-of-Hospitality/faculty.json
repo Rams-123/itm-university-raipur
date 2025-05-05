@@ -1,0 +1,55 @@
+[
+    {
+        "id": "School of Hospitality & Tourism Management",
+        "data": [
+            {
+              "srNo": 1,
+              "name": "Prof. Anish Banerjee",
+              "designation": "Principal",
+              "qualification": "MSW, Diploma in HM, B.Com",
+              "yearOfExp": "33 Years",
+              "img": "https://cdn.itm.edu/assets/Anish_Banerjee_439cb9c960.jpeg"
+            },
+            {
+              "srNo": 2,
+              "name": "Prof. Gunjan Sinha",
+              "designation": "Assistant Professor",
+              "qualification": "Ph.D(P), M.Sc, BHMCT",
+              "yearOfExp": "15 Years",
+              "img": "https://cdn.itm.edu/assets/Gunjan_Sinha_ca6ccf0ad6.jpeg"
+            },
+            {
+              "srNo": 3,
+              "name": "Prof. Khilesh Patel",
+              "designation": "Assistant Professor",
+              "qualification": "B.Sc, M.Sc, Ph.D(P), NHTET",
+              "yearOfExp": "3 Years",
+              "img": "https://cdn.itm.edu/assets/Khilesh_Patel_ab3efdc737.jpeg"
+            },
+            {
+              "srNo": 4,
+              "name": "Dr. Ameya Jani",
+              "designation": "Head of the Department",
+              "qualification": "Ph.D, M.Sc. in Tourism & Hospitality, BBA Hospitality & Tourism Management",
+              "yearOfExp": "18 Years",
+              "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculty-bihtm/Faculty-bihtm-2023/Mr.-Ameya-Jani.webp?mtime=20230703171432&focal=none"
+            },
+            {
+              "srNo": 5,
+              "name": "Neelima Bagde",
+              "designation": "Assistant Professor, Program Coordinator",
+              "qualification": "Masters in Hospitality Management, B.Sc. in Hospitality Studies (KKSU), Diploma in Hotel Management & Catering Technology (MSIHMCT)",
+              "yearOfExp": "23 Years (teaching plus industry)",
+              "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculty-bihtm/Faculty-bihtm-2023/Neelima-Bagde.webp?mtime=20230703171433&focal=none"
+            },
+            {
+              "srNo": 6,
+              "name": "Smriti Nanda Sarangi",
+              "designation": "Assistant Professor (International Hospitality & Tourism Management)",
+              "qualification": "MBA in Hospitality & Tourism, BSc Hotel Management and Tourism",
+              "yearOfExp": "5 Years",
+              "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculty-bihtm/Faculty-bihtm-2023/Smriti-Nanda-Sarangi.webp?mtime=20230703171434&focal=none"
+            }
+          ]
+    }
+]

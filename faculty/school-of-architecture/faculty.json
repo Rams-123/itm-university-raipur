@@ -1,0 +1,31 @@
+[
+  {
+    "id": "Faculty of Architecture",
+    "data": [
+      {
+        "name": "Ar. Shanta Dash",
+        "designation": "Assistant Professor",
+        "qualification": "Ph.D (pursuing), M Arch, MS in Counseling and Psychotherapy, PG Diploma in Urban Planning and Development, Diploma in Astrology, B Arch",
+        "experience": "17 Years",
+        "fieldOfExpertise": "Architecture and Urban Development",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Architecture/Faculties-of-Architecture-2023/Ar.-Shanta-Dash.webp?mtime=20230703163256&focal=none"
+      },
+      {
+        "name": "Mr. Sanjeev Kumar Latare",
+        "designation": "Professor",
+        "qualification": "Master of Urban Planning, Bachelor of Architecture",
+        "experience": "28 Years",
+        "fieldOfExpertise": "Urban Planning and Architecture",
+        "img": ""
+      },
+      {
+        "name": "Mr. Anurag Singh",
+        "designation": "Assistant Professor",
+        "qualification": "Bachelor of Architecture",
+        "experience": "12 Years",
+        "fieldOfExpertise": "Architecture",
+        "img": ""
+      }
+    ]
+  }
+]

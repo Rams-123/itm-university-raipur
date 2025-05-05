@@ -1,0 +1,53 @@
+{
+  "id": "Faculty of Law",
+  "data": [
+    {
+      "name": "Prof. Amber Singh",
+      "designation": "Assistant Professor",
+      "qualification": "LLM, BA.LLB",
+      "experience": "1 Year",
+      "fieldOfExpertise": "Law",
+      "img": "https://media.itmuniversity.org/Amber_Singh_b530c218d6.jpg"
+    },
+    {
+      "name": "Dr. Sona Bhanubhushan Kumar",
+      "designation": "Assistant Professor",
+      "qualification": "Ph.D, LLM, LLM, LLB",
+      "experience": "18.5 Years",
+      "fieldOfExpertise": "Law and Legal Research",
+      "img": "https://media.itmuniversity.org/Sona_Bhanubhushan_Kumar_658c185ee8.jpg"
+    },
+    {
+      "name": "Prof. Jelis Subhan",
+      "designation": "Associate Professor, Head of Department",
+      "qualification": "PhD(P) NLIU, LLM (Business Laws, NLIU), LL.B, MA (English Literature), BA (English Literature)",
+      "experience": "27 Years",
+      "fieldOfExpertise": "Business Law and Literature",
+      "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Law/Faculties-of-Law-2023/Prof.-JELIS-SUBHAN.webp?mtime=20230703165527&focal=none"
+    },
+    {
+      "name": "Ms. Harsha Mishra",
+      "designation": "Assistant Professor",
+      "qualification": "LLM, BA.LLB (Hons), NET",
+      "experience": "2 Years",
+      "fieldOfExpertise": "Law",
+      "img": ""
+    },
+    {
+      "name": "Ms. Shyamali Naidu",
+      "designation": "Assistant Professor",
+      "qualification": "Ph.D (P), LL.M, BA.LLB (Hons.)",
+      "experience": "3 Years",
+      "fieldOfExpertise": "Law and Research",
+      "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Law/Faculties-of-Law-2023/Ms.-Shyamali-Naidu.webp?mtime=20230703165524&focal=none"
+    },
+    {
+      "name": "Mr. Yagvendra Singh",
+      "designation": "Teaching Assistant",
+      "qualification": "B.Com, LL.B., LL.M.",
+      "experience": "1 Year",
+      "fieldOfExpertise": "Law",
+      "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Law/Faculties-of-Law-2023/Mr.-Yagvendra-Singh.webp?mtime=20230703165525&focal=none"
+    }
+  ]
+}

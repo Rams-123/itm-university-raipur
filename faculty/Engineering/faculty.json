@@ -1,0 +1,78 @@
+[
+  {
+    "id": "School of Engineering and Research",
+    "data": [
+          {
+            "name": "Prof. Anamika Mohapatra",
+            "designation": "Assistant Professor",
+            "qualification": "B.Ed, MA English, MA Hindi, BA",
+            "yearOfExp": "9 Years",
+            "img": "https://media.itmuniversity.org/Anamika_Mohapatra_037525fac9.jpg"
+          },
+          {
+            "name": "Prof. Vichitra Sharma",
+            "designation": "Assistant Professor",
+            "qualification": "M.Tech, BE",
+            "yearOfExp": "12 Years",
+            "img": "https://media.itmuniversity.org/Vichitra_Sharma_6438e99f70.jpg"
+          },
+          {
+            "name": "Prof. Ruby Sen",
+            "designation": "Teaching Assistant",
+            "qualification": "B.Ed, M.Sc, B.Sc",
+            "yearOfExp": "7 Years",
+            "img": "https://cdn.itm.edu/assets/Ruby_Sen_5c09274dcf.jpeg"
+          },
+          {
+            "name": "Prof. Vikas Dilliwar",
+            "designation": "Assistant Professor",
+            "qualification": "Ph.D(P), M.Tech, BE, UGC-NET, GATE",
+            "yearOfExp": "18.2 Years",
+            "img": "https://cdn.itm.edu/assets/Vikas_Dilliwar_656e4c1ff0.jpeg"
+          },
+          {
+            "name": "Prof. Prakhar Pogde",
+            "designation": "Assistant Professor",
+            "qualification": "M.Tech, BE",
+            "yearOfExp": "6.2 Years",
+            "img": "https://cdn.itm.edu/assets/Prakhar_Pogde_ae9475f0b6.jpeg"
+          },
+          {
+            "name": "Prof. Prakash Mourya",
+            "designation": "Assistant Professor",
+            "qualification": "Ph.D(P), M.Tech, BE",
+            "yearOfExp": "14.2 Years",
+            "img": "https://cdn.itm.edu/assets/Prakash_Mourya_58e62f89c3.jpeg"
+          },
+          {
+            "name": "Prof. Manisha Chandrakar",
+            "designation": "Assistant Professor",
+            "qualification": "MCA, BCA, NET, Ph.D(P)",
+            "yearOfExp": "3.6 Years",
+            "img": "https://cdn.itm.edu/assets/Manisha_Chandrakar_91c2b95f68.jpeg"
+          },
+          {
+            "name": "Dr. Priyanka Khanna",
+            "designation": "Assistant Professor",
+            "qualification": "Ph.D, M.Tech, BE",
+            "yearOfExp": "12.7 Years",
+            "img": "https://cdn.itm.edu/assets/Priyanka_Khanna_4d9e882c24.jpeg"
+          },
+          {
+            "name": "Prof. Vaibhav Lall",
+            "designation": "Assistant Professor",
+            "qualification": "M.Tech, MCA, BCA",
+            "yearOfExp": "13.7 Years",
+            "img": "https://cdn.itm.edu/assets/Vaibhav_Lall_6b71e396ef.jpeg"
+          },
+          {
+            "name": "Ms. Nitika Sharma",
+            "designation": "Assistant Professor",
+            "qualification": "M.Tech, B.Tech",
+            "yearOfExp": "4 Years",
+            "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Engineering-and-Research/Faculties-of-Engineering-and-Research-2023/Ms.-Nitika-Sharma.webp?mtime=20230703163940&focal=none"
+          }
+        ]
+      }
+    ]
+  

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "School of Life & Allied Science",
+    "data": [
+      {
+        "srNo": 1,
+        "name": "Dr. Rakhi Bajpai",
+        "designation": "Assistant Professor, School of Life & Allied Science",
+        "qualification": "Ph.D.(Botany), M.Sc.(Microbiology), B.Sc. (Botany & Chemistry)",
+        "yearOfExp": "8 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Life-Allied-Science/Faculties-of-Life-Allied-Science-2023/Dr.-Rakhi-Bajpai.webp?mtime=20230703170650&focal=none"
+      },
+      {
+        "srNo": 2,
+        "name": "Ms. Linu Jha",
+        "designation": "Teaching Assistant",
+        "qualification": "B.Ed, M.Phil, M.Sc, B.Sc, PGDBM, PGDCA",
+        "yearOfExp": "6 Years",
+        "img": ""
+      },
+      {
+        "srNo": 3,
+        "name": "Dr. Jai Godheja",
+        "designation": "Associate Professor (SLAS) and Convenor (Institution Innovation Council)",
+        "qualification": "Ph.D. (Biotechnology), M.Sc. (Biotechnology), M.Phil. (Biochemistry), B.Sc. (CBZ), CSIR NET (LS) & GATE Qualified",
+        "yearOfExp": "22 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Life-Allied-Science/Faculties-of-Life-Allied-Science-2023/Dr.-Jai-Godheja.webp?mtime=20230703170652&focal=none"
+      },
+      {
+        "srNo": 4,
+        "name": "Dr. Bhumika Yadu",
+        "designation": "Assistant Professor, SLAS",
+        "qualification": "Ph.D. (Biotechnology), M.Sc. (Biotechnology), B.Sc. (Biotechnology)",
+        "yearOfExp": "8 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Life-Allied-Science/Faculties-of-Life-Allied-Science-2023/Dr.-Bhumika-Yadu.webp?mtime=20230703170651&focal=none"
+      },
+      {
+        "srNo": 5,
+        "name": "Dr. Chaitali Niratker",
+        "designation": "Assistant Professor",
+        "qualification": "Ph.D. (Biotechnology), M.Sc: Biotechnology, B.Sc. Computer Application",
+        "yearOfExp": "18 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Life-Allied-Science/Faculties-of-Life-Allied-Science-2023/Dr.-Chaitali-Niratker.webp?mtime=20230703170650&focal=none"
+      },
+      {
+        "srNo": 6,
+        "name": "Dr. Loknath Deshmukh",
+        "designation": "Assistant Professor",
+        "qualification": "Ph.D. Microbiology, M.Sc. Microbiology, B.Sc. Microbiology",
+        "yearOfExp": "7 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/Faculties-of-Life-Allied-Science/Faculties-of-Life-Allied-Science-2023/Dr.-Loknath-Deshmukh.webp?mtime=20230703170652&focal=none"
+      }
+    ]
+  }
+]
