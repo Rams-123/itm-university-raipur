@@ -1,19 +1,3 @@
-const mobileMenu = document.getElementById("mobile-nav");
-const openButton = document.getElementById("open");
-const closeButton = document.getElementById("close");
-
-openButton.addEventListener("click", () => {
-  mobileMenu.style.display = "flex";
-  openButton.style.display = "none";
-  closeButton.style.display = "block";
-});
-
-closeButton.addEventListener("click", () => {
-  mobileMenu.style.display = "none";
-  openButton.style.display = "block";
-  closeButton.style.display = "none";
-});
-
 function closeMenu() {
   mobileMenu.style.display = "none";
   openButton.style.display = "block";
@@ -52,6 +36,11 @@ function openPage(pageName, elmnt, color) {
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("defaultOpen").click();
 });
+
+function toggleAccordion(id) {
+  const content = document.getElementById(`accordionContent${id}`);
+  content.classList.toggle("hidden");
+}
 
 var swiperOptions2 = {
   loop: true,
@@ -117,14 +106,10 @@ var swiperOptions1 = {
 
 var swiper = new Swiper(".swiper-container1", swiperOptions1);
 
-function toggleAccordion(id) {
-  const content = document.getElementById(`accordionContent${id}`);
-  content.classList.toggle("hidden");
-}
-
 var swiper1 = new Swiper(".trusted-by-swiper", {
   spaceBetween: 12,
   grabCursor: true,
+  slidesPerView: 8,
   a11y: false,
   freeMode: true,
   speed: 5000,
@@ -138,15 +123,19 @@ var swiper1 = new Swiper(".trusted-by-swiper", {
   },
   breakpoints: {
     0: {
+      slidesPerView: 3,
       spaceBetween: 12,
     },
     480: {
+      slidesPerView: 6,
       spaceBetween: 12,
     },
     767: {
+      slidesPerView: 8,
       spaceBetween: 12,
     },
     992: {
+      slidesPerView: 8,
       spaceBetween: 12,
     },
   },
