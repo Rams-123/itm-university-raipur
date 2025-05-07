@@ -1,27 +1,31 @@
-fetch('faculty.json')
-  .then(response => {
+fetch("faculty.json")
+  .then((response) => {
     // Check if the response status is OK (200)
     if (!response.ok) {
-      throw new Error(`Failed to fetch faculty data (${response.status} ${response.statusText})`);
+      throw new Error(
+        `Failed to fetch faculty data (${response.status} ${response.statusText})`
+      );
     }
     // Parse the JSON data
     return response.json();
   })
-  .then(facultyData => {
+  .then((facultyData) => {
     // Once the JSON data is successfully fetched and parsed, you can use it
     console.log(facultyData);
     // Process facultyData or call your rendering function here
-    let output = facultyData.map(category => {
-      let categoryHeading = `<h2 class="text-2xl font-bold mb-4 py-5 items-center justify-center w-full flex">${category.id}</h2>`;
-      let categoryData = category.data.map(showData).join("");
-      return `<div class="mb-8">${categoryHeading}<ul class="mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 w-fit">${categoryData}</ul></div>`;
-    }).join("");
+    let output = facultyData
+      .map((category) => {
+        let categoryHeading = `<h2 class="text-2xl font-bold mb-4 py-5 items-center justify-center w-full flex">${category.id}</h2>`;
+        let categoryData = category.data.map(showData).join("");
+        return `<div class="mb-8">${categoryHeading}<ul class="mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 w-fit">${categoryData}</ul></div>`;
+      })
+      .join("");
     let facultyList = document.getElementById("facultyList");
     facultyList.innerHTML = output;
   })
-  .catch(error => {
+  .catch((error) => {
     // Handle any errors that occurred during the fetch
-    console.error('Error fetching faculty data:', error.message);
+    console.error("Error fetching faculty data:", error.message);
   });
 
 // Your showData function remains the same
@@ -50,5 +54,3 @@ function showData(faculty) {
   `;
   return facultylistItems;
 }
-
-
