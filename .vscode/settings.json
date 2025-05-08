@@ -5,5 +5,6 @@
         "NAAC",
         "Raipur",
         "Swachh"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
