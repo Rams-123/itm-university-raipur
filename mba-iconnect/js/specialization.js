@@ -1,10 +1,10 @@
 // Sample JSON data for specializations
 const specializationsData = [
   {
-    id: "marketing-management",
+    id: "marketing",
     title: "1. Marketing",
     description:
-      "The Marketing specialization equips students with essential skills in market research, brand building, and digital marketing strategies. Through practical projects and case studies, students learn to create impactful campaigns, analyze market trends, and enhance consumer engagement. This specialization combines theoretical knowledge with real-world applications, preparing students to contribute effectively to business growth and innovation.",
+      "The Marketing specialization focuses on developing the skills required for successful marketing strategies, including market research, brand management, and consumer behavior analysis. Students learn to create campaigns that resonate with target audiences and drive business growth. Practical case studies and industry projects help reinforce these concepts, providing real-world applications to theoretical knowledge.\n\nThis specialization prepares students to lead marketing initiatives in various sectors. By mastering consumer engagement strategies and brand-building techniques, graduates are well-equipped to drive organizational innovation and growth.",
     topics: [
       "Market Research",
       "Brand Management",
@@ -29,7 +29,7 @@ const specializationsData = [
     id: "human-resource",
     title: "2. Human Resource",
     description:
-      "The Human Resource specialization focuses on developing recruitment, employee engagement, and organizational development expertise. Students learn to create positive work environments, foster collaboration, and implement effective HR strategies to support organizational success. This specialization emphasizes interpersonal skills and workforce management and prepares students to lead high-performing teams.",
+      "The Human Resource specialization provides a deep dive into recruitment strategies, employee engagement, and organizational development. Students learn the intricacies of building high-performance teams, managing workplace dynamics, and ensuring that HR practices align with organizational goals. Through real-world case studies and fieldwork, students develop the skills to navigate complex HR challenges.\n\nGraduates of this specialization are prepared to take on leadership roles in HR departments across industries, fostering a productive and harmonious work environment. Focusing on interpersonal and organizational skills ensures students can effectively manage talent and contribute to an organization's success.",
     topics: [
       "Recruitment and Selection",
       "Employee Engagement",
@@ -54,7 +54,7 @@ const specializationsData = [
     id: "finance",
     title: "3. Finance",
     description:
-      "This specialization provides in-depth financial planning, and investment analysis knowledge, helping students develop financial management skills. Students gain critical skills in interpreting economic data, managing budgets, and ensuring organizational profitability. The curriculum emphasizes theoretical understanding and practical applications, preparing students to excel in the dynamic financial sector.",
+      "The Finance specialization provides students with a comprehensive understanding of financial management, investment analysis, and budgeting. Students learn to evaluate financial statements, manage risks, and create effective financial strategies for short-term and long-term goals. Real-world financial simulations and case studies ensure that students gain practical experience in applying their knowledge.\n\nBy the end of the program, graduates will possess the expertise needed to make informed financial decisions and drive organizational growth, excelling in both the corporate and investment sectors.",
     topics: [
       "Financial Accounting",
       "Managerial Accounting",
@@ -76,41 +76,41 @@ const specializationsData = [
     brochureLink: "Download Brochure",
   },
   {
-    id: "digital-marketing",
-    title: "4. Digital Marketing",
+    id: "business-analytics",
+    title: "4. Business Analytics",
     description:
-      "The Digital Marketing specialization trains students to excel in the rapidly growing digital economy. Courses cover key topics such as search engine optimization (SEO), social media strategies, content marketing, and digital campaign management. Students learn to harness digital platforms for business growth and develop analytical skills to measure campaign success effectively.",
+      "The Business Analytics specialization equips students with the tools and techniques to leverage data for better business decision-making. Students learn to analyze large datasets, create predictive models, and apply analytics to improve business processes. With hands-on training in various analytics tools, this specialization offers students practical experience in extracting meaningful insights from data.\n\nGraduates are prepared to work in diverse roles requiring data-driven decision-making, helping organizations improve performance, optimize processes, and stay ahead of market competitors.",
     topics: [
-      "SEO and SEM",
-      "Social Media Marketing",
-      "Content Marketing",
-      "Email Marketing",
-      "Analytics and Data Insights",
-      "Digital Advertising and PPC",
+      "Data Analytics Techniques",
+      "Predictive Modeling",
+      "Statistical Analysis for Business Decisions",
+      "Data Visualization",
+      "Business Intelligence Tools",
+      "Decision Support Systems",
     ],
     jobRoles: [
-      "Digital Marketing Strategist",
-      "SEO Analyst",
-      "Social Media Manager",
-      "E-commerce Specialist",
-      "Content Marketing Manager",
-      "Performance Marketing Manager",
-      "Email Marketing Specialist",
-      "Analytics and Insights Manager",
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Data Scientist",
+      "Business Analyst",
+      "Operations Analyst",
+      "Financial Analyst",
+      "Marketing Analyst",
+      "Data-Driven Decision Maker",
     ],
     brochureLink: "Download Brochure",
   },
   {
-    id: "entrepreneurship",
-    title: "5. Entrepreneurship",
+    id: "entrepreneurship-family-business",
+    title: "5. Entrepreneurship & Family Business",
     description:
-      "The Entrepreneurship specialization is designed for students aspiring to become business leaders and innovators. It focuses on building skills in business planning, strategic management, and innovation. Students learn to identify market opportunities, develop new ventures, and sustain business growth. This specialization fosters a mindset of resilience and creativity, which is essential for entrepreneurial success.",
+      "The Entrepreneurship & Family Business specialization gives students the knowledge and skills to start and run businesses. Students learn about business planning, idea generation, funding strategies, and family business dynamics. This program is ideal for those who wish to launch new ventures or take over and innovate within family-owned businesses.\n\nGraduates are prepared to handle the complexities of starting a business, managing growth, and addressing challenges unique to family-run enterprises. This specialization fosters entrepreneurial thinking and prepares students to become leaders in the business world.",
     topics: [
       "Business Planning and Strategy",
-      "Innovation Management",
-      "Market Research for Start-Ups",
+      "Innovation and Product Development",
+      "Family Business Dynamics",
       "Venture Capital and Funding",
-      "Start-Up Operations",
+      "Business Growth and Scaling",
       "Entrepreneurial Leadership",
     ],
     jobRoles: [
