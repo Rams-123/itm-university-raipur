@@ -1,127 +1,77 @@
 // Sample JSON data for specializations
 const specializationsData = [
   {
-    id: "marketing",
-    title: "1. Marketing",
+    id: "cloud-technology-information-security",
+    elective: "",
+    title: "1. Cloud Technology & Information Security (CTIS)",
     description:
-      "The Marketing specialization focuses on developing the skills required for successful marketing strategies, including market research, brand management, and consumer behavior analysis. Students learn to create campaigns that resonate with target audiences and drive business growth. Practical case studies and industry projects help reinforce these concepts, providing real-world applications to theoretical knowledge.\n\nThis specialization prepares students to lead marketing initiatives in various sectors. By mastering consumer engagement strategies and brand-building techniques, graduates are well-equipped to drive organizational innovation and growth.",
+      "The CTIS specialization equips students with expertise in cloud computing, cybersecurity, and data protection. Through hands-on projects and industry-driven coursework, students gain practical skills in securing cloud environments, managing data privacy, and mitigating cyber threats.\n\nThis specialization blends theoretical knowledge with real-world applications to prepare students for the evolving demands of the IT sector.",
     topics: [
-      "Market Research",
-      "Brand Management",
-      "Consumer Behavior Analysis",
-      "Digital Marketing Strategies",
-      "Advertising and Public Relations",
-      "Marketing Analytics",
+      "Cloud Architecture & Deployment",
+      "Network & Information Security",
+      "Cyber Threats & Risk Management",
+      "Data Encryption & Privacy",
+      "Ethical Hacking & Penetration Testing",
+      "Cloud Compliance & Governance",
     ],
     jobRoles: [
-      "Marketing Executive",
-      "Brand Manager",
-      "Digital Marketing Specialist",
-      "Market Research Analyst",
-      "Advertising Manager",
-      "Sales Manager",
-      "Product Marketing Manager",
-      "Public Relations Specialist",
+      "Cloud Security Analyst",
+      "Cybersecurity Specialist",
+      "Cloud Solutions Architect",
+      "Information Security Consultant",
+      "Ethical Hacker",
+      "Data Protection Officer",
+      "Security Operations Engineer",
     ],
     brochureLink: "Download Brochure",
   },
   {
-    id: "human-resource",
-    title: "2. Human Resource",
+    id: "artificial-intelligence-machine-learning",
+    elective: "Elective",
+    title: "1. Artificial Intelligence & Machine Learning (AIML)",
     description:
-      "The Human Resource specialization provides a deep dive into recruitment strategies, employee engagement, and organizational development. Students learn the intricacies of building high-performance teams, managing workplace dynamics, and ensuring that HR practices align with organizational goals. Through real-world case studies and fieldwork, students develop the skills to navigate complex HR challenges.\n\nGraduates of this specialization are prepared to take on leadership roles in HR departments across industries, fostering a productive and harmonious work environment. Focusing on interpersonal and organizational skills ensures students can effectively manage talent and contribute to an organization's success.",
+      "The AIML specialization empowers students with advanced skills in AI-driven innovation, machine learning algorithms, and intelligent automation. Through hands-on projects and industry collaborations, students gain expertise in building AI models, deep learning applications, and natural language processing.\n\nThis specialization prepares graduates to develop intelligent solutions for various industries, from healthcare to finance and beyond.",
     topics: [
-      "Recruitment and Selection",
-      "Employee Engagement",
-      "Performance Management",
-      "Organizational Development",
-      "Labor Laws and Ethics",
-      "Compensation and Benefits",
+      "Machine Learning Algorithms",
+      "Deep Learning & Neural Networks",
+      "Natural Language Processing (NLP)",
+      "Computer Vision & Image Processing",
+      "AI Ethics & Responsible AI",
+      "Reinforcement Learning",
     ],
     jobRoles: [
-      "HR Executive",
-      "Talent Acquisition Specialist",
-      "Training and Development Manager",
-      "HR Analyst",
-      "Employee Relations Manager",
-      "Compensation and Benefits Specialist",
-      "Organizational Development Consultant",
-      "Payroll Manager",
+      "AI Engineer",
+      "Machine Learning Developer",
+      "Data Scientist",
+      "Computer Vision Engineer",
+      "NLP Engineer",
+      "AI Researcher",
+      "Robotics Engineer",
     ],
     brochureLink: "Download Brochure",
   },
   {
-    id: "finance",
-    title: "3. Finance",
+    id: "data-science",
+    elective: "Elective",
+    title: "3. Data Science (DS)",
     description:
-      "The Finance specialization provides students with a comprehensive understanding of financial management, investment analysis, and budgeting. Students learn to evaluate financial statements, manage risks, and create effective financial strategies for short-term and long-term goals. Real-world financial simulations and case studies ensure that students gain practical experience in applying their knowledge.\n\nBy the end of the program, graduates will possess the expertise needed to make informed financial decisions and drive organizational growth, excelling in both the corporate and investment sectors.",
+      "The Data Science specialization equips students with expertise in data analytics, statistical modeling, and predictive insights. Students learn to extract meaningful information from complex datasets, applying machine learning and AI techniques to solve real-world business challenges.\n\nThis specialization focuses on practical applications, ensuring students are industry-ready for data-driven roles.",
     topics: [
-      "Financial Accounting",
-      "Managerial Accounting",
-      "Corporate Finance",
-      "Investment Analysis",
-      "Taxation",
-      "Auditing and Financial Reporting",
+      "Big Data Analytics",
+      "Data Visualization & Storytelling",
+      "Predictive Analytics & Forecasting",
+      "Statistical Modeling & Data Mining",
+      "AI-Driven Data Processing",
+      "Business Intelligence & Decision Making",
     ],
     jobRoles: [
-      "Financial Analyst",
-      "Accountant",
-      "Investment Banker",
-      "Tax Consultant",
-      "Budget Analyst",
-      "Financial Planner",
-      "Internal Auditor",
-      "Risk Manager",
-    ],
-    brochureLink: "Download Brochure",
-  },
-  {
-    id: "business-analytics",
-    title: "4. Business Analytics",
-    description:
-      "The Business Analytics specialization equips students with the tools and techniques to leverage data for better business decision-making. Students learn to analyze large datasets, create predictive models, and apply analytics to improve business processes. With hands-on training in various analytics tools, this specialization offers students practical experience in extracting meaningful insights from data.\n\nGraduates are prepared to work in diverse roles requiring data-driven decision-making, helping organizations improve performance, optimize processes, and stay ahead of market competitors.",
-    topics: [
-      "Data Analytics Techniques",
-      "Predictive Modeling",
-      "Statistical Analysis for Business Decisions",
-      "Data Visualization",
-      "Business Intelligence Tools",
-      "Decision Support Systems",
-    ],
-    jobRoles: [
+      "Data Scientist",
       "Data Analyst",
       "Business Intelligence Analyst",
-      "Data Scientist",
-      "Business Analyst",
-      "Operations Analyst",
-      "Financial Analyst",
-      "Marketing Analyst",
-      "Data-Driven Decision Maker",
-    ],
-    brochureLink: "Download Brochure",
-  },
-  {
-    id: "entrepreneurship-family-business",
-    title: "5. Entrepreneurship & Family Business",
-    description:
-      "The Entrepreneurship & Family Business specialization gives students the knowledge and skills to start and run businesses. Students learn about business planning, idea generation, funding strategies, and family business dynamics. This program is ideal for those who wish to launch new ventures or take over and innovate within family-owned businesses.\n\nGraduates are prepared to handle the complexities of starting a business, managing growth, and addressing challenges unique to family-run enterprises. This specialization fosters entrepreneurial thinking and prepares students to become leaders in the business world.",
-    topics: [
-      "Business Planning and Strategy",
-      "Innovation and Product Development",
-      "Family Business Dynamics",
-      "Venture Capital and Funding",
-      "Business Growth and Scaling",
-      "Entrepreneurial Leadership",
-    ],
-    jobRoles: [
-      "Start-Up Founder",
-      "Business Development Manager",
-      "Business Consultant",
-      "Entrepreneur",
-      "Venture Capital Analyst",
-      "Innovation Consultant",
-      "Franchise Owner",
-      "Operations Manager",
+      "Machine Learning Engineer",
+      "Data Engineer",
+      "Statistician",
+      "Data Consultant",
     ],
     brochureLink: "Download Brochure",
   },
@@ -145,12 +95,18 @@ function createSpecializationAccordion() {
 
     // Create the HTML structure for each accordion item
     accordionItem.innerHTML = `
-                    <button class="specialization-accordion-button flex justify-between items-center w-full bg-white border border-gray-300 p-3 rounded-md">
-                        <span class="font-inter text-base text-left font-medium">
-                            ${specialization.title}
-                        </span>
-                        <span class="specialization-accordion-icon transition-transform duration-300">⌃</span>
-                    </button>
+                <button class="specialization-accordion-button flex justify-between items-center w-full bg-white border border-gray-300 p-3 rounded-md">
+                  <span class="font-inter text-base text-left font-medium">
+                    ${
+                      specialization.elective
+                        ? `<span class="text-[#a91d54] font-semibold">${specialization.elective}</span> `
+                        : ""
+                    }
+                    ${specialization.title}
+                  </span>
+                  <span class="specialization-accordion-icon transition-transform duration-300">⌃</span>
+                </button>
+
                     <div class="specialization-accordion-content border border-t-0 border-gray-200 bg-white p-4 gap-4 flex-col ${
                       index === 0 ? "flex" : "hidden"
                     }">
