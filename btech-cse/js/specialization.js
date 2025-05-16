@@ -53,7 +53,7 @@ const specializationsData = [
   {
     id: "data-science",
     elective: "Elective",
-    title: "3. Data Science (DS)",
+    title: "2. Data Science (DS)",
     description:
       "The Data Science specialization equips students with expertise in data analytics, statistical modeling, and predictive insights. Students learn to extract meaningful information from complex datasets, applying machine learning and AI techniques to solve real-world business challenges.\n\nThis specialization focuses on practical applications, ensuring students are industry-ready for data-driven roles.",
     topics: [
