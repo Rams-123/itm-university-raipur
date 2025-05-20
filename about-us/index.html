@@ -1,0 +1,2072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITM University Raipur</title>
+    <link rel="stylesheet" href="/output.css">
+    <style>
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .active-tab {
+            color: #a91d54;
+            border-bottom: 2px solid #a91d54;
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-3">
+                <div class="flex items-center">
+                    <div class="text-xl font-bold text-[#a91d54]">ITM</div>
+                    <div class="ml-2 text-xl font-semibold">Vocational University</div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="hover:text-[#a91d54] transition duration-300">About</a>
+                    <a href="#vision" class="hover:text-[#a91d54] transition duration-300">Vision & Mission</a>
+                    <a href="#leadership" class="hover:text-[#a91d54] transition duration-300">Leadership</a>
+                    <a href="#credentials" class="hover:text-[#a91d54] transition duration-300">Credentials</a>
+                    <a href="#statutory" class="hover:text-[#a91d54] transition duration-300">Statutory Bodies</a>
+                    <a href="#contact"
+                        class="bg-[#a91d54] text-white px-4 py-2 rounded hover:bg-[#a91d54] transition duration-300">Contact
+                        Us</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-500 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative h-screen w-full overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');">
+            <!-- Gradient Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-br from-[#a91d54]/90 via-[#8a1845]/80 to-black/70"></div>
+        </div>
+
+        <!-- Content Container -->
+        <div class="relative flex h-full w-full items-center justify-center px-4">
+            <div class="max-w-6xl">
+                <!-- Main Content -->
+                <div class="text-center">
+                    <!-- Animated Title with Decorative Elements -->
+                    <div class="mb-6 inline-block animate-fade-in-down">
+                        <h1 class="font-serif text-5xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
+                            About <span class="relative">
+                                <span class="text-blue-200">ITM</span>
+                                <span
+                                    class="absolute -bottom-3 left-0 h-1 w-full bg-gradient-to-r from-blue-300 to-purple-500 md:-bottom-4"></span>
+                            </span>
+                        </h1>
+                    </div>
+
+                    <!-- Description with Animation -->
+                    <p class="mx-auto mb-8 max-w-2xl animate-fade-in text-lg text-gray-200 opacity-90 md:text-xl">
+                        Since 1991, ITM Group of Institutions has been a center of excellence and innovation, offering
+                        futuristic professional education that meets global standards and embraces multiculturalism.
+                    </p>
+
+                    <!-- CTA Button with Hover Effects -->
+                    <div class="mb-12 animate-fade-in-up">
+                        <a href="#vision"
+                            class="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-white px-8 py-4 text-lg font-semibold shadow-lg transition-all duration-300 hover:bg-[#a91d54] hover:text-white hover:shadow-xl">
+                            <span>Our Vision & Mission</span>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5 transition-transform duration-300 ease-in-out group-hover:translate-y-1"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span
+                                class="absolute bottom-0 left-0 h-1 w-0 bg-blue-300 transition-all duration-500 ease-out group-hover:w-full"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Feature Cards -->
+                <div class="mt-8 flex justify-center gap-4">
+                    <div class="hidden md:flex gap-4 animate-fade-in-up" style="animation-delay: 0.6s;">
+                        <!-- Card 1: Vision -->
+                        <div
+                            class="group relative overflow-hidden rounded-lg bg-white/10 backdrop-blur-sm p-4 transition-all duration-300 hover:scale-105 w-64">
+                            <h3 class="text-xl font-bold text-white mb-2">Our Vision</h3>
+                            <p class="text-sm text-gray-200">
+                                Center of excellence and innovation, offering futuristic professional education that
+                                meets
+                                global standards.
+                            </p>
+                        </div>
+
+                        <!-- Card 2: Chancellor -->
+                        <div
+                            class="group relative overflow-hidden rounded-lg bg-white/10 backdrop-blur-sm p-4 transition-all duration-300 hover:scale-105 w-64">
+                            <h3 class="text-xl font-bold text-white mb-2">Leadership</h3>
+                            <p class="text-sm text-gray-200">
+                                Led by Dr. P.V. Ramana, Founder and Chairman of ITM Group with 34 years of excellence.
+                            </p>
+                        </div>
+
+                        <!-- Card 3: Programs -->
+                        <div
+                            class="group relative overflow-hidden rounded-lg bg-white/10 backdrop-blur-sm p-4 transition-all duration-300 hover:scale-105 w-64">
+                            <h3 class="text-xl font-bold text-white mb-2">Programs</h3>
+                            <p class="text-sm text-gray-200">
+                                Engineering, Management, Hospitality, Fashion, Interior Design, Health Sciences and
+                                more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+            <a href="#leadership" class="flex flex-col items-center text-white">
+                <span class="mb-1 text-sm font-medium">Scroll Down</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </a>
+        </div>
+
+        <!-- Floating Particles (Optional) -->
+        <div class="pointer-events-none absolute inset-0 overflow-hidden">
+            <div class="absolute h-4 w-4 rounded-full bg-blue-300/30 blur-sm"
+                style="top: 20%; left: 10%; animation: float 8s infinite ease-in-out;"></div>
+            <div class="absolute h-6 w-6 rounded-full bg-purple-300/20 blur-sm"
+                style="top: 60%; left: 15%; animation: float 12s infinite ease-in-out;"></div>
+            <div class="absolute h-3 w-3 rounded-full bg-blue-200/30 blur-sm"
+                style="top: 30%; left: 85%; animation: float 10s infinite ease-in-out;"></div>
+            <div class="absolute h-5 w-5 rounded-full bg-purple-200/20 blur-sm"
+                style="top: 70%; left: 80%; animation: float 14s infinite ease-in-out;"></div>
+        </div>
+    </section>
+
+    <!-- ITM University Raipur Section -->
+    <section class="py-10 bg-gradient-to-b from-white to-gray-50" id="itm-raipur">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6 relative inline-block">
+                    ITM UNIVERSITY, RAIPUR
+                    <div
+                        class="w-full h-1 bg-gradient-to-r from-[#a91d54]/20 via-[#a91d54] to-[#a91d54]/20 absolute -bottom-3 left-0">
+                    </div>
+                </h2>
+            </div>
+
+            <!-- Introduction with Card Design -->
+            <div
+                class="bg-white rounded-2xl shadow-xl p-8 mb-12 transform transition-all duration-300 hover:shadow-2xl border-t-4 border-[#a91d54]">
+                <p class="text-gray-700 leading-relaxed mb-6 text-lg">
+                    ITM University Raipur is part of the ITM Group of Institutions. Established in 2012, ITM University,
+                    Raipur, has emerged as a premier educational hub in Central India. Located in Raipur, a city
+                    renowned for its industrial and educational prominence in Chhattisgarh. Our university is committed
+                    to promoting excellence through high-quality education and hands-on learning experiences.
+                </p>
+            </div>
+
+            <!-- Educational Approach Section -->
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Card 1 -->
+                <div
+                    class="bg-white rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border-l-4 border-[#a91d54]">
+                    <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#a91d54]/10 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#a91d54]" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Industry-Aligned Education</h3>
+                    <p class="text-gray-700">Designed to meet the demands of evolving global careers.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-white rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border-l-4 border-[#a91d54]">
+                    <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#a91d54]/10 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#a91d54]" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Skill-Based Learning</h3>
+                    <p class="text-gray-700">Strong focus on practical, hands-on experience.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-white rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border-l-4 border-[#a91d54]">
+                    <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#a91d54]/10 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#a91d54]" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Guided by NEP 2020</h3>
+                    <p class="text-gray-700">A curriculum that nurtures innovation and critical thinking.</p>
+                </div>
+            </div>
+
+            <!-- Leadership Development -->
+            <div class="bg-gradient-to-r from-[#a91d54]/5 to-purple-100/30 rounded-2xl p-8 mb-12">
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Shaping Well-Rounded Leaders</h3>
+                <p class="text-gray-700 leading-relaxed mb-6 text-lg">
+                    At ITM University, Raipur, we're all about more than just academics - we shape well-rounded Leaders
+                    are ready to take on the world!
+                </p>
+            </div>
+
+            <!-- Campus Life Activities -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold mb-6 text-gray-800 text-center">Campus Life & Activities</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Activity 1 -->
+                    <div
+                        class="bg-white rounded-lg shadow p-6 flex items-start space-x-4 hover:shadow-md transition-all duration-300">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 rounded-full bg-[#a91d54]/10 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54]" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Startup Culture</h4>
+                            <p class="text-gray-600">Turn Your Ideas into Reality with Our Incubation Programs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Activity 2 -->
+                    <div
+                        class="bg-white rounded-lg shadow p-6 flex items-start space-x-4 hover:shadow-md transition-all duration-300">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 rounded-full bg-[#a91d54]/10 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54]" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">TechFests and Hackathons</h4>
+                            <p class="text-gray-600">Innovate, compete, and showcase your skills.</p>
+                        </div>
+                    </div>
+
+                    <!-- Activity 3 -->
+                    <div
+                        class="bg-white rounded-lg shadow p-6 flex items-start space-x-4 hover:shadow-md transition-all duration-300">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 rounded-full bg-[#a91d54]/10 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54]" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Cultural Extravaganza</h4>
+                            <p class="text-gray-600">Music, dance, drama - express yourself!</p>
+                        </div>
+                    </div>
+
+                    <!-- Activity 4 -->
+                    <div
+                        class="bg-white rounded-lg shadow p-6 flex items-start space-x-4 hover:shadow-md transition-all duration-300">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 rounded-full bg-[#a91d54]/10 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54]" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Sports & Fitness</h4>
+                            <p class="text-gray-600">Stay active with top-notch facilities and competitive events.</p>
+                        </div>
+                    </div>
+
+                    <!-- Activity 5 -->
+                    <div
+                        class="bg-white rounded-lg shadow p-6 flex items-start space-x-4 hover:shadow-md transition-all duration-300">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 rounded-full bg-[#a91d54]/10 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54]" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Debates and Discussions</h4>
+                            <p class="text-gray-600">Sharpen your thinking, challenge ideas, and lead with confidence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Activity 6 -->
+                    <div
+                        class="bg-white rounded-lg shadow p-6 flex items-start space-x-4 hover:shadow-md transition-all duration-300">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 rounded-full bg-[#a91d54]/10 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54]" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Conclaves & Conferences</h4>
+                            <p class="text-gray-600">Engage with industry leaders and experts.</p>
+                        </div>
+                    </div>
+
+                    <!-- Activity 7 -->
+                    <div
+                        class="bg-white rounded-lg shadow p-6 flex items-start space-x-4 hover:shadow-md transition-all duration-300 md:col-span-2 lg:col-span-1">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 rounded-full bg-[#a91d54]/10 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54]" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Moot Courts</h4>
+                            <p class="text-gray-600">Gain real-world legal experience and advocacy skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Philosophy and Campus -->
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white rounded-xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Our Philosophy</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        The philosophy of ITM University, Raipur, promotes inclusive economic growth of the country and
+                        recognises entrepreneurship as the driver of all such growth.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Our Campus</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        ITM University, Raipur, is a vibrant campus with lush green surroundings offering an ambience of
+                        exuberance of youth committed to achieving excellence in academics and the professional arena.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Programs Offered -->
+            <div
+                class="bg-white rounded-2xl shadow-xl p-8 mb-6 transform transition-all duration-300 hover:shadow-2xl border-t-4 border-[#a91d54]">
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Programs & Faculty</h3>
+                <p class="text-gray-700 leading-relaxed text-lg">
+                    The University offers various professional courses, including Management, Law, Engineering, Life
+                    Sciences, and International Hospitality and Tourism Management, among others. The programs offered
+                    at ITM University, Raipur, are carefully designed to meet the industry's demands. These programs are
+                    taught by the best faculty, who are rich in both academic and industrial experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chancellor's Message -->
+    <section class="py-10 bg-gray-50" id="leadership">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Leadership Messages</h2>
+            <div class="grid md:grid-cols-2 gap-16 mb-16 relative">
+                <div
+                    class="order-2 md:order-1 max-h-[600px] overflow-y-auto pr-4 scrollbar scrollbar-thin scrollbar-thumb-[#a91d54] scrollbar-track-gray-100 hover:scrollbar-thumb-[#8a1845]">
+                    <h3 class="text-2xl font-bold mb-2">Chancellor's Message</h3>
+                    <h4 class="text-xl text-[#a91d54] font-semibold mb-4">Dr. P. V. Ramana</h4>
+                    <div class="w-20 h-1 bg-[#a91d54] mb-6"></div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Dear Future Leaders,
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        Education is not just about learning - it's about transforming dreams into reality. As the
+                        Founder and Chairman of ITM Group, I have spent over three decades shaping the future of
+                        education, and I take immense pride in seeing our students excel across industries and
+                        continents.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        At ITM University, Raipur, we don't just teach - we empower. Our mission is to create bold
+                        thinkers, problem-solvers, and visionary leaders who can thrive in today's fast-changing world.
+                        Our focus remains on evolving efficient, confident and highly knowledgeable technocrats, leaders
+                        with global thinking and futuristic mind-set that will contribute to nation-building with
+                        simultaneous faith in corporate ethics. We achieve this through:
+                    </p>
+                    <ul class="list-disc pl-6 text-gray-700 leading-relaxed mt-4 space-y-2">
+                        <li>Industry-Integrated Learning - Hands-on experience to bridge the gap between theory and
+                            practice</li>
+                        <li>Innovation & Entrepreneurship - A dynamic ecosystem for future entrepreneurs and disruptors
+                        </li>
+                        <li>Global Exposure - International collaborations and opportunities to compete on a world stage
+                        </li>
+                        <li>Top-Tier Faculty & Research - A team of academic and industry experts to guide your journey
+                        </li>
+                    </ul>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        Our state-of-the-art campus, cutting-edge research facilities, and unwavering focus on skill
+                        development ensure that you graduate not just with a degree but with a competitive edge. Our
+                        alumni - many of whom are CEOs, entrepreneurs, and industry leaders - stand as proof of our
+                        commitment to excellence.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        At ITM University, you're not just earning an education; you're building your future. I invite
+                        you to step into a world of limitless possibilities, where you will learn, innovate, and lead.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        Welcome to ITM University, where your journey to success begins!
+                    </p>
+                    <p class="text-[#a91d54] font-bold mt-4">Dr. P. V. Ramana</p>
+                    <p class="text-gray-700 mt-1">Chancellor, ITM University</p>
+                    <p class="text-gray-700 mt-1">Chairman, ITM Group of Institutions</p>
+                </div>
+                <div class="order-1 md:order-2 flex justify-center">
+                    <div class="md:sticky md:top-32 overflow-hidden border-4 border-white shadow-xl h-96 w-full">
+                        <img src="https://media.itm.ac.in/chairman_6a3daf4293.webp" alt="Dr. P. V. Ramana"
+                            class="object-cover rounded-md w-full h-full">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Provost's Message -->
+            <div class="grid md:grid-cols-2 gap-16 relative">
+                <div class="flex justify-center">
+                    <div class="overflow-hidden border-4 border-white shadow-xl h-96 w-full md:sticky md:top-32">
+                        <img src="https://media.itm.ac.in/Dr_Anil_M_bisen_d55ced9af5.webp" alt="Dr. Anil M. Bisen"
+                            class="object-cover rounded-md w-full h-full">
+                    </div>
+                </div>
+                <div
+                    class="max-h-[600px] overflow-y-auto pr-4 scrollbar scrollbar-thin scrollbar-thumb-[#a91d54] scrollbar-track-gray-100 hover:scrollbar-thumb-[#8a1845]">
+                    <h3 class="text-2xl font-bold mb-2">PRO-VICE CHANCELLOR</h3>
+                    <!-- <h4 class="text-xl text-[#a91d54] font-semibold mb-4">Ms. Lakshmi Murthy</h4>
+                    <div class="w-20 h-1 bg-[#a91d54] mb-6"></div> -->
+                    <p class="text-gray-700 leading-relaxed">
+                        Dear Students,
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        For years, you've worked hard - studying late into the night, preparing for exams, and feeling
+                        the pressure to succeed. Your parents, teachers, and even society have placed expectations on
+                        you, making success feel like a finish line you must reach at all costs. But today, as you step
+                        into this new phase of life, I want you to take a deep breath.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        Let go of fear. Let go of pressure. Instead, embrace this time with excitement, curiosity, and
+                        an open heart. As you step into this new phase - whether pursuing a graduate, postgraduate, or
+                        doctoral degree - let me encourage you to begin this journey differently: without fear, without
+                        pressure, but with passion and purpose.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4 italic">
+                        "Education is not the learning of facts, but the training of the mind to think." - Albert
+                        Einstein.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        This is your time to shift from rote learning to real exploration, from textbooks to
+                        experiences, and from guided decisions to independent choices. Your university years are not
+                        just about academic excellence but also about shaping your identity, discovering your strengths,
+                        and preparing for the world ahead.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        Psychologists and career experts agree that your late teens and twenties are the most formative
+                        years of your life. Research from the National Bureau of Economic Research (NBER) suggests that
+                        80% of life's most defining moments happen before the age of 35, and the experiences you gain in
+                        this decade significantly influence your future career, relationships, and personal growth. Your
+                        university years are not just about earning a degree. They're about discovering who you are.
+                        This is your time to explore new ideas, meet incredible people, and experience the freedom of
+                        making your own choices. Yes, you'll make mistakes. Yes, there will be challenges. But that's
+                        the beauty of growing up.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        At our university, we encourage you to take risks, experiment, and learn from setbacks. Some of
+                        the most successful minds in the world made defining career and life choices in their twenties.
+                        Their success wasn't built on avoiding failure but on learning from it.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        Your time here is not just about earning a degree - it's about shaping your journey. Engage in
+                        extracurricular activities, take on leadership roles, work on innovative projects, and build
+                        lifelong friendships. A study by Gallup found that students who actively engage in university
+                        activities beyond academics are 2.6 times more likely to feel prepared for post-graduate life.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4 italic">
+                        "It is impossible to live without failing at something unless you live so cautiously that you
+                        might as well not have lived at all." - J.K. Rowling
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        University life is a one-time opportunity, and these years will never come back. So, make them
+                        count.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4 italic">
+                        "The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4 font-semibold">
+                        Ms. Lakshmi Murthy<br>
+                        Pro Vice-Chancellor, ITM University Raipur
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-16 mt-16 relative">
+                <div
+                    class="order-2 md:order-1 max-h-[600px] overflow-y-auto pr-4 scrollbar scrollbar-thin scrollbar-thumb-[#a91d54] scrollbar-track-gray-100 hover:scrollbar-thumb-[#8a1845]">
+                    <h3 class="text-2xl font-bold mb-2">REGISTRAR’s MESSAGE</h3>
+                    <!-- <h4 class="text-xl text-[#a91d54] font-semibold mb-4">Dr. P. V. Ramana</h4>
+                    <div class="w-20 h-1 bg-[#a91d54] mb-6"></div> -->
+                    <p class="text-gray-700 leading-relaxed">
+                        Dear Future Leaders,
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        ITM University, Raipur, (ITMUR) has always aspired for a holistic and inclusive growth of the
+                        individuals as well as the
+                        society and hence, today it has earned the reputation of an emerging higher education
+                        institution in the region.
+                        Established in 2012 by Chhattisgarh Private Universities (Establishment and Operations
+                        Amendment) Act 2011[4] Section 9
+                        (2) by ITM Society Raipur, the varsity has regularly been investing in human resources, creating
+                        processes and managing
+                        funds judiciously. It has stood firm to the growing demands by pursuing a synergetic and
+                        coherent structure.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        The ITMUR adopted the Choice Based Credit System (CBCS) in conformity with the UGC and AICTE
+                        guideline from 2018
+                        providing academic flexibilities to select courses from a basket of Program and Open Electives
+                        offered by Engineering,
+                        Architecture, Life Sciences, Management, Commerce, Hotel Management and Law programs. The
+                        University regularly organizes
+                        review, revision, and upgradation of the teaching courses and academic curriculum through wide
+                        consultation with all the
+                        stakeholders, including the Board of Studies (BoS) of each Department.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        ITMUR also believes that it has a role in the transformation of society. It is with this
+                        perspective that we have
+                        adopted 3 villages, including 2 tribal villages, in Chhattisgarh, and our students today engage
+                        themselves in several
+                        civic and societal issues to transform the lives of these villagers through social
+                        responsibility forums and National
+                        Service Scheme.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        At ITMUR, we firmly believe that we have an obligation to the profession, society, and nation
+                        that can be best realized
+                        by imparting quality education, enabling the pupils with confidence and conviction, and above
+                        all, creating characters
+                        to perform and contribute, pursue excellence in the profession and conduct life with a heart
+                        filled with compassion and
+                        dedication.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        The ITMUR would remain adaptive to new ideas and strategies to meet and remain relevant to the
+                        growing aspirations of
+                        our young India by aiming at initiatives like start-ups and incubation centres, human
+                        development centres, offering
+                        facilities for women empowerment, social development and environmental protection to be enhanced
+                        for exploring new
+                        horizons in higher education and research. Thus, I take this opportunity to invite you to be a
+                        part of this ‘young,
+                        exuberant and illustrious’ ITMUR's journey for building an academically elite, professionally
+                        sound, and socially
+                        empowering institutional structure which remains flexible and fundamentally strong to face the
+                        upcoming environmental
+                        challenge.
+                    </p>
+                    <p class="text-[#a91d54] font-bold mt-4">Mr. Sourav Chatterjee</p>
+                    <p class="text-gray-700 mt-1">Registrar, ITM University Raipur</p>
+                    <!-- <p class="text-gray-700 mt-1">Chairman, ITM Group of Institutions</p> -->
+                </div>
+                <div class="order-1 md:order-2 flex justify-center">
+                    <div class="md:sticky md:top-32 overflow-hidden border-4 border-white shadow-xl h-96 w-full">
+                        <img src="https://media.itm.ac.in/chairman_6a3daf4293.webp" alt="Dr. P. V. Ramana"
+                            class="object-cover rounded-md w-full h-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="py-24 bg-gradient-to-b from-white to-gray-50" id="vision">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6 relative inline-block">
+                    Vision & Mission
+                    <div
+                        class="w-full h-1 bg-gradient-to-r from-[#a91d54]/20 via-[#a91d54] to-[#a91d54]/20 absolute -bottom-3 left-0">
+                    </div>
+                </h2>
+            </div>
+
+            <div class="max-w-5xl mx-auto">
+                <div class="flex flex-col md:flex-row gap-8">
+                    <!-- Vision Card -->
+                    <div
+                        class="bg-white rounded-2xl p-8 shadow-xl transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-t-4 border-[#a91d54] flex-1">
+                        <div
+                            class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#a91d54]/10 mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#a91d54]" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-3xl font-bold text-[#a91d54] mb-4">Our Vision</h3>
+                        <p class="text-xl text-gray-700 leading-relaxed">
+                            To become a global leader in professional education.
+                        </p>
+                    </div>
+
+                    <!-- Mission Card -->
+                    <div
+                        class="bg-white rounded-2xl p-8 shadow-xl transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-t-4 border-[#a91d54] flex-1">
+                        <div
+                            class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#a91d54]/10 mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#a91d54]" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                        </div>
+                        <h3 class="text-3xl font-bold text-[#a91d54] mb-4">Our Mission</h3>
+                        <p class="text-xl text-gray-700 leading-relaxed">
+                            To impart futuristic and comprehensive education of global standards with a high sense of
+                            discipline and social
+                            relevance in a serene and invigorating environment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gradient-to-b from-blue-50 to-blue-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">APPROVALS & RECOGNITION</h2>
+                <div class="w-24 h-1 bg-[#a91d54] mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Ensuring excellence through robust governance,
+                    approvals,
+                    and student welfare initiatives</p>
+            </div>
+
+            <div class="flex w-full overflow-x-scroll card-scroll py-3 xl:overflow-x-hidden">
+                <div class="flex w-auto gap-3 lg:w-fit lg:mx-auto lg:gap-2 xl:grid xl:grid-cols-5 ">
+                    <article
+                        onclick="window.location.href='https://itmuniversity.org/approvals-and-recognition/university-grant-commission/'"
+                        class="flex flex-col p-3 gap-5 xl:gap-3 w-72 xl:w-full cursor-pointer xl:max-w-xs rounded-md shadow-md transition-all group hover:border-brand-red border border-gray-300 bg-white">
+                        <div class="flex w-full">
+                            <img src="https://media.itmuniversity.org/ugc_2f2cad267c.webp" alt=""
+                                class="flex scale-100 transition-all group-hover:scale-110 aspect-square w-full h-full object-contain">
+                        </div>
+                        <div class="flex flex-col gap-1 py-2 items-center justify-center w-full">
+                            <h3
+                                class="flex w-full text-center text-lg xl:text-sm items-center justify-center font-bold">
+                                University Grant Commission</h3>
+                            <span class="text-sm">( UGC )</span>
+                        </div>
+                    </article>
+                    <article
+                        onclick="window.location.href='https://itmuniversity.org/approvals-and-recognition/bar-council-of-india/'"
+                        class="flex flex-col p-3 gap-5 xl:gap-3 w-72 xl:w-full cursor-pointer xl:max-w-xs rounded-md shadow-md transition-all group hover:border-brand-red border border-gray-300 bg-white">
+                        <div class="flex w-full">
+                            <img src="https://media.itmuniversity.org/bci_da40fd3a87.webp" alt=""
+                                class="flex scale-100 transition-all group-hover:scale-110 aspect-square w-full h-full object-contain">
+                        </div>
+                        <div class="flex flex-col gap-1 py-2 items-center justify-center w-full">
+                            <h3
+                                class="flex w-full text-center text-lg xl:text-sm items-center justify-center font-bold">
+                                Bar Council of India</h3>
+                            <span class="text-sm">( BCI )</span>
+                        </div>
+                    </article>
+                    <article
+                        onclick="window.location.href='https://itmuniversity.org/approvals-and-recognition/council-of-architecture/'"
+                        class="flex flex-col p-3 gap-5 xl:gap-3 w-72 xl:w-full cursor-pointer xl:max-w-xs rounded-md shadow-md transition-all group hover:border-brand-red border border-gray-300 bg-white">
+                        <div class="flex w-full">
+                            <img src="https://media.itmuniversity.org/coa_cba8f06807.webp" alt=""
+                                class="flex scale-100 transition-all group-hover:scale-110 aspect-square w-full h-full object-contain">
+                        </div>
+                        <div class="flex flex-col gap-1 py-2 items-center justify-center w-full">
+                            <h3
+                                class="flex w-full text-center text-lg xl:text-sm items-center justify-center font-bold">
+                                Council of Architecture</h3>
+                            <span class="text-sm">( COA )</span>
+                        </div>
+                    </article>
+                    <article
+                        onclick="window.location.href='https://itmuniversity.org/approvals-and-recognition/chhattisgarh-private-university-regulatory-commission/'"
+                        class="flex flex-col p-3 gap-5 xl:gap-3 w-72 xl:w-full cursor-pointer xl:max-w-xs rounded-md shadow-md transition-all group hover:border-brand-red border border-gray-300 bg-white">
+                        <div class="flex w-full">
+                            <img src="https://media.itmuniversity.org/cgpurc_dd7d60eb3a.webp" alt=""
+                                class="f scale-100 transition-all group-hover:scale-110 aspect-squarelex w-full h-full object-contain">
+                        </div>
+                        <div class="flex flex-col gap-1 py-2 items-center justify-center w-full">
+                            <h3
+                                class="flex w-full text-center text-lg xl:text-sm items-center justify-center font-bold">
+                                Chhattisgarh Private University Regulatory Commission</h3>
+                            <span class="text-sm">( CGPURC )</span>
+                        </div>
+                    </article>
+                    <article
+                        onclick="window.location.href='https://itmuniversity.org/approvals-and-recognition/member-of-association-of-indian-universities/'"
+                        class="flex flex-col p-3 gap-5 xl:gap-3 w-72 xl:w-full cursor-pointer xl:max-w-xs rounded-md shadow-md transition-all group hover:border-brand-red border border-gray-300 bg-white">
+                        <div class="flex w-full">
+                            <img src="https://media.itmuniversity.org/aiu_e021326ef0.webp" alt=""
+                                class="flex scale-100 transition-all group-hover:scale-110 aspect-square w-full h-full object-contain">
+                        </div>
+                        <div class="flex flex-col gap-1 py-2 items-center justify-center w-full">
+                            <h3
+                                class="flex w-full text-center text-lg xl:text-sm items-center justify-center font-bold">
+                                Member of Association of Indian Universities</h3>
+                            <span class="text-sm">( AIU )</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statutory Bodies -->
+    <section class="py-20 bg-white" id="statutory">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Statutory Bodies</h2>
+                <div class="w-20 h-1 bg-[#a91d54] mx-auto mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Our university is governed by statutory bodies that
+                    ensure academic excellence, administrative efficiency, and institutional integrity.</p>
+            </div>
+
+            <!-- University Management Team -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">UNIVERSITY MANAGEMENT TEAM</h3>
+                <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                    <table class="min-w-full">
+                        <thead class="bg-[#a91d54] text-white">
+                            <tr>
+                                <th class="py-3 px-4 text-left">Name</th>
+                                <th class="py-3 px-4 text-left">Designation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">Dr. P. V. Ramana</td>
+                                <td class="py-2 px-4">Chancellor, ITM University Raipur</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">Prof. Nitin Putcha</td>
+                                <td class="py-2 px-4">Pro Chancellor, ITM University Raipur</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">Ms. Lakshmi Murthy</td>
+                                <td class="py-2 px-4">Pro Vice-Chancellor, ITM University Raipur</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">Mr. Sourav Chatterjee</td>
+                                <td class="py-2 px-4">Registrar, ITM University Raipur</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Committee Members -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">COMMITTEE MEMBERS</h3>
+
+                <!-- Board of Management -->
+                <div class="mb-8">
+                    <h4 class="text-2xl font-semibold text-gray-700 mb-4">Board of Management</h4>
+                    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                        <table class="min-w-full">
+                            <thead class="bg-[#a91d54] text-white">
+                                <tr>
+                                    <th class="py-3 px-4 text-left">Sr. No.</th>
+                                    <th class="py-3 px-4 text-left">Name</th>
+                                    <th class="py-3 px-4 text-left">Designation</th>
+                                    <th class="py-3 px-4 text-left">Type of Member</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">1</td>
+                                    <td class="py-2 px-4">Mr. Nitin Putcha</td>
+                                    <td class="py-2 px-4">Pro Chancellor ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Chairperson</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">2</td>
+                                    <td class="py-2 px-4">Dr. Rajesh Kumar Dubey</td>
+                                    <td class="py-2 px-4">PrincipalShaheed Rajeev Pandey Government College Bhatagaon,
+                                        Raipur</td>
+                                    <td class="py-2 px-4">Govt. Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">3</td>
+                                    <td class="py-2 px-4">Dr. Daya Shankar Jagat</td>
+                                    <td class="py-2 px-4">Joint DirectorEducation SecretariatNaya Raipur Atal Nagar,
+                                        Raipur</td>
+                                    <td class="py-2 px-4">Govt. Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">4</td>
+                                    <td class="py-2 px-4">Mr. R S S Mani</td>
+                                    <td class="py-2 px-4">Vice President – Institutional Development ITM Group of
+                                        Institutions, Mumbai</td>
+                                    <td class="py-2 px-4">Sponsoring Body Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">5</td>
+                                    <td class="py-2 px-4">Ms. Lakshmi Murthy</td>
+                                    <td class="py-2 px-4">Pro Vice Chancellor ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Sponsoring Body Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">6</td>
+                                    <td class="py-2 px-4">Dr. Yasin Sheikh</td>
+                                    <td class="py-2 px-4">Professor & HeadSchool of Commerce, Management and Research
+                                        ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Member</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">7</td>
+                                    <td class="py-2 px-4">Mr. Anish Banerjee</td>
+                                    <td class="py-2 px-4">Principal & HeadSchool of Hospitality and Tourism Management
+                                        ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Member</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">8</td>
+                                    <td class="py-2 px-4">Mr. Jelis Subhan</td>
+                                    <td class="py-2 px-4">Associate ProfessorSchool of Law ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Member</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">9</td>
+                                    <td class="py-2 px-4">Dr. Gunjan Mishra</td>
+                                    <td class="py-2 px-4">Professor & HeadSchool of Social Sciences ITM University,
+                                        Raipur</td>
+                                    <td class="py-2 px-4">Member</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">10</td>
+                                    <td class="py-2 px-4">Mr. Sourav Chatterjee</td>
+                                    <td class="py-2 px-4">Registrar ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Member Secretary</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Governing Body Members -->
+                <div class="mb-8">
+                    <h4 class="text-2xl font-semibold text-gray-700 mb-4">Governing Body Members</h4>
+                    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                        <table class="min-w-full">
+                            <thead class="bg-[#a91d54] text-white">
+                                <tr>
+                                    <th class="py-3 px-4 text-left">Sr. No</th>
+                                    <th class="py-3 px-4 text-left">Name</th>
+                                    <th class="py-3 px-4 text-left"></th>
+                                    <th class="py-3 px-4 text-left">Designation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">1</td>
+                                    <td class="py-2 px-4">Mr. Nitin Putcha</td>
+                                    <td class="py-2 px-4">Pro Chancellor ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Chairperson</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">2</td>
+                                    <td class="py-2 px-4">Dr. Umesh Kumar Shrivastava</td>
+                                    <td class="py-2 px-4">PrincipalSwami Aatmanand Govt. English Medium, Model College
+                                        Raipur, Chhattisgarh</td>
+                                    <td class="py-2 px-4">Govt. Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">3</td>
+                                    <td class="py-2 px-4">Dr. Rajesh Kumar Dubey</td>
+                                    <td class="py-2 px-4">PrincipalShaheed Rajeev Pandey Government College, Bhatagaon
+                                        Raipur, Chhattisgarh</td>
+                                    <td class="py-2 px-4">Govt. Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">4</td>
+                                    <td class="py-2 px-4">Dr. Sant Ram Kamlesh</td>
+                                    <td class="py-2 px-4">PrincipalGovt. Bilasa Girls PG Autonomous College Bilaspur,
+                                        Chhattisgarh </td>
+                                    <td class="py-2 px-4">Govt. Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">5</td>
+                                    <td class="py-2 px-4">Mr. R S S Mani</td>
+                                    <td class="py-2 px-4">Vice President – Institutional Development ITM Group of
+                                        Institutions, Mumbai</td>
+                                    <td class="py-2 px-4">Sponsoring Body Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">6</td>
+                                    <td class="py-2 px-4">Ms. Lakshmi Murthy</td>
+                                    <td class="py-2 px-4">Pro Vice Chancellor ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Sponsoring Body Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">7</td>
+                                    <td class="py-2 px-4">Mr. Sourav Chatterjee</td>
+                                    <td class="py-2 px-4">Registrar ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Member Secretary</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Finance Committee Members -->
+                <div class="mb-8">
+                    <h4 class="text-2xl font-semibold text-gray-700 mb-4">Finance Committee Members</h4>
+                    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                        <table class="min-w-full">
+                            <thead class="bg-[#a91d54] text-white">
+                                <tr>
+                                    <th class="py-3 px-4 text-left">Sr. No</th>
+                                    <th class="py-3 px-4 text-left">Name</th>
+                                    <th class="py-3 px-4 text-left"></th>
+                                    <th class="py-3 px-4 text-left">Designation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">1</td>
+                                    <td class="py-2 px-4">Prof. Nitin Putcha</td>
+                                    <td class="py-2 px-4">Pro Chancellor - ITM University & CEO - ITM Group of
+                                        Institutions</td>
+                                    <td class="py-2 px-4">Chairperson</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">2</td>
+                                    <td class="py-2 px-4">Mr. Sourav Chatterjee</td>
+                                    <td class="py-2 px-4">Registrar ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Member</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">3</td>
+                                    <td class="py-2 px-4">Dr. Jaywant Shelar</td>
+                                    <td class="py-2 px-4">Vice President - Academic Compliance ITM Group of Institutions
+                                    </td>
+                                    <td class="py-2 px-4">Chancellor Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">4</td>
+                                    <td class="py-2 px-4">Ms. Lakshmi Murthy</td>
+                                    <td class="py-2 px-4">Director General ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Chancellor Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">5</td>
+                                    <td class="py-2 px-4">Mr. Anupam Sinha</td>
+                                    <td class="py-2 px-4">Vice President, Operations ITM Group of Institutions</td>
+                                    <td class="py-2 px-4">Sponsoring Body Nominee</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">6</td>
+                                    <td class="py-2 px-4">Ms. Sejal Shah</td>
+                                    <td class="py-2 px-4">Chief Finance & Accounts Officer ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Member Secretary</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COMMITTEE -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">COMMITTEE</h3>
+
+                <!-- Anti-Ragging Committee -->
+                <div class="mb-8">
+                    <h4 class="text-2xl font-semibold text-gray-700 mb-4">Anti-Ragging Committee</h4>
+                    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                        <table class="min-w-full">
+                            <thead class="bg-[#a91d54] text-white">
+                                <tr>
+                                    <th class="py-3 px-4 text-left">Sr. No.</th>
+                                    <th class="py-3 px-4 text-left">Members</th>
+                                    <th class="py-3 px-4 text-left">Designation</th>
+                                    <th class="py-3 px-4 text-left">Membership</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">1</td>
+                                    <td class="py-2 px-4">Prof. Jelis Subhan</td>
+                                    <td class="py-2 px-4">Associate Professor & Head <br> School of Law</td>
+                                    <td class="py-2 px-4">Convenor & Faculty Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">2</td>
+                                    <td class="py-2 px-4">Dr. Yasin Sheikh</td>
+                                    <td class="py-2 px-4">Professor & Head <br> School of Commerce Management & Research
+                                    </td>
+                                    <td class="py-2 px-4">Faculty Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">3</td>
+                                    <td class="py-2 px-4">Dr. Jai Godheja</td>
+                                    <td class="py-2 px-4">Professor & Head (I/C) <br> School of Life & Allied Sciences
+                                    </td>
+                                    <td class="py-2 px-4">Faculty Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">4</td>
+                                    <td class="py-2 px-4">Dr. Gunjan Mishra</td>
+                                    <td class="py-2 px-4">Professor & Head <br> School of Social Sciences</td>
+                                    <td class="py-2 px-4">Faculty Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">5</td>
+                                    <td class="py-2 px-4">Prof. Anish Banerjee</td>
+                                    <td class="py-2 px-4">Professor & Principal <br> School of Hospitality & Tourism
+                                        Management</td>
+                                    <td class="py-2 px-4">Faculty Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">6</td>
+                                    <td class="py-2 px-4">Prof. Vaibhav Lall</td>
+                                    <td class="py-2 px-4">Assistant Professor & Head (I/C) <br> School of Engineering &
+                                        Research</td>
+                                    <td class="py-2 px-4">Faculty Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">7</td>
+                                    <td class="py-2 px-4">Mr. Rajeev Pandey</td>
+                                    <td class="py-2 px-4">General Manager-Administration, <br> ITM University, Raipur
+                                    </td>
+                                    <td class="py-2 px-4">Non-teaching Staff Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">8</td>
+                                    <td class="py-2 px-4">Mr. Kaviraj Gahatraj</td>
+                                    <td class="py-2 px-4">Hostel Warden <br> ITM University, Raipur</td>
+                                    <td class="py-2 px-4">Non-teaching Staff Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">9</td>
+                                    <td class="py-2 px-4">Station House Officer (SHO)</td>
+                                    <td class="py-2 px-4">Rakhi Police Thana <br> Naya Raipur</td>
+                                    <td class="py-2 px-4">Civil & Police Administration Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">10</td>
+                                    <td class="py-2 px-4">Mr. Mukesh Singh</td>
+                                    <td class="py-2 px-4">News Editor, The Hitavada, Raipur</td>
+                                    <td class="py-2 px-4">Local Media Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">11</td>
+                                    <td class="py-2 px-4">Mr. Gaurav Shukla</td>
+                                    <td class="py-2 px-4">Founder, Abhikalp Foundation</td>
+                                    <td class="py-2 px-4">Non-Government Organization Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">12</td>
+                                    <td class="py-2 px-4">Mr. Ranjit Mistry</td>
+                                    <td class="py-2 px-4">Advocate, District & Session Court, Raipur</td>
+                                    <td class="py-2 px-4">Parent Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">13</td>
+                                    <td class="py-2 px-4">Ms. Jayshree Sahu</td>
+                                    <td class="py-2 px-4">B.Sc. (Microbiology) – II Semester</td>
+                                    <td class="py-2 px-4">Fresher Student Representative</td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="py-2 px-4">14</td>
+                                    <td class="py-2 px-4">Ms. Manmeet Kaur</td>
+                                    <td class="py-2 px-4">B.Com.(Hons) – VI Semester</td>
+                                    <td class="py-2 px-4">Senior Student Representative</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Student Grievance Redressal Committee -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">Student Grievance Redressal Committee
+                </h3>
+                <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                    <table class="min-w-full">
+                        <thead class="bg-[#a91d54] text-white">
+                            <tr>
+                                <th class="py-3 px-4 text-left">Sr. No.</th>
+                                <th class="py-3 px-4 text-left">Members</th>
+                                <th class="py-3 px-4 text-left">Designation</th>
+                                <th class="py-3 px-4 text-left">Contact Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Dr. Rupesh Thakur</td>
+                                <td class="py-2 px-4">Professor & Head, School of Life & Allied Sciences</td>
+                                <td class="py-2 px-4">9109110168 / <a href="mailto:rupesht@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">rupesht@itmuniversity.org</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Mr. Vikas Bhonsale</td>
+                                <td class="py-2 px-4">Joint Registrar, ITM University, Raipur</td>
+                                <td class="py-2 px-4">8433610393 / <a href="mailto:jointregistrar@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">jointregistrar@itmuniversity.org</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">3</td>
+                                <td class="py-2 px-4">Dr. Nitin Jaiswal</td>
+                                <td class="py-2 px-4">Assistant Professor, School of Engineering & Research</td>
+                                <td class="py-2 px-4">9827542995 / <a href="mailto:nitins@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">nitins@itmuniversity.org</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">4</td>
+                                <td class="py-2 px-4">Prof. Rajesh Ubale</td>
+                                <td class="py-2 px-4">Associate Professor, School of Commerce Management & Research</td>
+                                <td class="py-2 px-4">9589676674 / <a href="mailto:rajeshu@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">rajeshu@itmuniversity.org</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">5</td>
+                                <td class="py-2 px-4">Prof. Neelima Bagde</td>
+                                <td class="py-2 px-4">Assistant Professor, School of Hospitality & Tourism Management
+                                </td>
+                                <td class="py-2 px-4">9977946808 / <a href="mailto:neelimab@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">neelimab@itmuniversity.org</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">6</td>
+                                <td class="py-2 px-4">Prof. Shyamali Naidu</td>
+                                <td class="py-2 px-4">Assistant Professor, School of Law</td>
+                                <td class="py-2 px-4">8420525988 / <a href="mailto:shyamalinaidu@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">shyamalinaidu@itmuniversity.org</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">7</td>
+                                <td class="py-2 px-4">Mr. Rajeev Pandey</td>
+                                <td class="py-2 px-4">General Manager - Administration, ITM University, Raipur</td>
+                                <td class="py-2 px-4">9109110164 / <a href="mailto:rajeevp@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">rajeevp@itmuniversity.org</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">8</td>
+                                <td class="py-2 px-4">Mr. Kaviraj Ghatraj</td>
+                                <td class="py-2 px-4">Hostel Warden, ITM University, Raipur</td>
+                                <td class="py-2 px-4">9109110157 / <a href="mailto:kavirajg@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">kavirajg@itmuniversity.org</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Admission Committee -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">Admission Committee</h3>
+                <div class="text-center mb-4">
+                    <p><strong>Chairman of the Committee:</strong> Dr. Gunjan Mishra (Professor - School of Arts &
+                        Humanities)</p>
+                    <p><strong>Member Secretary:</strong> Ms. Urshita Baranwal (Assistant Manager - Admissions)</p>
+                </div>
+                <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                    <table class="min-w-full">
+                        <thead class="bg-[#a91d54] text-white">
+                            <tr>
+                                <th class="py-3 px-4 text-left"></th>
+                                <th class="py-3 px-4 text-left">School/Department</th>
+                                <th class="py-3 px-4 text-left"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b hover:bg-gray-100 font-semibold text-gray-700">
+                                <td class="py-2 px-4"></td>
+                                <td class="py-2 px-4">School of Commerce, Management & Research</td>
+                                <td class="py-2 px-4"></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Dr. Mukesh Bhojwani</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Ms. Shailja Bakshi</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">3</td>
+                                <td class="py-2 px-4">Mr. Premendra Sahu</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100 font-semibold text-gray-700">
+                                <td class="py-2 px-4"></td>
+                                <td class="py-2 px-4">School of Engineering & Research</td>
+                                <td class="py-2 px-4"></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Mrs. Sharmistha Puhan</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Mrs. Jyoti Singh</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100 font-semibold text-gray-700">
+                                <td class="py-2 px-4"></td>
+                                <td class="py-2 px-4">School of Life & Allied Science</td>
+                                <td class="py-2 px-4"></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Dr. Shishir Vind Sharma</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Dr. Loknath Deshmukh</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100 font-semibold text-gray-700">
+                                <td class="py-2 px-4"></td>
+                                <td class="py-2 px-4">School of Hospitality & Tourism Management</td>
+                                <td class="py-2 px-4"></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Mrs. Neelima Bagde</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Mrs. Smriti Nanda Sarangi</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100 font-semibold text-gray-700">
+                                <td class="py-2 px-4"></td>
+                                <td class="py-2 px-4">School of Architecture, Design & Planning</td>
+                                <td class="py-2 px-4"></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Ms. Shanta Dash</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Ms. Tapti Rathore</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100 font-semibold text-gray-700">
+                                <td class="py-2 px-4"></td>
+                                <td class="py-2 px-4">School of Law</td>
+                                <td class="py-2 px-4"></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Dr. Prashant Rahangdale</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Ms. Shyamali Naidu</td>
+                                <td class="py-2 px-4">Assistant Professor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Internal Complaints Committee -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">Internal Complaints Committee</h3>
+                <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                    <table class="min-w-full">
+                        <thead class="bg-[#a91d54] text-white">
+                            <tr>
+                                <th class="py-3 px-4 text-left">Sr. No.</th>
+                                <th class="py-3 px-4 text-left">Name</th>
+                                <th class="py-3 px-4 text-left">Designation</th>
+                                <th class="py-3 px-4 text-left">Remarks</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Dr. Gunjan Mishra</td>
+                                <td class="py-2 px-4">Professor, School of Arts & Humanities<br>Phone:
+                                    9479078683<br>Email: <a href="mailto:gunjanm@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">gunjanm@itmuniversity.org</a></td>
+                                <td class="py-2 px-4">Presiding Officer</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Dr. Rakhi Bajpai</td>
+                                <td class="py-2 px-4">Assistant Professor, School of Life & Allied Science<br>Phone:
+                                    9839878571<br>Email: <a href="mailto:rakhib@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">rakhib@itmuniversity.org</a></td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">3</td>
+                                <td class="py-2 px-4">Dr. Menka Sharma</td>
+                                <td class="py-2 px-4">Assistant Professor, School of Commerce, Management &
+                                    Research<br>Phone: 6207227878<br>Email: <a href="mailto:menkas@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">menkas@itmuniversity.org</a></td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">4</td>
+                                <td class="py-2 px-4">Ar. Shanta Dash</td>
+                                <td class="py-2 px-4">Assistant Professor, School of Architecture, Planning &
+                                    Design<br>Phone: 9617049990<br>Email: <a href="mailto:shantad@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">shantad@itmuniversity.org</a></td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">5</td>
+                                <td class="py-2 px-4">Prof. Ameya Jani</td>
+                                <td class="py-2 px-4">Assistant Professor, School of Hospitality & Management<br>Phone:
+                                    9860745124<br>Email: <a href="mailto:ameyaj@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">ameyaj@itmuniversity.org</a></td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">6</td>
+                                <td class="py-2 px-4">Ms. Urshita Baranwal</td>
+                                <td class="py-2 px-4">Assistant Manager – Admissions, ITM University, Raipur<br>Phone:
+                                    8454946863<br>Email: <a href="mailto:itmuradmission@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">itmuradmission@itmuniversity.org</a></td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">7</td>
+                                <td class="py-2 px-4">Mr. Vikas Bhonsale</td>
+                                <td class="py-2 px-4">Joint Registrar, ITM University, Raipur<br>Phone:
+                                    8433610393<br>Email: <a href="mailto:jointregistrar@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">jointregistrar@itmuniversity.org</a></td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">8</td>
+                                <td class="py-2 px-4">Ms. Shilpa Verma</td>
+                                <td class="py-2 px-4">Sr. Executive – Human Resource Department, ITM University,
+                                    Raipur<br>Phone: 9109110154<br>Email: <a href="mailto:raipurhr@itmuniversity.org"
+                                        class="text-blue-600 hover:underline">raipurhr@itmuniversity.org</a></td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">9</td>
+                                <td class="py-2 px-4">Ms. Jyotsna Datar</td>
+                                <td class="py-2 px-4">Director – Demeter Consultant, Vashi, Navi Mumbai<br>Phone:
+                                    9321044003<br>Email: <a href="mailto:jyotsna@demeterconsultants.in"
+                                        class="text-blue-600 hover:underline">jyotsna@demeterconsultants.in</a></td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- IQAC -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">IQAC</h3>
+                <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                    <table class="min-w-full">
+                        <thead class="bg-[#a91d54] text-white">
+                            <tr>
+                                <th class="py-3 px-4 text-left">Sr. No.</th>
+                                <th class="py-3 px-4 text-left">Composition</th>
+                                <th class="py-3 px-4 text-left">Name</th>
+                                <th class="py-3 px-4 text-left">Designation</th>
+                                <th class="py-3 px-4 text-left">Role in IQAC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Chairperson</td>
+                                <td class="py-2 px-4">Prof. Lakshmi Murthy</td>
+                                <td class="py-2 px-4">Pro-Vice Chancellor, ITM University, Raipur</td>
+                                <td class="py-2 px-4"><strong>Chairperson</strong></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Dr. Gunjan Mishra</td>
+                                <td class="py-2 px-4">Professor <br> School of Social Sciences</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">3</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Dr. Paritosh Dube</td>
+                                <td class="py-2 px-4">Associate Professor <br> School of Commerce, Management and
+                                    Research</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">4</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Dr. Babita Panda</td>
+                                <td class="py-2 px-4">Assistant Professor <br> School of Commerce, Management and
+                                    Research</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">5</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Dr. Rakhi Bajpai</td>
+                                <td class="py-2 px-4">Assistant Professor <br> School of Life & Allied Sciences</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">6</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Dr. Manisha Chandrakar</td>
+                                <td class="py-2 px-4">Assistant Professor <br> School of Engineering & Research</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">7</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Dr. Chaitali Niratker</td>
+                                <td class="py-2 px-4">Assistant Professor <br> School of Life & Allied Sciences</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">8</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Prof. Neelima Bagde</td>
+                                <td class="py-2 px-4">Assistant Professor <br> School of Hospitality & Tourism
+                                    Management</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">9</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Prof. Harsha Mishra</td>
+                                <td class="py-2 px-4">Assistant Professor <br> School of Law</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">10</td>
+                                <td class="py-2 px-4">Management Representative</td>
+                                <td class="py-2 px-4">Mr. V. K. Sridhar</td>
+                                <td class="py-2 px-4">Ex-Registrar, IIT Mumbai</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">11</td>
+                                <td class="py-2 px-4">The Senior Administrative Officer</td>
+                                <td class="py-2 px-4">Mr. Rajeev Pandey</td>
+                                <td class="py-2 px-4">General Manager, Administration</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">12</td>
+                                <td class="py-2 px-4">Students Nominee</td>
+                                <td class="py-2 px-4">Ms. Manmeet Kaur</td>
+                                <td class="py-2 px-4">B.Com. – VI Semester</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">13</td>
+                                <td class="py-2 px-4">Alumni Nominee</td>
+                                <td class="py-2 px-4">Mr. Mangirish Arash</td>
+                                <td class="py-2 px-4">Credit Manager, HDFC, Sunder Nagar, Raipur</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">14</td>
+                                <td class="py-2 px-4">Local Society/Trust Nominee</td>
+                                <td class="py-2 px-4">Mr. Uma Tiwari</td>
+                                <td class="py-2 px-4">Principal <br> Mothers Pride School, Raipur</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">15</td>
+                                <td class="py-2 px-4">Employer Nominee</td>
+                                <td class="py-2 px-4">Mr. Vivek Agrawal</td>
+                                <td class="py-2 px-4">COO, Godawari Power & Ispat Limited, Raipur</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">16</td>
+                                <td class="py-2 px-4">Industrialists Nominee</td>
+                                <td class="py-2 px-4">Mr. Mukesh Pandey</td>
+                                <td class="py-2 px-4">Managing Director, <br> Nav Durga Ispat, Raipur</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">17</td>
+                                <td class="py-2 px-4">Stakeholders Nominee</td>
+                                <td class="py-2 px-4">Prof. R.S.S. Mani</td>
+                                <td class="py-2 px-4">Vice-President <br> Institutional Development (ITM Group of
+                                    Institutions)</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">18</td>
+                                <td class="py-2 px-4">Senior Faculty</td>
+                                <td class="py-2 px-4">Prof. Rajesh Ubale</td>
+                                <td class="py-2 px-4">Associate Professor <br> School of Commerce, Management & Research
+                                </td>
+                                <td class="py-2 px-4">Coordinator</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Members -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">Members</h3>
+                <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+                    <table class="min-w-full">
+                        <thead class="bg-[#a91d54] text-white">
+                            <tr>
+                                <th class="py-3 px-4 text-left">Sr.No</th>
+                                <th class="py-3 px-4 text-left">Composition</th>
+                                <th class="py-3 px-4 text-left">Name</th>
+                                <th class="py-3 px-4 text-left">Designation</th>
+                                <th class="py-3 px-4 text-left">Role in IQAC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">1</td>
+                                <td class="py-2 px-4">Chairperson</td>
+                                <td class="py-2 px-4">Prof. (Dr.) Sumer Singh Yadav</td>
+                                <td class="py-2 px-4">Vice- Chancellor</td>
+                                <td class="py-2 px-4">Chairperson</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">2</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Prof. Jelis Suhan</td>
+                                <td class="py-2 px-4">Associate Professor School of Law</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">3</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Dr. Nitin Jaiswal</td>
+                                <td class="py-2 px-4">Assistant Professor School of Engineering & Research</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">4</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Dr. Rakhi Bajpai</td>
+                                <td class="py-2 px-4">Assistant Professor School of Life & Allied Science</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">5</td>
+                                <td class="py-2 px-4">Faculty Representative</td>
+                                <td class="py-2 px-4">Prof. Rajesh Ubale</td>
+                                <td class="py-2 px-4">Associate Professor School of Commerce, Management and Research &
+                                    NAAC Coordinator</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">6</td>
+                                <td class="py-2 px-4">Management Representative</td>
+                                <td class="py-2 px-4">Prof. R.S.S. Mani</td>
+                                <td class="py-2 px-4">Vice-President Institutional Development (ITM Group of
+                                    Institutions)</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">7</td>
+                                <td class="py-2 px-4">Management Representative</td>
+                                <td class="py-2 px-4">Mr. V. K. Sridhar</td>
+                                <td class="py-2 px-4">Ex-Registrar, IIT Mumbai</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">8</td>
+                                <td class="py-2 px-4">Senior Administrative Officers</td>
+                                <td class="py-2 px-4">Ms. Lakshmi Murthy</td>
+                                <td class="py-2 px-4">Director General</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">9</td>
+                                <td class="py-2 px-4">Senior Administrative Officers</td>
+                                <td class="py-2 px-4">Mr. Sourav Chatterjee</td>
+                                <td class="py-2 px-4">Registrar</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">10</td>
+                                <td class="py-2 px-4">Senior Administrative Officers</td>
+                                <td class="py-2 px-4">Mr. Vikas Bhonsale</td>
+                                <td class="py-2 px-4">Joint Registrar</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">11</td>
+                                <td class="py-2 px-4">Senior Administrative Officers</td>
+                                <td class="py-2 px-4">Ms. Deepti Mishra</td>
+                                <td class="py-2 px-4">General Manager (Operations)</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">12</td>
+                                <td class="py-2 px-4">Students Nominee</td>
+                                <td class="py-2 px-4">Ms. Manmeet Kaur</td>
+                                <td class="py-2 px-4">B.Com. – III Semester Student</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">13</td>
+                                <td class="py-2 px-4">Alumni Nominee</td>
+                                <td class="py-2 px-4">Mr. Vinesh Doutlan</td>
+                                <td class="py-2 px-4">BBA.LL.B. Batch- 2016 Alumni</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">14</td>
+                                <td class="py-2 px-4">Local Society/Trust Nominee</td>
+                                <td class="py-2 px-4">Mr. Uma Tiwari</td>
+                                <td class="py-2 px-4">Principal Mothers Pride School</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">15</td>
+                                <td class="py-2 px-4">Employer Nominee</td>
+                                <td class="py-2 px-4">Mr. Hukum Chand Yadav</td>
+                                <td class="py-2 px-4">Head -Group Business HR Maa Kudargadhi Group</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">16</td>
+                                <td class="py-2 px-4">Industrialists Nominee</td>
+                                <td class="py-2 px-4">Mr. Priyank Pandey</td>
+                                <td class="py-2 px-4">Vice President Kotak Mahindra Bank</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">17</td>
+                                <td class="py-2 px-4">Stakeholders Nominee</td>
+                                <td class="py-2 px-4">Dr. V.V. Sople</td>
+                                <td class="py-2 px-4">Dean Research & Publication</td>
+                                <td class="py-2 px-4">Member</td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="py-2 px-4">18</td>
+                                <td class="py-2 px-4">Senior Faculty</td>
+                                <td class="py-2 px-4">Dr. Yasin Sheikh</td>
+                                <td class="py-2 px-4">Professor School of Commerce, Management & Research</td>
+                                <td class="py-2 px-4">Coordinator</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Quality Policy -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">Quality Policy</h3>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <div class="mb-6">
+                        <h4 class="text-2xl font-semibold text-[#a91d54] mb-3">Preamble:</h4>
+                        <p class="text-gray-700 leading-relaxed">
+                            The National Assessment and Accreditation Council has recommended that all universities
+                            create an Internal Quality Assurance Cell (IQAC). ITM University, located in Raipur, was
+                            founded in February 2012. The Internal Quality Assurance Cell (IQAC) of the University was
+                            established on June 19, 2017, to ensure and maintain high-quality standards. The IQAC is
+                            responsible for strategizing, directing, and overseeing the implementation of Quality
+                            Assurance (QA) and Quality Enhancement (QE) initiatives at the University. The primary
+                            responsibility of the IQAC is to guide the University's endeavors and initiatives in
+                            sustaining academic excellence and fostering strong internal management.
+                        </p>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="text-2xl font-semibold text-[#a91d54] mb-3">Quality Policy:</h4>
+                        <p class="text-gray-700 leading-relaxed">
+                            The objective is to establish and implement a robust quality system that encompasses
+                            teaching, research, consultation, continuing education, and core and support services. This
+                            system will provide accountability to stakeholders through self-assessment and ongoing
+                            enhancement.
+                        </p>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="text-2xl font-semibold text-[#a91d54] mb-3">Quality Objectives:</h4>
+                        <ul class="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+                            <li>To establish & implement a robust quality system encompassing teaching, research,
+                                consultancy, continued education, and focus on the core and support functions to ensure
+                                accountability to stakeholders through self-evaluation and continuous improvement.</li>
+                            <li>The objective is to enhance the academic and administrative performance of an
+                                institution by fostering a culture of excellence and implementing effective methods.
+                                This entails the process of carefully choosing and instructing internal quality
+                                monitoring personnel to supervise the implementation of quality system protocols.
+                                Consistent evaluations and subsequent remedial measures are implemented to achieve
+                                ongoing improvement.</li>
+                            <li>To develop an approach to promote pedagogical innovation and creative teaching
+                                techniques among staff through staff development. The University aims to utilize
+                                electronic resources for instructing and overseeing the Learning Management System
+                                (LMS).</li>
+                            <li>The institution aims to participate in multiple accreditation processes, including NIRF,
+                                NAAC, NBA, and international accreditation.</li>
+                            <li>To supervise the progress of students' academic development and offer guidance and
+                                assistance.</li>
+                            <li>To provide students with informational seminars, workshops, and educational visits
+                                through the Career Guidance and Placement Cell.</li>
+                            <li>To urge Faculty members to submit articles in foreign journals and create mechanisms for
+                                receiving input on faculty, curriculum, institutional performance, library, and hostel
+                                amenities.</li>
+                            <li>To develop a robust feedback system to contribute inputs from parents, graduates, and
+                                employers.</li>
+                            <li>To develop a system that fosters an entrepreneurial mindset and promotes student-led
+                                initiatives.</li>
+                            <li>To engage students regularly in community service and promote awareness of national
+                                matters. To encourage the institution to forge relationships with industry and research
+                                organizations, strengthen alliances, and produce revenue through consultation services.
+                            </li>
+                            <li>To ensure that faculty development initiatives and partnerships with international
+                                universities enable a wide range of exchange programs.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="text-2xl font-semibold text-[#a91d54] mb-3">Quality Assurance Strategies /
+                            Activities:</h4>
+                        <ul class="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+                            <li>To build and effectively implement a strong quality system that includes teaching,
+                                research, consultancy, continued education, and also focuses on the core and support
+                                functions to provide accountability to stakeholders through self-evaluation and
+                                continuous improvement.</li>
+                            <li>To establish a methodical and purposeful approach to enhance the academic and
+                                administrative performance of the school.</li>
+                            <li>To facilitate the improvement of institutional functioning by promoting the
+                                internalization of a quality culture and the establishment of best practices.</li>
+                            <li>To select and educate a team of internal quality monitoring members to oversee the
+                                successful execution of quality system operations.</li>
+                            <li>To guarantee that the specified Processes and Procedures are regularly evaluated and
+                                implemented appropriately to achieve continual enhancement.</li>
+                            <li>To ensure the maintenance of appropriate paperwork to substantiate the Quality Processes
+                                and Procedures implemented.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-2xl font-semibold text-[#a91d54] mb-3">Functions of IQAC:</h4>
+                        <ul class="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+                            <li>To build and effectively implement a strong quality system that includes teaching,
+                                research, consultancy, continuous education, and a specific emphasis on the key aspects.
+                            </li>
+                            <li>The objective is to establish and efficiently execute a robust quality system that
+                                encompasses teaching, research, consultancy, and ongoing education, and prioritizes both
+                                essential and auxiliary roles to ensure accountability to stakeholders through
+                                self-assessment and ongoing enhancement.</li>
+                            <li>To implement a systematic and deliberate strategy to improve the academic and
+                                administrative performance of the institution.</li>
+                            <li>To enhance the operation of institutions by encouraging the adoption of a culture of
+                                excellence and the use of optimal methods.</li>
+                            <li>To recruit and train a group of internal quality monitoring personnel to supervise the
+                                effective implementation of quality system activities.</li>
+                            <li>To ensure that the designated Processes and Procedures are consistently assessed and
+                                that suitable corrective measures are adopted to achieve ongoing improvement.</li>
+                            <li>To ensure the proper documentation is maintained to support the implementation of
+                                Quality Processes and Procedures.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefits of IQAC -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">Benefits of IQAC</h3>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <ol class="list-decimal list-inside text-gray-700 leading-relaxed space-y-2">
+                        <li>The IQAC will facilitate and contribute to the following:
+                            <ul class="list-disc list-inside ml-6 mt-2 space-y-1">
+                                <li>Ensuring a higher level of clarity and focus on the functioning of the institution
+                                    to enhance quality.</li>
+                                <li>Promoting the internalization of a culture of quality.</li>
+                                <li>Enhancing and coordinating various institutional activities and institutionalizing
+                                    all best practices.</li>
+                            </ul>
+                        </li>
+                        <li>Provide a solid foundation for informed decision-making to enhance institutional operations.
+                        </li>
+                        <li>Serve as a dynamic framework for implementing quality improvements in higher education
+                            institutions.</li>
+                        <li>Establish a systematic approach for documenting and communicating throughout the
+                            organization.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- IIQAC Composition -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">IIQAC Composition</h3>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <ol class="list-decimal list-inside text-gray-700 leading-relaxed space-y-2">
+                        <li>Chairperson: Head of the Institution</li>
+                        <li>Teachers to represent all levels (Assistant Professor and Associate Professor) (Three to
+                            eight)</li>
+                        <li>One member from the Management</li>
+                        <li>The senior administrative officer (Office Superintendent/Manager)</li>
+                        <li>One nominee each from the Local Society/Trust, Students and Alumni</li>
+                        <li>One nominee each from the Employer/Industrialists/Stakeholders</li>
+                        <li>One of the senior teachers as the Coordinator of the IQAC</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Term of Members & Meetings of IQAC -->
+            <div class="mb-12">
+                <h3 class="text-3xl font-bold text-center text-[#a91d54] mb-6">Term of Members & Meetings of IQAC</h3>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <ol class="list-decimal list-inside text-gray-700 leading-relaxed space-y-2">
+                        <li>The tenure of the Office of the Members of the IQAC shall be three years and may be extended
+                            by the Chairperson.</li>
+                        <li>All the meetings of IQAC shall always be chaired by the Vice Chancellor and in his / her
+                            absence, by any one of the nominees of the Vice Chancellor, Pro-Chancellor.</li>
+                        <li>IQAC shall meet at least Four Times a year on dates, times, and places decided by the
+                            Chairperson / Vice Chancellor/ Pro-Chancellor.</li>
+                        <li>The Agenda for IQAC meetings shall be prepared by the Deputy Director, IQAC, under the
+                            instructions of and with the prior approval of the Pro-Chancellor, Vice-Chancellor, or
+                            Chairperson.</li>
+                        <li>An accurate record of proceedings (minutes) from each meeting shall be prepared and
+                            maintained by the Deputy Director, IQAC, at the office of the Vice-Chancellor.</li>
+                        <li>To facilitate collaboration, decentralization, and the smooth decision-making and
+                            implementation of quality enhancement, the IQAC shall function at two levels, namely
+                            <ul class="list-disc list-inside ml-6 mt-2 space-y-1">
+                                <li>a. IQAC Steering Committee: This committee shall ensure consistent quality
+                                    improvement in the University by meeting twice a year. It will not only provide
+                                    suggestions for quality improvement of the university but also review the activities
+                                    of the IQAC in the University. (Composition of this committee is as per the
+                                    guidelines of NAAC).</li>
+                                <li>b. IQAC Team: The IQAC would originate the planning for Quality improvement and its
+                                    proper implementation, in consultation with the Executive Committee. The
+                                    documentation of all activities and submission of reports to external bodies come
+                                    under this committee. (Composition of this committee is as per the guidelines of
+                                    NAAC).</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-gray-50" id="contact">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-semibold mb-3">Contact Us</h2>
+                <div class="w-16 h-1 bg-[#a91d54] mx-auto mb-6"></div>
+                <p class="text-gray-600">Have questions? Reach out to us.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Contact Information -->
+                <div class="bg-white p-8 rounded shadow-sm">
+                    <h3 class="text-xl font-semibold text-[#a91d54] mb-6">Contact Information</h3>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54] mr-3 mt-1" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <div>
+                                <h4 class="font-medium">Email</h4>
+                                <p class="text-gray-600">itmuradmission@itmuniversity.org</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54] mr-3 mt-1" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <div>
+                                <h4 class="font-medium">Phone</h4>
+                                <p class="text-gray-600">+91 9826598201</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Our Locations -->
+                <div class="bg-white p-8 rounded shadow-sm">
+                    <h3 class="text-xl font-semibold text-[#a91d54] mb-6">Our Locations</h3>
+
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-medium mb-2">Campus Address :</h4>
+                            <div class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54] mr-3 mt-1"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <p class="text-gray-600">
+                                    Sector 40, Atal Nagar-Nava Raipur, Uparwara C.G.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 class="font-medium mb-2">Raipur Information Centre</h4>
+                            <div class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54] mr-3 mt-1"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                <p class="text-gray-600">
+                                    3rd Floor, Shyam Plaza, Pandri Raipur C.G.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 class="font-medium mb-2">Bhilai Information Centre</h4>
+                            <div class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#a91d54] mr-3 mt-1"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                <p class="text-gray-600">
+                                    Shop No. 172, Ground Floor, Chouhan Estate, Near Chandra Maurya Talkies, GE Road,
+                                    Bhilai C.G.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simple CTA -->
+            <div class="mt-8 text-center">
+                <a href="#"
+                    class="inline-block px-6 py-3 bg-[#a91d54] text-white rounded hover:bg-opacity-90 transition-colors">
+                    Schedule a Visit
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#221f21] text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+
+
+            <div class="">
+                <p class="text-center text-gray-400">
+                    Copyright © 2025 ITM University, Raipur. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#"
+        class="back-to-top bg-[#a91d54] text-white w-10 h-10 shadow-2xl rounded-full flex items-center justify-center fixed bottom-8 right-8  hover:bg-[#a91d54] transition duration-300 animate-bounce">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+        </svg>
+
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Remove active class from all buttons
+                    tabButtons.forEach(btn => {
+                        btn.classList.remove('active-tab');
+                    });
+
+                    // Add active class to clicked button
+                    this.classList.add('active-tab');
+
+                    // Hide all tab contents
+                    tabContents.forEach(content => {
+                        content.classList.add('hidden');
+                    });
+
+                    // Show the corresponding content
+                    const contentId = this.id.replace('tab-', 'content-');
+                    document.getElementById(contentId).classList.remove('hidden');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

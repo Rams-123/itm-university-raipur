@@ -1,50 +1,65 @@
 // Sample JSON data for specializations
 const specializationsData = [
   {
-    id: "cloud-technology-information-security",
-    elective: "",
-    title: "1. Cloud Technology & Information Security",
+    id: "marketing-management",
+    title: "1. Marketing Management",
     description:
-      "This specialization combines a comprehensive computer science education with focused cloud computing and information security expertise. Students learn cloud architecture, virtualization technologies, and data management, gaining experience with leading platforms like AWS and Microsoft Azure. The program also emphasizes cybersecurity practices, including cryptography and ethical hacking, ensuring graduates are well-prepared to safeguard data in cloud environments.\n\nGraduates can pursue career opportunities in cloud architecture, cybersecurity analysis, and data science, addressing the growing demand for skilled professionals in cloud and security roles.",
+      "The Marketing specialization prepares students to develop and implement effective strategies that promote products and services. The program focuses on understanding consumer behavior, branding, digital marketing, and advertising. Students will gain expertise in creating innovative marketing campaigns, leveraging digital tools, and measuring campaign success through data analytics. This specialization equips students to work in fast-paced marketing roles, manage brands, and lead digital marketing strategies for businesses in any sector.",
     topics: [
-      "Cloud Computing Architecture",
-      "Virtualization Technologies",
-      "Cryptography & Ethical Hacking",
-      "Cybersecurity Practices",
-      "Data Management and Cloud Security",
-      "Information Systems Security",
+      "Brand Management",
+      "Digital Marketing Strategies",
+      "Consumer Behavior",
+      "Marketing Analytics",
+      "Advertising and Promotions",
     ],
     jobRoles: [
-      "Cloud Architect",
-      "Cybersecurity Analyst",
-      "Data Scientist",
-      "Information Security Consultant",
-      "Cloud Engineer",
-      "Network Security Specialist",
+      "Marketing Manager",
+      "Brand Manager",
+      "Digital Marketing Specialist",
+      "Market Research Analyst",
+      "Advertising Manager",
     ],
     brochureLink: "Download Brochure",
   },
   {
-    id: "mobile-application-information-security",
-    elective: "",
-    title: "2. BCA in Mobile Application & Information Security",
+    id: "finance",
+    title: "2. Finance",
     description:
-      "This program specializes in mobile app development and the security of digital information systems. Students are trained to design and develop mobile applications for platforms like Android and iOS while gaining a deep understanding of IT security practices. Key focus areas include mobile software engineering, cryptography, ethical hacking, and network security. Students work on practical projects and internships, enhancing their technical skills and industry readiness.\n\nGraduates of this program are prepared for careers in app development, IT security, and cybersecurity analysis, equipped to meet the demands of the rapidly growing mobile technology and information security sectors.",
+      "The Finance specialization at ITM Vocational University equips students with the in-depth knowledge and skills required to manage financial operations and investments. The program covers key areas like corporate finance, investment banking, and risk management, preparing students to navigate complex financial landscapes. Through practical learning, case studies, and internships, students will gain a strong foundation in Financial Analysis, Budgeting, and Decision-Making. This track is ideal for students aiming for careers in Financial Institutions, Corporate Finance, or Investment Management.",
     topics: [
-      "Mobile Application Development (Android & iOS)",
-      "Software Engineering for Mobile Platforms",
-      "Ethical Hacking and Cryptography",
-      "Network Security and Security Protocols",
-      "Mobile App Security and Data Protection",
-      "Cybersecurity Fundamentals",
+      "Corporate Finance",
+      "Investment Banking",
+      "Financial Analysis and Reporting",
+      "Risk Management",
+      "Portfolio Management",
     ],
     jobRoles: [
-      "Mobile App Developer",
-      "Cybersecurity Analyst",
-      "IT Security Specialist",
-      "Mobile Application Security Expert",
-      "App Development Engineer",
-      "Network Security Consultant",
+      "Financial Analyst",
+      "Investment Banker",
+      "Corporate Finance Manager",
+      "Risk Manager",
+      "Tax Consultant",
+    ],
+    brochureLink: "Download Brochure",
+  },
+  {
+    id: "human-resource-management",
+    title: "3. Human Resource Management",
+    description:
+      "The Human Resource Management (HRM) specialization focuses on developing students' abilities to manage people and foster a productive work environment. The curriculum includes talent acquisition, employee engagement, performance management, and HR strategies. Students will learn how to design training programs, handle organizational behavior, and ensure compliance with labor laws. This track prepares students to lead HR departments, create effective HR policies, and manage diverse teams to drive organizational success.",
+    topics: [
+      "Talent Acquisition and Retention",
+      "Organizational Behavior",
+      "Employee Engagement",
+      "Performance Management",
+      "HR Analytics",
+    ],
+    jobRoles: [
+      "HR Manager",
+      "Talent Acquisition Specialist",
+      "Organizational Development Manager",
+      "Compensation Analyst",
+      "Training and Development Manager",
     ],
     brochureLink: "Download Brochure",
   },
@@ -63,23 +78,16 @@ function createSpecializationAccordion() {
   specializationsData.forEach((specialization, index) => {
     const accordionItem = document.createElement("div");
     accordionItem.id = specialization.id;
-    accordionItem.className =
-      "specialization-accordion-item mb-3 scroll-mt-12 w-full";
+    accordionItem.className = "specialization-accordion-item mb-3 scroll-mt-12";
 
     // Create the HTML structure for each accordion item
     accordionItem.innerHTML = `
-                <button class="specialization-accordion-button flex justify-between items-center w-full bg-white border border-gray-300 p-3 rounded-md">
-                  <span class="font-inter text-base text-left font-medium">
-                    ${
-                      specialization.elective
-                        ? `<span class="text-[#a91d54] font-semibold">${specialization.elective}</span> `
-                        : ""
-                    }
-                    ${specialization.title}
-                  </span>
-                  <span class="specialization-accordion-icon transition-transform duration-300">⌃</span>
-                </button>
-
+                    <button class="specialization-accordion-button flex justify-between items-center w-full bg-white border border-gray-300 p-3 rounded-md">
+                        <span class="font-inter text-base text-left font-medium">
+                            ${specialization.title}
+                        </span>
+                        <span class="specialization-accordion-icon transition-transform duration-300">⌃</span>
+                    </button>
                     <div class="specialization-accordion-content border border-t-0 border-gray-200 bg-white p-4 gap-4 flex-col ${
                       index === 0 ? "flex" : "hidden"
                     }">

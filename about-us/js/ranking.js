@@ -1,23 +1,21 @@
 const rankingData = [
   {
-    heading: "Academic Excellence",
-    paragraph: "Consistent A3 Band achievement in OBE Rankings.",
+    heading: "NAAC Accreditation",
+    paragraph: "Awarded a prestigious B+ Grade by NAAC.",
   },
   {
-    heading: "Top University",
-    paragraph: "UniRank No. 1 in Chhattisgarh for four years.",
+    heading: "UGC Recognition",
+    paragraph: "Recognized under Section 2(f) by UGC.",
   },
   {
-    heading: "Green Champion",
-    paragraph: "Award for Swachhta Action Plan performance excellence.  ",
+    heading: "Top B-School:",
+    paragraph:
+      "Ranked among the Top B-Schools of Excellence 2023 by Competition Success Review.",
   },
   {
-    heading: "Clean Campus",
-    paragraph: "Recognized as Cleanest Non-Residential Campus by MHRD (2018).",
-  },
-  {
-    heading: "Entrepreneurship Leader",
-    paragraph: "A 3-star rating in IIC Rankings was awarded.",
+    heading: "NEP 2020 Implementation",
+    paragraph:
+      "Successfully integrated the National Education Policy 2020 into the curriculum.",
   },
 ];
 
