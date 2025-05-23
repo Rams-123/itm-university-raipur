@@ -19,6 +19,10 @@ const rankingData = [
     heading: "Entrepreneurship Leader",
     paragraph: "A 3-star rating in IIC Rankings was awarded.",
   },
+  {
+    heading: "Brand Promising",
+    paragraph: "Ranked 13th in India, 1st in Chhattisgarh ARIIA.",
+  },
 ];
 
 let ranking = rankingData.map(showRankingData).join("");
