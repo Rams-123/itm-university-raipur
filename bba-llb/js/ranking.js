@@ -1,27 +1,23 @@
 const rankingData = [
   {
-    heading: "Academic Excellence",
-    paragraph: "Consistent A3 Band achievement in OBE Rankings.",
+    heading: "ARIIA 2021",
+    paragraph:
+      "Ranked 1st in Chhattisgarh and 13th in India under the ‘Band Promising’ category by the Atal Ranking of Institutions on Innovation Achievements (ARIIA) 2021, announced by the Ministry of Education Innovation Cell (MIC).",
   },
   {
-    heading: "Top University",
-    paragraph: "UniRank No. 1 in Chhattisgarh for four years.",
+    heading: "UniRank",
+    paragraph:
+      "Ranked 1st in Chhattisgarh for 2024-2025 by UniRank for academic and institutional excellence.",
+  },
+  {
+    heading: "Top IIC Rating",
+    paragraph:
+      "3 Stars by the Institutions Innovation Council (IIC), the highest rating in India, awarded by the Ministry of Education Innovation Cell (MIC) in 2023-24.",
   },
   {
     heading: "Green Champion",
-    paragraph: "Award for Swachhta Action Plan performance excellence.  ",
-  },
-  {
-    heading: "Clean Campus",
-    paragraph: "Recognized as Cleanest Non-Residential Campus by MHRD (2018).",
-  },
-  {
-    heading: "Entrepreneurship Leader",
-    paragraph: "A 3-star rating in IIC Rankings was awarded.",
-  },
-  {
-    heading: "Brand Promising",
-    paragraph: "Ranked 13th in India, 1st in Chhattisgarh ARIIA.",
+    paragraph:
+      "Honored with the prestigious Green Champion Award by the Ministry of Education for its sustainability and eco-friendly practices.",
   },
 ];
 
