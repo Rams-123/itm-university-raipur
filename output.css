@@ -1367,6 +1367,9 @@
   .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/Industrial_Chem_Desktop_d34c7759dc\.avif\'\)\] {
     background-image: url('https://cdn.itm.edu/assets/Industrial_Chem_Desktop_d34c7759dc.avif');
   }
+  .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/LL_M_Banner_3b9d97aee3\.avif\'\)\] {
+    background-image: url('https://cdn.itm.edu/assets/LL_M_Banner_3b9d97aee3.avif');
+  }
   .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/banner2_716f835544\.avif\'\)\] {
     background-image: url('https://cdn.itm.edu/assets/banner2_716f835544.avif');
   }
@@ -2708,6 +2711,11 @@
   .md\:py-2 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 2);
+    }
+  }
+  .md\:py-3 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 3);
     }
   }
   .md\:py-5 {
