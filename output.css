@@ -1237,6 +1237,9 @@
   .bg-\[\#feefdf\] {
     background-color: #feefdf;
   }
+  .bg-\[\#ff9601\] {
+    background-color: #ff9601;
+  }
   .bg-\[\#ff9700\] {
     background-color: #ff9700;
   }
@@ -1372,6 +1375,9 @@
   }
   .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/banner2_716f835544\.avif\'\)\] {
     background-image: url('https://cdn.itm.edu/assets/banner2_716f835544.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BA_Psychology_Hons_Banner_c02d76dae1\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BA_Psychology_Hons_Banner_c02d76dae1.avif');
   }
   .from-\[\#a91d54\]\/5 {
     --tw-gradient-from: color-mix(in oklab, #a91d54 5%, transparent);
@@ -2830,6 +2836,11 @@
     @media (width >= 48rem) {
       --tw-leading: 1;
       line-height: 1;
+    }
+  }
+  .md\:text-black {
+    @media (width >= 48rem) {
+      color: var(--color-black);
     }
   }
   .md\:text-white {

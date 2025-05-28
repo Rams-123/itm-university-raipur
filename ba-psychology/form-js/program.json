@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "name": "Graduate",
+        "course": [
+            {
+                "id": 1,
+                "name": "BBA",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "BBA",
+                        "keyWord": "GBBA"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "BBA.LL.B (Hons)",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "BBA.LL.B (Hons)",
+                        "keyWord": "GBBALLB"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "BBA Banking & Finance",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "BBA Banking & Finance",
+                        "keyWord": "GBBABAF"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "BBA Supply Chain & Logistics",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "BBA Supply Chain & Logistics",
+                        "keyWord": "GBBASCL"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "BCA",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "MAIS(Mobile Application and Information Security)",
+                        "keyWord": "GBCAMAIS"
+                    },
+                    {
+                        "id": 2,
+                        "name": "CTIS(Cloud Technology and Information Security)",
+                        "keyWord": "GBCACTIS"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "B.Sc Hospitality & Tourism Management",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.Sc Hospitality & Tourism Management",
+                        "keyWord": "GBHTM"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "B.COM ( Hons.)",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.COM ( Hons.)",
+                        "keyWord": "GBCOM"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "B.Tech Computer Science",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.Tech Computer Science",
+                        "keyWord": "GBTECHCS"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "B.A.(Hons.) Psychology",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.A.(Hons.) Psychology",
+                        "keyWord": "GBAPSY"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "B.Sc. (Hons.) Biotechnology",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.Sc. (Hons.) Biotechnology",
+                        "keyWord": "GBBIOTECH"
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "name": "B.Sc Microbiology",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.Sc Microbiology",
+                        "keyWord": "GBMB"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Post Graduate",
+        "course": [
+            {
+                "id": 1,
+                "name": "MBA",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "Dual Specialization",
+                        "keyWord": "PGMBADS"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "M.Sc Microbiology",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "M.Sc Microbiology",
+                        "keyWord": "PGMSCMBIO"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "MCA",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "MCA",
+                        "keyWord": "PGMCA"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "LLM",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "LLM",
+                        "keyWord": "PGLLM"
+                    }
+                ]
+            }
+        ]
+    }
+]
