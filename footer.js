@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </ul>
       </div>
     </div>
-    <div class="mb-10 mt-10 border-t border-gray-700 pt-5 text-center text-sm text-gray-500">
+    <div class="mb-10 mt-10 border-t border-gray-700 pt-5 text-center text-sm text-white">
       <p id="copyright"></p>
     </div>
   </footer>
