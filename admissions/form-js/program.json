@@ -1,0 +1,289 @@
+[
+    {
+        "id": 1,
+        "name": "Graduate",
+        "course": [
+            {
+                "id": 1,
+                "name": "B.Tech",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.Tech - Mechanical Engineering",
+                        "keyWord": "GEBTECHME"
+                    },
+                    {
+                        "id": 2,
+                        "name": "B.Tech - Mechatronics Engineering",
+                        "keyWord": "GEBTECHMECHA"
+                    },
+                    {
+                        "id": 3,
+                        "name": "B.Tech - Computer Science Engineering",
+                        "keyWord": "GEBTECHCSE"
+                    },
+                    {
+                        "id": 4,
+                        "name": "B.Tech - Computer Science Engineering(AI & ML)",
+                        "keyWord": "GEBTECHCSEAIML"
+                    },
+                    {
+                        "id": 5,
+                        "name": "B.Tech - Computer Science Engineering(CS)",
+                        "keyWord": "GEBTECHCSECS"
+                    },
+                    {
+                        "id": 6,
+                        "name": "B.Tech - Civil Engineering",
+                        "keyWord": "GEBTECHCE"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Int B.Tech",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "Int B.Tech -Mechanical Engineering",
+                        "keyWord": "GEINTBTECHME"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Int B.Tech - Mechatronics Engineering",
+                        "keyWord": "GEINTBTECHMECHA"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Int B.Tech - Computer Science Engineering",
+                        "keyWord": "GEINTBTECHCSE"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Int B.Tech - Civil Engineering",
+                        "keyWord": "GEINTBTECHCE"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Diploma",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "Diploma in Chemical Engineering",
+                        "keyWord": "GEDIPCHE"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Commerce and Management",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "BBA",
+                        "keyWord": "GCMBBA"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "BCA",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "BCA",
+                        "keyWord": "GBCA"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "B.IHTM",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.IHTM",
+                        "keyWord": "GBIHTM"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Applied Sciences",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.Sc Industrial Chemistry",
+                        "keyWord": "GASBIC"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Life and Allied Sciences",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "B.Sc Medical Lab Technology",
+                        "keyWord": "GLABMLT"
+                    },
+                    {
+                        "id": 2,
+                        "name": "B. Optometry",
+                        "keyWord": "GLABOP"
+                    },
+                    {
+                        "id": 3,
+                        "name": "BSC Microbiology",
+                        "keyWord": "GLABMB"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Post Graduate",
+        "course": [
+            {
+                "id": 1,
+                "name": "MBA",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "Finance",
+                        "keyWord": "PGMBAF"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Marketing",
+                        "keyWord": "PGMBAM"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Human Resource Management",
+                        "keyWord": "PGMBAHRM"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Ex - MBA",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "Ex - MBA",
+                        "keyWord": "PGEMBA"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Finance",
+                        "keyWord": "EXMBAFIN"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Marketing",
+                        "keyWord": "EXMBAMAR"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Human Resource Management",
+                        "keyWord": "EXMBAHR"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Operation Management",
+                        "keyWord": "PGEMBAOM"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Life and Allied Sciences",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "M.Sc Medical Lab Technology",
+                        "keyWord": "PGLAMLT"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "M.Tech",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "M.Tech",
+                        "keyWord": "PGMT"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Mechatronics Engineering",
+                        "keyWord": "PGMTMECHATRO"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Mechanical Engineering",
+                        "keyWord": "PGMTME"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Electrical Engineering",
+                        "keyWord": "PGMTEE"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Computer Science & Engineering",
+                        "keyWord": "PGMTCSE"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Civil Engineering",
+                        "keyWord": "PGMTCE"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Applied Sciences",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "M.Sc . Industrial Chemistry",
+                        "keyWord": "PGASMIC"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ph.D",
+        "course": [
+            {
+                "id": 1,
+                "name": "Ph.D",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "Faculty of Engineering and Technology",
+                        "keyWord": "PHDEAT"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Faculty of Management,Economics & Commerce",
+                        "keyWord": "PHDMEC"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Faculty of Life , Health and Allied Sciences",
+                        "keyWord": "PHDHA"
+                    }
+                ]
+            }
+        ]
+    }
+]
