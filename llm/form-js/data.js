@@ -1,4 +1,4 @@
-const baseUrl = "/lp/raipur-admissions-llm-v1/form-js";
+const baseUrl = "/llm/form-js";
 
 
 const fetchData = async (url) => {

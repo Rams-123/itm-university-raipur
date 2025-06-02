@@ -1,4 +1,4 @@
-const baseUrl = "/lp/vadodara-admissions-bsc-microbiology/form-js";
+const baseUrl = "/bba-logistics/form-js";
 
 
 const fetchData = async (url) => {
@@ -40,7 +40,7 @@ const initStateCityDropdowns = async (stateId, cityId) => {
         return;
     }
 
-    const data = await fetchData(`${baseUrl}/vug-data.json`);
+    const data = await fetchData(`${baseUrl}/data.json`);
     if (!data) return;
 
     populateDropdown(stateSelect, data, "name", "name", "Select State");

@@ -180,5 +180,32 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 3,
+        "name": "Doctorate",
+        "course": [
+            {
+                "id": 1,
+                "name": "Ph.D",
+                "specialization": [
+                    {
+                        "id": 1,
+                        "name": "Commerce",
+                        "keyWord": "DPHDCOM"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Management",
+                        "keyWord": "DPHDMAN"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Law",
+                        "keyWord": "DPHDLAW"
+                    }
+                ]
+            }
+        ]
     }
 ]

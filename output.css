@@ -8,6 +8,7 @@
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-orange-400: oklch(75% 0.183 55.934);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
     --color-yellow-500: oklch(79.5% 0.184 86.047);
@@ -629,6 +630,9 @@
   .h-\[calc\(100\%-50px\)\] {
     height: calc(100% - 50px);
   }
+  .h-\[calc\(100\%-82px\)\] {
+    height: calc(100% - 82px);
+  }
   .h-\[calc\(100vh-50px\)\] {
     height: calc(100vh - 50px);
   }
@@ -649,6 +653,12 @@
   }
   .max-h-\[calc\(100vh-50px\)\] {
     max-height: calc(100vh - 50px);
+  }
+  .max-h-\[calc\(100vh-100px\)\] {
+    max-height: calc(100vh - 100px);
+  }
+  .max-h-\[calc\(100vh-125px\)\] {
+    max-height: calc(100vh - 125px);
   }
   .w-0 {
     width: calc(var(--spacing) * 0);
@@ -1829,14 +1839,14 @@
   .text-pink-700 {
     color: var(--color-pink-700);
   }
+  .text-red-500 {
+    color: var(--color-red-500);
+  }
   .text-white {
     color: var(--color-white);
   }
   .text-yellow-400 {
     color: var(--color-yellow-400);
-  }
-  .text-yellow-500 {
-    color: var(--color-yellow-500);
   }
   .italic {
     font-style: italic;

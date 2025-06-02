@@ -1,7 +1,7 @@
 // header.js
 document.addEventListener("DOMContentLoaded", function () {
-  const header = `
-      <header class="flex fixed top-0 z-30 bg-white w-full shadow-md">
+    const header = `
+      <header class="flex top-0 z-30 bg-white w-full shadow-md">
               <div class="flex w-full flex-col">
                   <div class="hidden lg:flex text-sm w-full bg-[#a91d54] text-white">
                       <ul class="flex w-full max-w-7xl items-center justify-end divide-x mx-auto px-3">
@@ -1628,24 +1628,24 @@ document.addEventListener("DOMContentLoaded", function () {
           </header>
       `;
 
-  const headerContainer = document.getElementById("header-container");
-  headerContainer.innerHTML = header;
+    const headerContainer = document.getElementById("header-container");
+    headerContainer.innerHTML = header;
 
-  const mobileMenu = document.getElementById("mobile-nav");
-  const openButton = document.getElementById("open");
-  const closeButton = document.getElementById("close");
+    const mobileMenu = document.getElementById("mobile-nav");
+    const openButton = document.getElementById("open");
+    const closeButton = document.getElementById("close");
 
-  // open menu
-  openButton.addEventListener("click", () => {
-    mobileMenu.style.display = "flex";
-    openButton.style.display = "none";
-    closeButton.style.display = "block";
-  });
+    // open menu
+    openButton.addEventListener("click", () => {
+        mobileMenu.style.display = "flex";
+        openButton.style.display = "none";
+        closeButton.style.display = "block";
+    });
 
-  closeButton.addEventListener("click", () => {
-    mobileMenu.style.display = "none";
-    openButton.style.display = "block";
-    closeButton.style.display = "none";
-  });
-  // open menu
+    closeButton.addEventListener("click", () => {
+        mobileMenu.style.display = "none";
+        openButton.style.display = "block";
+        closeButton.style.display = "none";
+    });
+    // open menu
 });

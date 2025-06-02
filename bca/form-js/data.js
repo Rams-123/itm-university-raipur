@@ -1,4 +1,4 @@
-const baseUrl = "/lp/vadodara-admissions-bsc-microbiology/form-js";
+const baseUrl = "/bca/form-js";
 
 
 const fetchData = async (url) => {
@@ -40,7 +40,7 @@ const initStateCityDropdowns = async (stateId, cityId) => {
         return;
     }
 
-    const data = await fetchData(`${baseUrl}/vug-data.json`);
+    const data = await fetchData(`${baseUrl}/data.json`);
     if (!data) return;
 
     populateDropdown(stateSelect, data, "name", "name", "Select State");
@@ -102,54 +102,33 @@ const populateProgramDropdown = (dropdown, data, valueKey, textKey, defaultText 
     });
 };
 
-const initProgramDropdowns = async (programId, courseId, specializationId) => {
-    let programSelect = document.getElementById(programId);
-    let courseSelect = document.getElementById(courseId);
+const initProgramDropdowns = async (specializationId) => {
     let specializationSelect = document.getElementById(specializationId);
 
-    if (!programSelect || !courseSelect || !specializationSelect) {
+    if (!specializationSelect) {
         return;
     }
 
     const data = await fetchData(`${baseUrl}/program.json`);
     if (!data) return;
 
-    populateProgramDropdown(programSelect, data, "name", "name", "Select Program");
+    const selectedProgram = "Graduate";
+    const selectedCourse = "BCA";
+    const programObj = data.find((program) => program.name === selectedProgram);
+    const courseObj = programObj?.course.find((course) => course.name === selectedCourse);
 
-    programSelect.addEventListener("change", () => {
-        const selectedProgram = programSelect.value;
-        const programObj = data.find((program) => program.name === selectedProgram);
-
-        if (programObj) {
-            populateProgramDropdown(courseSelect, programObj.course, "name", "name", "Select Course");
-            courseSelect.disabled = false;
-            specializationSelect.disabled = true;
-            // specializationSelect.innerHTML = "";     
-        } else {
-            populateProgramDropdown(courseSelect, [], "name", "name", "Select Course");
-            courseSelect.disabled = true;
-            specializationSelect.disabled = true;
-        }
-    });
-
-    courseSelect.addEventListener("change", () => {
-        const selectedProgram = programSelect.value;
-        const selectedCourse = courseSelect.value;
-        const programObj = data.find((program) => program.name === selectedProgram);
-        const courseObj = programObj?.course.find((course) => course.name === selectedCourse);
-
-        if (courseObj) {
-            populateProgramDropdown(specializationSelect, courseObj.specialization, "name", "name", "Select Specialization");
-            specializationSelect.disabled = false;
-        } else {
-            populateProgramDropdown(specializationSelect, [], "name", "name", "Select Specialization");
-            specializationSelect.disabled = true;
-        }
-    });
+    if (courseObj) {
+        populateProgramDropdown(specializationSelect, courseObj.specialization, "name", "name", "Select Specialization");
+        specializationSelect.disabled = false;
+    } else {
+        populateProgramDropdown(specializationSelect, [], "name", "name", "Select Specialization");
+        specializationSelect.disabled = true;
+    }
 };
 
 initStateCityDropdowns("state", "city");
 initStateCityDropdowns("state1", "city1");
 initCountryDropdown("countrySelect", "location");
 initCountryDropdown("countrySelect1", "location1");
-// initProgramDropdowns("program", "course", "specialization");
+initProgramDropdowns("specialization");
+initProgramDropdowns("specialization1");

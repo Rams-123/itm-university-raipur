@@ -56,12 +56,11 @@ function setupFormValidation(
     stateError.textContent = "";
     cityError.textContent = "";
 
-
     const isFormValid = checkFormInputFields();
 
     if (isFormValid) {
 
-      const keyWord = await getCourseKey("Graduate", "Applied Sciences", "B.Sc Industrial Chemistry");
+      const keyWord = await getCourseKey("Graduate", "BBA", "BBA");
 
       var formData = new FormData();
       formData.append("name", fullName.value.trim());
@@ -86,7 +85,7 @@ function setupFormValidation(
 
       localStorage.setItem("formData", formDataJsonString);
 
-      var apiUrl = "https://service.letsupgrade.in/v2/itm/vug";
+      var apiUrl = "https://service.letsupgrade.in/v2/itm/ru";
       await fetch(apiUrl, {
         method: "POST",
         headers: {
@@ -107,14 +106,14 @@ function setupFormValidation(
         .then(function (response) {
           // console.log(response);
           window.dataLayer.push({
-            event: "customConversionVUGBIC",
+            event: "customConversionRUCOMMON",
             enhanced_conversion_data: {
               email: email.value.trim().toLowerCase(),
               phone_number: countrySelect.value + number.value,
             },
           });
           form.reset();
-          window.location.href = "https://itm.edu/thankyou/vadodara";
+          window.location.href = "https://itm.edu/thankyou/raipur";
         })
         .catch((error) => {
           console.log(error);

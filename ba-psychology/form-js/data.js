@@ -1,4 +1,4 @@
-const baseUrl = "/lp/raipur-admissions-ba-psychology-v1/form-js";
+const baseUrl = "/ba-psychology/form-js";
 
 
 const fetchData = async (url) => {

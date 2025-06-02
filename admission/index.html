@@ -134,22 +134,20 @@
                                     <span class="w-fit font-bold mx-auto text-lg ">Enquire Now</span>
                                     <form id="form" autocomplete="off"
                                         class="flex flex-col rounded-md gap-4 py-2 px-2 w-full">
-
                                         <div
                                             class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
                                             <input type="text" name="fullname" id="fullname" autocomplete="false"
                                                 class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Full Name *">
-                                            <span class="flex absolute -bottom-4 left-0 pl-3"
+                                            <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                 style="font-size: 10px; color:red;" id="fullnameError"></span>
                                         </div>
-
                                         <div
                                             class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
                                             <input type="email" name="email" id="email" autocomplete="false"
                                                 class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Email *">
-                                            <span class="flex absolute -bottom-4 left-0 pl-3"
+                                            <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                 style="font-size: 10px; color:red;" id="emailError"></span>
                                         </div>
                                         <div
@@ -157,15 +155,15 @@
                                             <div class="relative flex w-full rounded-md shadow-sm">
                                                 <div class="flex w-20 items-center">
                                                     <select id="countrySelect" name="country" autocomplete="country"
-                                                        class="flex w-full  text-sm h-9 rounded-md outline-none border-none focus:outline-none">
+                                                        class="flex w-full  text-sm h-9 text-center rounded-md outline-none border-none focus:outline-none">
                                                     </select>
                                                 </div>
                                                 <input type="number" name="phone-number" id="number"
                                                     autocomplete="false"
-                                                    class="flex w-full border text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                    class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                     placeholder="Enter Your Mobile Number *">
                                             </div>
-                                            <span class="flex absolute -bottom-4 left-0 pl-3"
+                                            <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                 style="font-size: 10px; color:red;" id="numberError"></span>
                                         </div>
                                         <div class="grid grid-cols-2 gap-2 w-full">
@@ -192,34 +190,42 @@
                                                     style="font-size: 10px; color:red;" id="cityError"></span>
                                             </div>
                                         </div>
+                                        <div class="grid grid-cols-2 gap-2 w-full">
+                                            <div
+                                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                <select id="program" name="program" autocomplete="none"
+                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    <option value="" class="flex w-full h-full text-sm py-2 " disabled
+                                                        selected>
+                                                        Select Program</option>
+                                                </select>
+                                                <span class="flex absolute -bottom-4 left-0 pl-3"
+                                                    style="font-size: 10px; color:red;" id="programError"></span>
+                                            </div>
+                                            <div
+                                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                <select id="course" name="course" disabled autocomplete="none"
+                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    <option value="" class="flex w-full h-full text-sm py-2 " disabled
+                                                        selected>
+                                                        Select Course</option>
+                                                </select>
+                                                <span class="flex absolute -bottom-4 left-0 pl-3"
+                                                    style="font-size: 10px; color:red;" id="courseError"></span>
+                                            </div>
+                                        </div>
                                         <div
                                             class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
-                                            <select id="specialization" name="specialization" autocomplete="none"
-                                                class="flex w-full border text-sm h-9 px-3 rounded-sm outline-none border-none focus:outline-none">
+                                            <select id="specialization" name="specialization" disabled
+                                                autocomplete="none"
+                                                class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                 <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                     selected>
                                                     Select Specialization</option>
-                                                <option value="Bachelor of Optometry"
-                                                    class="flex w-full h-full text-sm py-2 ">
-                                                    Bachelor of Optometry
-                                                </option>
-                                                <option value="B.Sc in Medical Laboratory Technology"
-                                                    class="flex w-full h-full text-sm py-2 ">
-                                                    B.Sc in Medical Laboratory Technology
-                                                </option>
-                                                <option value="Master of Optometry"
-                                                    class="flex w-full h-full text-sm py-2 ">
-                                                    Master of Optometry
-                                                </option>
-                                                <option value="M.Sc in Medical Laboratory Technology"
-                                                    class="flex w-full h-full text-sm py-2 ">
-                                                    M.Sc in Medical Laboratory Technology
-                                                </option>
                                             </select>
                                             <span class="flex absolute -bottom-4 left-0 pl-3"
                                                 style="font-size: 10px; color:red;" id="specializationError"></span>
                                         </div>
-
                                         <div class="grid grid-cols-2 gap-2 w-full">
                                             <div class="flex w-full items-center justify-center bg-white rounded-md">
                                                 <span type="text" id="genratedCaptcha" name="genratedCaptcha"
@@ -241,30 +247,30 @@
                                             <div
                                                 class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
                                                 <input type="text" id="captcha" name="captcha" autocomplete="false"
-                                                    class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
+                                                    class="flex h-4/5 my-auto w-full text-sm py-2 px-3 rounded-sm outline-none border-none focus:outline-none"
                                                     placeholder="Enter Captcha *">
-                                                <span
-                                                    class="flex absolute -bottom-4 left-0 text-xs text-[#a91d54]-red pl-3"
-                                                    style="font-size: 10px; color:red;" id="captchaError"></span>
+                                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                                    id="captchaError"></span>
                                             </div>
                                         </div>
-
                                         <div class="flex w-full h-fit relative">
-                                            <label for="term" class="w-full h-10 flex items-start justify-start">
-                                                <input type="checkbox" checked name="term" id="term">
-                                                <p class="w-fit h-fit font-bold" style="font-size: 12px;"> &nbsp; I
+                                            <label for="term" class="w-full h-10 items-start justify-start">
+                                                <p class="w-fit h-fit font-bold" style="font-size: 12px;">
+                                                    <input type="checkbox" checked name="term" id="term" class="w-fit">
+                                                    &nbsp; By
+                                                    submitting this form you
                                                     authorize &
                                                     allow ITM
                                                     to
-                                                    connect with me. This will override the registry on DND/NDNC.</p>
+                                                    connect with you. This will override the registry on DND/NDNC.
+                                                </p>
                                             </label>
-                                            <span class=" flex absolute -bottom-4 left-0 pl-3"
+                                            <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                 style="font-size: 10px; color:red;" id="termError"></span>
                                         </div>
-
-                                        <div class="flex w-full">
+                                        <div class="flex w-full mt-3">
                                             <button type="submit"
-                                                class="flex w-full items-center justify-center rounded-full bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white ">Submit</button>
+                                                class="flex w-full items-center justify-center rounded-md bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white  ">Submit</button>
                                         </div>
                                     </form>
                                 </div>
@@ -490,7 +496,7 @@
 
         </main>
         <section id="modal"
-            class="hidden w-full h-screen bg-black bg-opacity-50 top-0 right-0 left-0 z-30 items-center justify-center fixed">
+            class="hidden w-full h-screen bg-black/50 top-0 right-0 left-0 z-30 items-center justify-center fixed">
             <div class="flex max-w-7xl relative w-full py-5 md:py-10  mx-auto my-auto">
 
                 <div
@@ -511,42 +517,40 @@
                     </div>
                     <div class="flex w-full h-fit items-center justify-center">
                         <form id="form1" autocomplete="off" class="flex flex-col rounded-md gap-4 py-2 px-2 w-full">
-
                             <div
                                 class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
                                 <input type="text" name="fullname" id="fullname1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Full Name *">
-                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
-                                    id="fullnameError1"></span>
+                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                    style="font-size: 10px; color:red;" id="fullnameError1"></span>
                             </div>
-
                             <div
                                 class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
                                 <input type="email" name="email" id="email1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Email *">
-                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
-                                    id="emailError1"></span>
+                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                    style="font-size: 10px; color:red;" id="emailError1"></span>
                             </div>
                             <div
                                 class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
                                 <div class="relative flex w-full rounded-md shadow-sm">
                                     <div class="flex w-20 items-center">
                                         <select id="countrySelect1" name="country" autocomplete="country"
-                                            class="flex w-full  text-sm h-9 rounded-md outline-none border-none focus:outline-none">
+                                            class="flex w-full  text-sm h-9 text-center rounded-md outline-none border-none focus:outline-none">
                                         </select>
                                     </div>
                                     <input type="number" name="phone-number" id="number1" autocomplete="false"
-                                        class="flex w-full border text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                        class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                         placeholder="Enter Your Mobile Number *">
                                 </div>
-                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
-                                    id="numberError1"></span>
+                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                    style="font-size: 10px; color:red;" id="numberError1"></span>
                             </div>
                             <div class="grid grid-cols-2 gap-2 w-full">
                                 <div
-                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
                                     <select id="state1" name="state" autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -556,7 +560,7 @@
                                         style="font-size: 10px; color:red;" id="stateError1"></span>
                                 </div>
                                 <div
-                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
                                     <select id="city1" name="city" disabled autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -566,31 +570,38 @@
                                         style="font-size: 10px; color:red;" id="cityError1"></span>
                                 </div>
                             </div>
+                            <div class="grid grid-cols-2 gap-2 w-full">
+                                <div
+                                    class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    <select id="program1" name="program" autocomplete="none"
+                                        class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                        <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
+                                            Select Program</option>
+                                    </select>
+                                    <span class="flex absolute -bottom-4 left-0 pl-3"
+                                        style="font-size: 10px; color:red;" id="programError1"></span>
+                                </div>
+                                <div
+                                    class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    <select id="course1" name="course" disabled autocomplete="none"
+                                        class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                        <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
+                                            Select Course</option>
+                                    </select>
+                                    <span class="flex absolute -bottom-4 left-0 pl-3"
+                                        style="font-size: 10px; color:red;" id="courseError1"></span>
+                                </div>
+                            </div>
                             <div
                                 class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
-                                <select id="specialization1" name="specialization" autocomplete="none"
-                                    class="flex w-full border text-sm h-9 px-3 rounded-sm outline-none border-none focus:outline-none">
+                                <select id="specialization1" name="specialization" disabled autocomplete="none"
+                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
                                         Select Specialization</option>
-                                    <option value="Bachelor of Optometry" class="flex w-full h-full text-sm py-2 ">
-                                        Bachelor of Optometry
-                                    </option>
-                                    <option value="B.Sc in Medical Laboratory Technology"
-                                        class="flex w-full h-full text-sm py-2 ">
-                                        B.Sc in Medical Laboratory Technology
-                                    </option>
-                                    <option value="Master of Optometry" class="flex w-full h-full text-sm py-2 ">
-                                        Master of Optometry
-                                    </option>
-                                    <option value="M.Sc in Medical Laboratory Technology"
-                                        class="flex w-full h-full text-sm py-2 ">
-                                        M.Sc in Medical Laboratory Technology
-                                    </option>
                                 </select>
                                 <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
                                     id="specializationError1"></span>
                             </div>
-
                             <div class="grid grid-cols-2 gap-2 w-full">
                                 <div class="flex w-full items-center justify-center bg-white rounded-md">
                                     <span type="text" id="genratedCaptcha1" name="genratedCaptcha"
@@ -612,29 +623,30 @@
                                 <div
                                     class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
                                     <input type="text" id="captcha1" name="captcha" autocomplete="false"
-                                        class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
+                                        class="flex h-4/5 my-auto w-full text-sm py-2 px-3 rounded-sm outline-none border-none focus:outline-none"
                                         placeholder="Enter Captcha *">
-                                    <span class="flex absolute -bottom-4 left-0 text-xs text-[#a91d54]-red pl-3"
-                                        style="font-size: 10px; color:red;" id="captchaError1"></span>
+                                    <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                        id="captchaError1"></span>
                                 </div>
                             </div>
-
                             <div class="flex w-full h-fit relative">
-                                <label for="term" class="w-full h-10 flex items-start justify-start">
-                                    <input type="checkbox" checked name="term" id="term1">
-                                    <p class="w-fit h-fit font-bold" style="font-size: 12px;"> &nbsp; I
+                                <label for="term" class="w-full h-10 items-start justify-start">
+                                    <p class="w-fit h-fit font-bold" style="font-size: 12px;">
+                                        <input type="checkbox" checked name="term" id="term1" class="w-fit">
+                                        &nbsp; By
+                                        submitting this form you
                                         authorize &
                                         allow ITM
                                         to
-                                        connect with me. This will override the registry on DND/NDNC.</p>
+                                        connect with you. This will override the registry on DND/NDNC.
+                                    </p>
                                 </label>
-                                <span class=" flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
-                                    id="termError1"></span>
+                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                    style="font-size: 10px; color:red;" id="termError1"></span>
                             </div>
-
-                            <div class="flex w-full">
+                            <div class="flex w-full mt-3">
                                 <button type="submit"
-                                    class="flex w-full items-center justify-center rounded-full bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white ">Submit</button>
+                                    class="flex w-full items-center justify-center rounded-md bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white  ">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -643,8 +655,8 @@
         </section>
     </div>
     <script src="../js/main.js"></script>
-    <script src="../form-js/data.js"></script>
-    <script src="../form-js/form1.js"></script>
+    <script src="/form-js/data.js"></script>
+    <script src="/form-js/form.js"></script>
 </body>
 
 </html>

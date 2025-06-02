@@ -1,4 +1,4 @@
-const baseUrl = "/lp/vadodara-admissions-bsc-ic-new/form-js";
+const baseUrl = "/bba/form-js";
 
 
 const fetchData = async (url) => {

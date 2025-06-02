@@ -6,6 +6,7 @@ function setupFormValidation(
   numberId,
   stateId,
   cityId,
+  specializationId,
   captchaId,
   termId,
   refreshCaptchaBtnId,
@@ -16,6 +17,7 @@ function setupFormValidation(
   numberErrorId,
   stateErrorId,
   cityErrorId,
+  specializationErrorId,
   captchaErrorId,
   termErrorId
 ) {
@@ -25,6 +27,7 @@ function setupFormValidation(
   var number = document.getElementById(numberId);
   var state = document.getElementById(stateId) || "Andaman and Nicobar";
   var city = document.getElementById(cityId) || "Hut Bay";
+  var specialization = document.getElementById(specializationId);
   var captcha = document.getElementById(captchaId);
   var term = document.getElementById(termId);
   var countrySelect = document.getElementById(countrySelectId);
@@ -38,6 +41,7 @@ function setupFormValidation(
   var numberError = document.getElementById(numberErrorId);
   var stateError = document.getElementById(stateErrorId);
   var cityError = document.getElementById(cityErrorId);
+  var specializationError = document.getElementById(specializationErrorId);
   var captchaError = document.getElementById(captchaErrorId);
   var termError = document.getElementById(termErrorId);
 
@@ -55,13 +59,14 @@ function setupFormValidation(
     numberError.textContent = "";
     stateError.textContent = "";
     cityError.textContent = "";
+    specializationError.textContent = ""
 
 
     const isFormValid = checkFormInputFields();
 
     if (isFormValid) {
 
-      const keyWord = await getCourseKey("Graduate", "Life and Allied Sciences", "BSC Microbiology");
+      const keyWord = await getCourseKey("Graduate", "BCA", specialization.value);
 
       var formData = new FormData();
       formData.append("name", fullName.value.trim());
@@ -86,7 +91,7 @@ function setupFormValidation(
 
       localStorage.setItem("formData", formDataJsonString);
 
-      var apiUrl = "https://service.letsupgrade.in/v2/itm/vug";
+      var apiUrl = "https://service.letsupgrade.in/v2/itm/ru";
       await fetch(apiUrl, {
         method: "POST",
         headers: {
@@ -107,14 +112,14 @@ function setupFormValidation(
         .then(function (response) {
           // console.log(response);
           window.dataLayer.push({
-            event: "customConversionVUGBMICROBIO",
+            event: "customConversionRUCOMMON",
             enhanced_conversion_data: {
               email: email.value.trim().toLowerCase(),
               phone_number: countrySelect.value + number.value,
             },
           });
           form.reset();
-          window.location.href = "https://itm.edu/thankyou/vadodara";
+          window.location.href = "https://itm.edu/thankyou/raipur";
         })
         .catch((error) => {
           console.log(error);
@@ -244,6 +249,11 @@ function setupFormValidation(
       cityError,
       "City is Required"
     );
+    const isSpecializationValid = checkEmptyField(
+      specialization.value,
+      specializationError,
+      "Specialization is Required"
+    );
     const isCaptchaValid =
       checkEmptyField(captcha.value, captchaError, "Captcha is Required") &&
       validateCaptcha(
@@ -267,6 +277,7 @@ function setupFormValidation(
         isNumberValid &&
         isStateValid &&
         isCityValid &&
+        isSpecializationValid &&
         isCaptchaValid &&
         isTermValid
       );
@@ -276,6 +287,7 @@ function setupFormValidation(
         isFullNameValid &&
         isEmailValid &&
         isNumberValid &&
+        isSpecializationValid &&
         isCaptchaValid &&
         isTermValid
       );
@@ -344,6 +356,7 @@ setupFormValidation(
   "number",
   "state",
   "city",
+  "specialization",
   "captcha",
   "term",
   "refreshCaptchaBtn",
@@ -354,6 +367,7 @@ setupFormValidation(
   "numberError",
   "stateError",
   "cityError",
+  "specializationError",
   "captchaError",
   "termError"
 );
@@ -366,6 +380,7 @@ setupFormValidation(
   "number1",
   "state1",
   "city1",
+  "specialization1",
   "captcha1",
   "term1",
   "refreshCaptchaBtn1",
@@ -376,6 +391,7 @@ setupFormValidation(
   "numberError1",
   "stateError1",
   "cityError1",
+  "specializationError1",
   "captchaError1",
   "termError1"
 );
