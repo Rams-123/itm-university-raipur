@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <footer class="w-full bg-[#231f20] py-10 text-white">
     <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 md:grid-cols-8">
       <div class="md:col-span-4 lg:col-span-4">
-        <h3 class="font-Bebas-Neue mb-3 text-2xl font-bold">ITM INSTITUTE OF HEALTH SCIENCES</h3>
+        <h3 class="font-Bebas-Neue mb-3 text-2xl font-bold">ITM UNIVERSITY, RAIPUR</h3>
        
         <div class="flex space-x-3">
           <a href="https://www.facebook.com/ITMIDMOfficial?mibextid=LQQJ4d" taget="_blank" class=""
