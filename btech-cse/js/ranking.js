@@ -40,9 +40,9 @@ rankingCards.innerHTML = ranking;
 
 function showRankingData(rankingData) {
   let rankingCard = `
-         <div class="flex w-64 rounded-r-3xl group transition-all border rounded-b-lg bg-white flex-col shadow-md">
+         <div class="flex w-64 rounded-r-3xl group transition-all border rounded-b-lg bg-white flex-col shadow-md border-gray-200">
             <div
-                class="flex w-full px-6 py-4 rounded-r-3xl rounded-b-3xl group-hover:bg-[#a91d54] group-hover:text-white transition-all bg-[#feefdf]">
+                class="flex w-full px-6 py-4 rounded-r-3xl rounded-b-3xl group-hover:bg-[#a91d54] group-hover:text-white transition-all bg-[#feefdf] ">
                 <span class="text-lg md:text-lg font-normal">${rankingData.heading}</span>
             </div>
             <div class="flex w-full p-6">
