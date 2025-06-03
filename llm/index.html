@@ -189,60 +189,43 @@
                                     <form id="form" autocomplete="off" class="flex flex-col gap-4 py-2 px-2 w-full">
 
                                         <div
-                                            class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                            class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 flex-col relative border rounded-md">
                                             <input type="text" name="fullname" id="fullname" autocomplete="false"
-                                                class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                class="flex w-full border bg-white text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Full Name *">
                                             <span class="flex absolute -bottom-4 left-0 pl-3"
                                                 style="font-size: 10px; color:red;" id="fullnameError"></span>
                                         </div>
 
                                         <div
-                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                             <input type="email" name="email" id="email" autocomplete="false"
-                                                class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                class="flex w-full border bg-white text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Email *">
                                             <span class="flex absolute -bottom-4 left-0 pl-3"
                                                 style="font-size: 10px; color:red;" id="emailError"></span>
                                         </div>
                                         <div
-                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                             <div class="relative flex w-full rounded-md shadow-sm">
                                                 <div class="flex w-20 items-center">
                                                     <select id="countrySelect" name="country" autocomplete="country"
-                                                        class="flex w-full  text-sm h-9 rounded-md outline-none border-none focus:outline-none">
+                                                        class="flex w-full bg-white text-sm h-9 rounded-md outline-none border-none focus:outline-none">
                                                     </select>
                                                 </div>
                                                 <input type="number" name="phone-number" id="number"
                                                     autocomplete="false"
-                                                    class="flex w-full border text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                    class="flex w-full border bg-white text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                     placeholder="Enter Your Mobile Number *">
                                             </div>
                                             <span class="flex absolute -bottom-4 left-0 pl-3"
                                                 style="font-size: 10px; color:red;" id="numberError"></span>
                                         </div>
-                                        <!-- <div
-                                                                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
-                                                                                <select id="campus" name="campus" autocomplete="none"
-                                                                                    class="flex w-full border text-sm h-9 px-3 rounded-sm outline-none border-none focus:outline-none">
-                                                                                    <option value="" class="flex w-full h-full text-sm py-2 " disabled
-                                                                                        selected>
-                                                                                        Select Campus</option>
-                                                                                    <option value="Oshiwara, Andheri (w)"
-                                                                                        class="flex w-full h-full text-sm py-2 ">
-                                                                                        Oshiwara, Andheri (w)</option>
-                                                                                    <option value="Nerul (Navi Mumbai)"
-                                                                                        class="flex w-full h-full text-sm py-2 ">
-                                                                                        Nerul (Navi Mumbai)</option>
-                                                                                </select>
-                                                                                <span class="flex absolute -bottom-4 left-0 pl-3"
-                                                                                    style="font-size: 10px; color:red;" id="campusError"></span>
-                                                                            </div> -->
                                         <div class="grid grid-cols-2 gap-2 w-full">
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <select id="state" name="state" autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    class="flex w-full border bg-white text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                         selected>
                                                         Select State</option>
@@ -251,9 +234,9 @@
                                                     style="font-size: 10px; color:red;" id="stateError"></span>
                                             </div>
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <select id="city" name="city" disabled autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    class="flex w-full border bg-white text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                         selected>
                                                         Select City</option>
@@ -283,7 +266,7 @@
                                                 </button>
                                             </div>
                                             <div
-                                                class="flex relative w-full transition-all bg-white rounded-md group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="flex relative w-full transition-all bg-white rounded-md group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <input type="text" id="captcha" name="captcha" autocomplete="false"
                                                     class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
                                                     placeholder="Enter Captcha *">
@@ -317,15 +300,15 @@
                 </div>
             </section>
 
-            <section id="Highlights"
-                class="flex mt-4 relative w-full md:bg-contain md:bg-[center_left_-60%] xl:bg-[center_left_-80%] bg-no-repeat">
+            <section id="Highlights" class="flex w-full">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center -mt-8">
-                        <span
-                            class="font-Bebas-Neue font-medium text-black text-2xl md:text-3xl  lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">Program
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Program
                             Highlights
-                        </span>
+                        </h2>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div class="flex w-fit gap-4">
@@ -410,16 +393,15 @@
                 </div>
             </section>
 
-            <section id="events" class="flex w-full h-auto bg-gray-50 pt-4 md:pt-0">
+            <section id="events" class="flex w-full h-auto bg-gray-50">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-start md:items-center gap-1 ">
-                        <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
-
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             LL.M. (Master of Laws) 2025-26
                         </h2>
-                        <p class="text-sm md:text-base md:text-center">
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             The LL.M. program at ITM University, Raipur, is a rigorous one-year postgraduate course
                             designed in alignment with UGC guidelines. This program, offered under the Centre for
                             Postgraduate Legal Studies, empowers aspiring legal scholars and professionals to develop
@@ -473,15 +455,14 @@
                 </div>
             </section>
 
-            <section id="Highlights"
-                class="flex mt-4 relative w-full md:bg-contain md:bg-[center_left_-60%] xl:bg-[center_left_-65%] bg-no-repeat">
+            <section id="Highlights" class="flex w-full">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center ">
-                        <span
-                            class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl border border-gray-200 w-full px-3 py-2 md:text-center rounded-md">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             INDUSTRY PREFERRED SPECIALIZATIONS
-                        </span>
+                        </h2>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div class="flex w-fit gap-4 md:justify-center md:mx-auto">
@@ -547,16 +528,18 @@
 
 
             <section class="flex w-full">
-                <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span
-                            class="font-Bebas-Neue text-[#333333] font-medium text-2xl md:text-3xl lg:text-4xl">Rankings
-                        </span>
-                        <span class="text-sm md:text-base text-center">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Rankings
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             ITM University, Raipur, has consistently demonstrated excellence in various academic,
                             environmental, and innovation-related rankings, establishing itself as a leading institution
                             in India.
-                        </span>
+                        </p>
                     </div>
                     <div class="flex w-full overflow-x-auto  pb-3 card-scroll">
                         <div id="ranking-container" class="flex w-fit gap-4">
@@ -568,15 +551,13 @@
 
             <section id="PROGRAMS OFFERED" class="flex w-full h-auto bg-[#f8f8f8]">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-4 md:gap-6 lg:gap-8 max-w-7xl mx-auto">
-                    <h2
-                        class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl md:text-center py-3 md:py-0">
-                        SPECIALIZATIONS
-                    </h2>
-                    <!-- <p class="text-sm lg:text-base text-justify">
-                        At ITM Institute of Design & Media, our undergraduate programs are tailored to match career
-                        aspirations and creative passion of the students.
-                    </p> -->
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            SPECIALIZATIONS
+                        </h2>
+                    </div>
 
                     <div id="accordion" class="w-full">
                         <div id="Business Law" class="accordion-item mb-3">
@@ -1039,21 +1020,20 @@
                 </div>
             </section>
 
-            <section id="Placement"
-                class="flex mt-4 relative w-full md:bg-contain md:bg-[center_left_-60%] xl:bg-[center_left_-80%] bg-no-repeat">
+            <section id="Placement" class="flex w-full">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center -mt-8">
-                        <span
-                            class="font-Bebas-Neue font-medium text-black text-2xl md:text-3xl  lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             100% PLACEMENT ASSISTANCE
-                        </span>
-                        <span class="text-sm">
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             Pursuing an LL.M. at ITM University, Raipur, means more than just academic excellence - it’s
                             a step toward a meaningful and impactful legal career. With 100% placement support, the
                             program equips students with the legal knowledge, research aptitude, and professional
                             readiness required to thrive in domestic and international legal landscapes.
-                        </span>
+                        </p>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div class="flex w-fit gap-4">
@@ -1148,12 +1128,14 @@
             </section>
 
             <section id="Why" class="flex w-full ">
-                <div class="flex flex-col gap-4 lg:gap-6 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span class="font-Bebas-Neue text-[#333333] font-semibold text-2xl md:text-3xl lg:text-4xl">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             WHY CHOOSE LL.M. AT ITM UNIVERSITY, RAIPUR?
-                        </span>
-                        <p class="text-sm md:text-base md:text-center">
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             The LL.M. program at ITM University, Raipur, is crafted for law graduates aspiring to deepen
                             their legal expertise, engage in high-level research, and contribute meaningfully to the
                             legal profession. With a strong academic foundation, real-world application, and
@@ -1162,9 +1144,9 @@
                         </p>
                     </div>
                     <div class="flex w-full overflow-x-auto card-scroll py-3">
-                        <ul class="flex gap-4 w-fit lg:w-full lg:grid lg:grid-cols-5">
+                        <ul class="flex gap-4 w-fit">
                             <li
-                                class="flex w-80 lg:w-full flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
+                                class="flex w-80 flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
                                 <span class="font-bold">
                                     Specialized Legal Training:
                                 </span>
@@ -1174,7 +1156,7 @@
                                 </p>
                             </li>
                             <li
-                                class="flex w-80 lg:w-full flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
+                                class="flex w-80 flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
                                 <span class="font-bold">
                                     Analytical & Scholarly Approach:
                                 </span>
@@ -1184,7 +1166,7 @@
                                 </p>
                             </li>
                             <li
-                                class="flex w-80 lg:w-full flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
+                                class="flex w-80 flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
                                 <span class="font-bold">
                                     Real-World Perspective:
                                 </span>
@@ -1195,7 +1177,7 @@
                                 </p>
                             </li>
                             <li
-                                class="flex w-80 lg:w-full flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
+                                class="flex w-80 flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
                                 <span class="font-bold">
                                     Research-Focused Development:
                                 </span>
@@ -1205,7 +1187,7 @@
                                 </p>
                             </li>
                             <li
-                                class="flex w-80 lg:w-full flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
+                                class="flex w-80 flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
                                 <span class="font-bold">
                                     Career-Ready Legal Minds:
                                 </span>
@@ -1222,92 +1204,112 @@
                                 <thead class="flex w-full">
                                     <tr class="flex w-full">
                                         <th
-                                            class="border-x w-2/5 font-bold p-2 items-center justify-center text-sm bg-[#a91d54] rounded-tl-md text-white">
+                                            class="border-x border-gray-200 w-2/5 font-bold p-2 items-center justify-center text-sm bg-[#a91d54] rounded-tl-md text-white">
                                             Traditional LL.M. Programs
                                         </th>
                                         <th
-                                            class="border-x w-3/5 font-bold p-2 items-start text-left justify-left text-sm bg-[#333333] rounded-tr-md text-white">
+                                            class="border-x border-gray-200 w-3/5 font-bold p-2 items-start text-left justify-left text-sm bg-[#333333] rounded-tr-md text-white">
                                             LL.M. at ITM University, Raipur
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody class="flex flex-col w-full border">
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Specializations Offered
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Generic or Single Track
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Business Laws & Criminal Justice Administration
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Learning Approach
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Provision-Based Study
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Analytical, Jurisprudential, & Research-Oriented
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Practical Legal Insights
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Minimal Application
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Case-Based Study, Legislative Interpretation, Moots
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Research & Fieldwork
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Limited Scope
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Precision Research, Teaching Assignments, Projects
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Career Preparedness
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Theoretical Focus
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Domestic & Global Employability, Industry Readiness
                                             </td>
                                         </tr>
@@ -1324,87 +1326,92 @@
                                     <thead>
                                         <tr class="flex w-full mx-auto">
                                             <td
-                                                class="flex border-x w-[40%]  px-5 py-2 border-y border-gray-300 rounded-tl-md text-base font-bold items-center justify-start bg-[#f8f8f8] text-[#333333]">
+                                                class="flex border-x w-[40%]  px-5 py-2 border-y border-gray-200 rounded-tl-md text-base font-bold items-center justify-start bg-[#f8f8f8] text-[#333333]">
                                                 Feature
                                             </td>
                                             <td
-                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 border-y border-gray-300 text-base font-bold items-center justify-center text-white bg-[#a91d54]">
+                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 border-y border-gray-200 text-base font-bold items-center justify-center text-white bg-[#a91d54]">
                                                 Traditional LL.M. Programs
                                             </td>
                                             <td
-                                                class="flex border-x rounded-tr-md w-[30%] px-3 pt-3 pb-2 border-gray-300 border-b text-lg font-bold items-center justify-center text-white bg-[#333333]">
+                                                class="flex border-x rounded-tr-md w-[30%] px-3 pt-3 pb-2 border-gray-200 border-b text-lg font-bold items-center justify-center text-white bg-[#333333]">
                                                 LL.M. at ITM University, Raipur
                                             </td>
                                         </tr>
                                     </thead>
                                     <tbody class="flex flex-col w-full">
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Specializations Offered
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Generic or Single Track
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Business Laws & Criminal Justice Administration
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Learning Approach
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Provision-Based Study
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Analytical, Jurisprudential, & Research-Oriented
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Practical Legal Insights
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Minimal Application
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Case-Based Study, Legislative Interpretation, Moots
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Research & Fieldwork
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Limited Scope
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Precision Research, Teaching Assignments, Projects
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Career Preparedness
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Theoretical Focus
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Domestic & Global Employability, Industry Readiness
                                             </td>
                                         </tr>
@@ -1419,270 +1426,28 @@
 
             <section id="Course-Structure" class="flex w-full h-auto mt-2">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-center md:items-start gap-1 ">
-                        <div class="flex flex-col w-full items-center justify-center gap-2">
-                            <strong class="font-Bebas-Neue text-2xl font-medium md:text-center md:text-3xl lg:text-4xl">
-                                PROGRAM STRUCTURE
-                            </strong>
-                        </div>
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            PROGRAM STRUCTURE
+                        </h2>
                     </div>
 
-                    <div class="flex flex-col gap-3 w-full">
-                        <div class="grid grid-cols-3 md:grid-cols-6 w-full">
-                            <button onclick="openPage('Sem 1', this, '#a91d54', 'tabcontent','tablink')"
-                                id="defaultOpen"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 1
-                            </button>
-                            <button onclick="openPage('Sem 2', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 2
-                            </button>
-
-                        </div>
-
-                        <div class="flex w-full ">
-                            <div id="Sem 1" class="flex tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Semester-1</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Comparative Public Law Andsystem Of Governance
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Corporate Crime
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Corporate Governance
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Criminal Justice System
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Criminology
-                                                </span>
-                                            </li>
-
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Intellectual Property Law
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Laws On Securities And Financial Markets
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Research Methodology
-                                                </span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 2" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Semester-2</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Banking & Insurance Law
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Competition Law
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    International Criminal Law
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    International Trade Law
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Penology And Victimology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Cyber Crimes
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Dissertation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Law And Justice In A Globalizing World
-                                                </span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                    <div id="programsContainer">
                     </div>
                 </div>
             </section>
 
-            <section class="flex w-full py-8 md:py-0 md:pb-0">
-                <div class="flex w-full flex-col gap-5 md:gap-8 md:py-8 lg:gap-10 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-4 w-full px-4 md:items-center md:justify-center max-w-7xl mx-auto">
-                        <h2 class="font-Bebas-Neue text-2xl font-medium md:text-center md:text-3xl lg:text-4xl">Some Of
-                            Our Esteemed Recruiters</h2>
+            <section class="flex w-full">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Some Of
+                            Our Esteemed Recruiters
+                        </h2>
                     </div>
                     <div class="trusted-by-swiper flex h-fit w-full overflow-hidden">
                         <div class="swiper-wrapper flex w-auto">
@@ -1774,11 +1539,13 @@
 
             <section class="flex w-full h-auto bg-[#f8f8f8]">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
-                    <h2
-                        class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl md:text-center py-3 md:py-0">
-                        ELIGIBILITY AND HOW TO APPLY
-                    </h2>
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            ELIGIBILITY AND HOW TO APPLY
+                        </h2>
+                    </div>
 
                     <div id="accordion">
                         <div class="accordion-item mb-3">
@@ -1922,11 +1689,14 @@
             </section>
 
             <section class="flex w-full">
-                <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span class="font-Bebas-Neue text-[#333333] font-medium text-2xl md:text-3xl lg:text-4xl">Campus
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Campus
                             Life
-                        </span>
+                        </h2>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div id="campus-data" class="flex w-fit gap-4">
@@ -1938,9 +1708,10 @@
 
             <section class="flex w-full h-auto bg-gray-50">
                 <div
-                    class="flex flex-col w-full px-5 py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-start md:text-center md:items-center gap-1 ">
-                        <h2 class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl md:text-center">
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             ABOUT ITM University Raipur
                         </h2>
                     </div>
@@ -1954,7 +1725,6 @@
                                     learning ecosystem to Central India. Strategically located in Raipur,an emerging hub
                                     of industry and education,the university offers students a platform to build
                                     thriving careers in today’s fast-evolving global economy.
-
                                 </p>
                                 <p class="text-sm lg:text-base text-justify">
                                     ITM University, Raipur, is known for its future-oriented education, supported by
@@ -1977,8 +1747,8 @@
                         </div>
                         <div class="flex w-full relative items-center justify-center">
                             <div class="flex w-full aspect-video rounded-lg">
-                                <img src="https://media.itmuniversity.org/university_building_16b72d2d6f.jpg"
-                                    alt="graduate" class="flex w-full h-full object-contain rounded-lg">
+                                <img src="https://media.itmuniversity.org/Raipur_uni_img_56c241cf9d.avif" alt="graduate"
+                                    class="flex w-full h-full object-cover rounded-lg">
                             </div>
                         </div>
                     </div>
@@ -2017,7 +1787,7 @@
                         <form id="form1" autocomplete="off" class="flex flex-col gap-4 w-full">
 
                             <div
-                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 flex-col relative border rounded-md">
                                 <input type="text" name="fullname" id="fullname1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Full Name *">
@@ -2026,7 +1796,7 @@
                             </div>
 
                             <div
-                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                 <input type="email" name="email" id="email1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Email *">
@@ -2034,7 +1804,7 @@
                                     id="emailError1"></span>
                             </div>
                             <!-- <div
-                        class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                        class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                         <select id="campus1" name="campus1" autocomplete="none"
                             class="flex w-full border text-sm h-9 px-3 rounded-sm outline-none border-none focus:outline-none">
                             <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -2048,7 +1818,7 @@
                             id="campusError1"></span>
                     </div> -->
                             <div
-                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                 <div class="relative flex w-full rounded-md shadow-sm">
                                     <div class="flex w-20 items-center">
                                         <select id="countrySelect1" name="country" autocomplete="country"
@@ -2064,7 +1834,7 @@
                             </div>
                             <div class="grid grid-cols-2 gap-2 w-full">
                                 <div
-                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <select id="state1" name="state" autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -2074,7 +1844,7 @@
                                         style="font-size: 10px; color:red;" id="stateError1"></span>
                                 </div>
                                 <div
-                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <select id="city1" name="city" disabled autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -2104,7 +1874,7 @@
                                     </button>
                                 </div>
                                 <div
-                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <input type="text" id="captcha1" name="captcha" autocomplete="false"
                                         class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
                                         placeholder="Enter Captcha *">
@@ -2170,6 +1940,7 @@
 
     <script src="/llm/main.js"></script>
     <script src="/llm/js/ranking.js"></script>
+    <script src="/llm/js/course-structure.js"></script>
     <script src="/llm/js/swiper.js"></script>
     <script src="/llm/js/campus.js"></script>
     <script src="./form-js/data.js"></script>

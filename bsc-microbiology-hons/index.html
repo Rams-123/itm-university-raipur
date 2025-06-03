@@ -135,13 +135,13 @@
                                                     </div> -->
                             <div
                                 class="flex flex-col gap-3 md:gap-4 justify-center items-center md:justify-start md:items-start w-full md:py-5 px-4 md:order-1 py-4 md:pt-14">
-                                <div class="flex relative flex-col gap-4 md:gap-6 w-fit">
+                                <div class="flex relative flex-col gap-2 md:gap-6 w-fit">
                                     <span
                                         class="text-base md:text-lg lg:text-xl  text-black font-bold text-center md:text-left">
                                         Admissions Open for 2025-28
                                     </span>
                                     <h1
-                                        class="flex font-semibold mx-auto md:mx-0 flex-col text-[40px] lg:text-6xl xl:text-5xl w-fit items-center md:items-start">
+                                        class="flex font-semibold mx-auto md:mx-0 flex-col text-4xl lg:text-6xl xl:text-5xl w-fit items-center md:items-start">
                                         <span
                                             class="font-Bebas-Neue text-black font-semibold w-fit py-1 leading-10 md:leading-none rounded-md">
                                             ITM B.Sc. (Hons.) in
@@ -167,36 +167,37 @@
                             </div>
                             <div class="flex flex-col w-full md:items-end md:justify-center md:order-3 px-4 pb-4">
                                 <div
-                                    class="flex flex-col w-full md:shadow-lg rounded-lg gap-2 p-4 md:max-w-xs border border-[#a91d54] bg-[#FDEFDF] md:bg-white">
+                                    class="flex flex-col w-full md:shadow-lg rounded-lg gap-4 p-4 md:max-w-xs border border-[#a91d54] bg-[#FDEFDF] md:bg-white">
                                     <span class="w-fit font-bold mx-auto text-lg text-black">Enquire Now</span>
-                                    <form id="form" autocomplete="off" class="flex flex-col rounded-md gap-4 w-full">
+                                    <form id="form" autocomplete="off"
+                                        class="flex flex-col rounded-md gap-4 p-2 w-full">
                                         <div
-                                            class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                            class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 flex-col relative border rounded-md">
                                             <input type="text" name="fullname" id="fullname" autocomplete="false"
-                                                class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                class="flex w-full border bg-white text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Full Name *">
                                             <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                 style="font-size: 10px; color:red;" id="fullnameError"></span>
                                         </div>
                                         <div
-                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                             <input type="email" name="email" id="email" autocomplete="false"
-                                                class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                class="flex w-full border bg-white text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Email *">
                                             <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                 style="font-size: 10px; color:red;" id="emailError"></span>
                                         </div>
                                         <div
-                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                             <div class="relative flex w-full rounded-md shadow-sm">
                                                 <div class="flex w-20 items-center">
                                                     <select id="countrySelect" name="country" autocomplete="country"
-                                                        class="flex w-full  text-sm h-9 text-center rounded-md outline-none border-none focus:outline-none">
+                                                        class="flex w-full bg-white text-sm h-9 text-center rounded-md outline-none border-none focus:outline-none">
                                                     </select>
                                                 </div>
                                                 <input type="number" name="phone-number" id="number"
                                                     autocomplete="false"
-                                                    class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                    class="flex w-full border bg-white text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                     placeholder="Enter Your Mobile Number *">
                                             </div>
                                             <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
@@ -204,9 +205,9 @@
                                         </div>
                                         <div class="grid grid-cols-2 gap-2 w-full">
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <select id="state" name="state" autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    class="flex w-full border bg-white text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                         selected>
                                                         Select State</option>
@@ -215,9 +216,9 @@
                                                     style="font-size: 10px; color:red;" id="stateError"></span>
                                             </div>
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <select id="city" name="city" disabled autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    class="flex w-full border bg-white text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                         selected>
                                                         Select City</option>
@@ -245,7 +246,7 @@
                                                 </button>
                                             </div>
                                             <div
-                                                class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <input type="text" id="captcha" name="captcha" autocomplete="false"
                                                     class="flex h-4/5 my-auto w-full text-sm py-2 px-3 rounded-sm outline-none border-none focus:outline-none"
                                                     placeholder="Enter Captcha *">
@@ -280,17 +281,16 @@
                 </div>
             </section>
 
-            <section id="Highlights"
-                class="flex mt-4 relative w-full md:bg-contain md:bg-[center_left_-60%] xl:bg-[center_left_-80%] bg-no-repeat">
+            <section id="Highlights" class="flex w-full">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center -mt-8">
-                        <span
-                            class="font-Bebas-Neue font-medium text-black text-2xl md:text-3xl  lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">Program
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Program
                             Highlights
-                        </span>
+                        </h2>
                     </div>
-
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div class="flex w-fit gap-4">
                             <div
@@ -383,16 +383,15 @@
                 </div>
             </section>
 
-            <section id="Highlights"
-                class="flex mt-4 relative w-full md:bg-contain md:bg-[center_left_-60%] xl:bg-[center_left_-80%] bg-no-repeat">
+            <section id="Highlights" class="flex w-full">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center -mt-8">
-                        <span
-                            class="font-Bebas-Neue font-medium text-black text-2xl md:text-3xl  lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             B.Sc. IN MICROBIOLOGY
-                        </span>
-                        <p class="text-sm md:text-base md:text-center">
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             The Bachelor of Science in Microbiology program at ITM University, Raipur, is a
                             comprehensive three-year program with an option of 4th year for acquiring an honors degree
                             as per NEP 2020. This full-time program is designed to provide students with an in-depth
@@ -401,89 +400,57 @@
                         </p>
                     </div>
 
-                    <div class="flex w-full overflow-x-auto pb-3 card-scroll">
-                        <div class="flex w-fit gap-4 mx-auto ">
-                            <div
-                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] shadow-md justify-between p-6">
-                                <div class="flex flex-col gap-4 w-full">
-                                    <span class="text-lg md:text-xl font-semibold text-[#a91d54]">
-                                        Industry-Aligned Curriculum
-                                    </span>
-                                    <p class="text-sm">
-                                        The program features 15 core subjects, 12 discipline electives, 3 generic
-                                        electives, 3 skill enhancement courses, and 3 value-added courses unmatched by
-                                        other institutes in Raipur and Chhattisgarh. In addition, students can opt for
-                                        Swayam (NPTEL) courses. This comprehensive curriculum is designed to provide
-                                        industry-relevant and future-ready education.
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] justify-between shadow-md p-6">
-                                <div class="flex flex-col gap-4 w-full">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
 
-                                    <span class="text-lg md:text-xl font-semibold text-[#a91d54]">
-                                        Experiential Learning Opportunities
-                                    </span>
-                                    <p class="text-sm">
-                                        Includes a mandatory 3-month industry internship during the 6th semester and
-                                        various short-term training programs to provide real-world experience and
-                                        practical insights.
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] justify-between shadow-md p-6">
-                                <div class="flex flex-col gap-4 w-full">
-
-                                    <span class="text-lg md:text-xl font-semibold text-[#a91d54]">
-                                        Skill Development and Career Readiness
-                                    </span>
-                                    <p class="text-sm">
-                                        Incorporates skill-enhancement courses and value-added modules to develop
-                                        critical industry-relevant skills, ensuring students are well-prepared for
-                                        professional challenges and opportunities in microbiology.
-                                    </p>
-                                </div>
+                        <div class="flex items-center justify-center w-full">
+                            <ul class="flex flex-col gap-2 md:gap-4 w-full">
+                                <li class="text-sm md:text-base">
+                                    <b>Industry-Aligned Curriculum:</b>
+                                    The program features 15 core subjects, 12 discipline electives, 3 generic
+                                    electives, 3 skill enhancement courses, and 3 value-added courses unmatched by
+                                    other institutes in Raipur and Chhattisgarh. In addition, students can opt for
+                                    Swayam (NPTEL) courses. This comprehensive curriculum is designed to provide
+                                    industry-relevant and future-ready education.
+                                </li>
+                                <li class="text-sm md:text-base">
+                                    <b>Experiential Learning Opportunities:</b>
+                                    Includes a mandatory 3-month industry internship during the 6th semester and
+                                    various short-term training programs to provide real-world experience and
+                                    practical insights.
+                                </li>
+                                <li class="text-sm md:text-base">
+                                    <b>Skill Development and Career Readiness:</b>
+                                    Incorporates skill-enhancement courses and value-added modules to develop
+                                    critical industry-relevant skills, ensuring students are well-prepared for
+                                    professional challenges and opportunities in microbiology.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex w-full relative items-center justify-center">
+                            <div class="flex w-full aspect-video rounded-lg">
+                                <img src="https://media.itmuniversity.org/optimetory_00d4100697.avif" alt="graduate"
+                                    class="flex w-full h-full object-cover rounded-lg">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!--    <section class="flex w-full">
-                <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span
-                            class="font-Bebas-Neue text-[#333333] font-medium text-2xl md:text-3xl lg:text-4xl">Rankings
-                        </span>
-                        <p class="text-sm md:text-base md:text-center">
-                            ITM University, Raipur, has consistently demonstrated excellence in various academic,
-                            environmental, and innovation-related rankings, establishing itself as a leading institution
-                            in India.
-                        </p>
-                    </div>
-                    <div class="flex w-full overflow-x-auto pb-3 card-scroll">
-                        <div id="ranking-container" class="flex w-fit gap-4">
-
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
             <section id="Why" class="flex w-full ">
-                <div class="flex flex-col gap-4 lg:gap-6 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span class="font-Bebas-Neue text-[#333333] font-semibold text-2xl md:text-3xl lg:text-4xl">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             WHY CHOOSE B.Sc. (HONS.) IN MICROBIOLOGY AT ITM UNIVERSITY, RAIPUR?
-                        </span>
-                        <p class="text-sm md:text-base md:text-center">
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             At ITM University, Raipur, the B.Sc. (Hons.) in Microbiology program is designed to provide
                             students with in-depth knowledge and practical expertise in the field of microbiology.
                         </p>
                     </div>
-                    <div class="flex w-full overflow-x-auto card-scroll py-3">
-                        <ul class="flex gap-4 w-fit lg:w-full lg:grid lg:grid-cols-4">
+                    <div class="flex w-full overflow-x-auto card-scroll pb-3">
+                        <ul class="flex gap-4 w-fit lg:w-full lg:grid lg:grid-cols-3 max-w-6xl lg:mx-auto">
                             <li
                                 class="flex w-80 lg:w-full flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
                                 <span class="font-bold">
@@ -515,16 +482,6 @@
                                     research labs, biotech firms, and healthcare institutions for immersive learning.
                                 </p>
                             </li>
-                            <!-- <li
-                                class="flex w-80 lg:w-full flex-col gap-4 bg-[#ffefdf] border border-gray-200 rounded-lg shadow-sm p-4">
-                                <span class="font-bold">
-                                    Career Support & Placement Assurance:
-                                </span>
-                                <p>
-                                    100% placement assistance with personalized career guidance, ensuring students
-                                    secure opportunities in microbiology research, diagnostics, and allied industries.
-                                </p>
-                            </li> -->
                         </ul>
                     </div>
                     <div class="flex flex-col">
@@ -533,145 +490,177 @@
                                 <thead class="flex w-full">
                                     <tr class="flex w-full">
                                         <th
-                                            class="border-x w-2/5 font-bold p-2 items-center justify-center text-sm bg-[#a91d54] rounded-tl-md text-white">
+                                            class="border-x border-gray-200 w-2/5 font-bold p-2 items-center justify-center text-sm bg-[#a91d54] rounded-tl-md text-white">
                                             Other Microbiology Programs
                                         </th>
                                         <th
-                                            class="border-x w-3/5 font-bold p-2 items-start text-left justify-left text-sm bg-[#333333] rounded-tr-md text-white">
+                                            class="border-x border-gray-200 w-3/5 font-bold p-2 items-start text-left justify-left text-sm bg-[#333333] rounded-tr-md text-white">
                                             ITM University, Raipur
                                         </th>
                                     </tr>
                                 </thead>
-                                <tbody class="flex flex-col w-full border">
+                                <tbody class="flex flex-col w-full border bg border-gray-200-white">
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Curriculum
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Outdated
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Modern, Industry-Aligned Curriculum Covering Microbiology, Immunology,
                                                 and Molecular Biology
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Internship
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Limited Duration (2-3 months)
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Comprehensive 3-Month Industry Internship with Research Lab
                                                 Collaborations
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Placement
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Limited Support
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 100% Placement Assistance with Leading Healthcare & Research
                                                 Organizations
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Industry Certification
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Not Included
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Value-Added Certifications for Enhanced Career Prospects
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Practical Training
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Minimal Hands-On Exposure
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Extensive Lab Work, Live Projects, and Industry Internships
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Global Exposure
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Not Included
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 National and International Conferences, Research Collaborations, and
                                                 Industry Visits
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Learning Methodology
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Textbook-Based Learning
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Experiential Learning with Workshops, Case Studies, and Industrial
                                                 Visits
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Faculty Expertise
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 General Academic Background
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Highly Experienced Faculty with Strong Industry and Research Experience
                                             </td>
                                         </tr>
@@ -679,144 +668,150 @@
                                 </tbody>
                             </table>
                         </div>
-
                         <div class="hidden lg:flex w-full">
-                            <div class="flex xl:gap-5 gap-y-10 w-full">
-
+                            <div class="flex xl:gap-5 w-full">
                                 <table class="flex w-full max-w-6xl mx-auto flex-col">
                                     <thead>
                                         <tr class="flex w-full mx-auto">
                                             <td
-                                                class="flex border-x w-[40%]  px-5 py-2 border-y border-gray-300 rounded-tl-md text-base font-bold items-center justify-start bg-[#f8f8f8] text-[#333333]">
+                                                class="flex border-x w-[40%]  px-5 py-2 border-y border-gray-200 rounded-tl-md text-base font-bold items-center justify-start bg-[#f8f8f8] text-[#333333]">
                                                 Particulars
                                             </td>
                                             <td
-                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 border-y border-gray-300 text-base font-bold items-center justify-center text-white bg-[#a91d54]">
+                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 border-y border-gray-200 text-base font-bold items-center justify-center text-white bg-[#a91d54]">
                                                 Other Microbiology Programs
                                             </td>
                                             <td
-                                                class="flex border-x rounded-tr-md w-[30%] px-3 pt-3 pb-2 border-gray-300 border-b text-lg font-bold items-center justify-center text-white bg-[#333333]">
+                                                class="flex border-x rounded-tr-md w-[30%] px-3 pt-3 pb-2 border-gray-200 border-b text-lg font-bold items-center justify-center text-white bg-[#333333]">
                                                 ITM University, Raipur
                                             </td>
                                         </tr>
                                     </thead>
                                     <tbody class="flex flex-col w-full">
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Curriculum
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Outdated
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Modern, Industry-Aligned Curriculum Covering Microbiology, Immunology,
                                                 and Molecular Biology
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Internship
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Limited Duration (2-3 months)
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Comprehensive 3-Month Industry Internship with Research Lab
                                                 Collaborations
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Placement
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Limited Support
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 100% Placement Assistance with Leading Healthcare & Research
                                                 Organizations
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Industry Certifications
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Not Included
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Value-Added Certifications for Enhanced Career Prospects
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Practical Training
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Textbook-Based Learning
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Experiential Learning with Workshops, Case Studies, and Industrial
                                                 Visits
                                             </td>
                                         </tr>
 
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Learning Methodology
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Textbook-Based Learning
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Experiential Learning with Workshops, Case Studies, and Industrial
                                                 Visits
                                             </td>
                                         </tr>
 
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Industry Exposure
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Limited Connections
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 National & International Industry Collaborations
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Faculty Expertise
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 General Academic Background
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Highly Experienced Faculty with Strong Industry and Research Experience
                                             </td>
                                         </tr>
@@ -828,871 +823,58 @@
                 </div>
             </section>
 
-            <section id="Course-Structure" class="flex w-full h-auto mt-2">
+            <section id="Course-Structure" class="flex w-full h-auto">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-center md:items-start gap-1 ">
-                        <div class="flex flex-col w-full items-center justify-center gap-2">
-                            <strong class="text-lg md:text-lg lg:text-2xl text-[#a91d54]">
-                                PROGRAM STRUCTURE
-                            </strong>
-                        </div>
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            PROGRAM STRUCTURE
+                        </h2>
                     </div>
 
-                    <div class="flex flex-col gap-3 w-full">
-                        <div class="grid grid-cols-4 md:grid-cols-8 w-full">
-                            <button onclick="openPage('Sem 1', this, '#a91d54', 'tabcontent','tablink')"
-                                id="defaultOpen"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 1
-                            </button>
-                            <button onclick="openPage('Sem 2', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 2
-                            </button>
-                            <button onclick="openPage('Sem 3', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 3
-                            </button>
-                            <button onclick="openPage('Sem 4', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 4
-                            </button>
-                            <button onclick="openPage('Sem 5', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 5
-                            </button>
-                            <button onclick="openPage('Sem 6', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 6
-                            </button>
-                            <button onclick="openPage('Sem 6', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 7 (B.Sc. Hons.)
-                            </button>
-                            <button onclick="openPage('Sem 6', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 8
-                            </button>
-                        </div>
-                        <div class="flex w-full ">
-                            <div id="Sem 1" class="flex tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-1</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Bacteriology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Food Microbiology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    History of Microbiology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Basic Instrumentation Techniques
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    English Communication – I
-                                                </span>
-                                            </li>
-
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/Yoga &
-                                                    Mental Wellness/Creative Arts
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 2" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-2</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Basic Biochemistry
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Cell Biology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Microbial Ecology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Agricultural Microbiology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    English Communication – II
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/Yoga &
-                                                    Mental Wellness/Creative Arts
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 3" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-3</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Environmental Biotechnology
-                                                </span>
-                                            </li>
-
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Microbial Physiology & Metabolism
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Molecular Biology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Biomechanics & Biophysics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Enzymology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Environmental Studies – I
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 4" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-4</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Advanced Instrumentation Techniques
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Immunology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Recombinant DNA Technology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Bioenergetics & Metabolism
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Microbial Genetics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Environmental Studies – II
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/Yoga &
-                                                    Mental Wellness/Creative Arts
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 5" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-5</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Basic Concepts of Genetics & Genomics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Industrial Microbiology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Basics of Forensic Science
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Pharmaceutical Microbiology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Molecular Diagnostics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Plant Pathology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Mushroom Cultivation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/Yoga &
-                                                    Mental Wellness/Creative Arts
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 6" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-6</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Medical Microbiology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Biofertilizers & Biopesticides
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Phycology & Mycology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Project Work
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 7" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-7</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Bioinformatics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Bioprocess Technology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Biostatistics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Microbial Biotechnology
-                                                </span>
-                                            </li>
-                                            <span class="w-fit text-[#a91d54] pt-1.5">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="size-3">
-                                                    <path fill-rule="evenodd"
-                                                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                        clip-rule="evenodd" />
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                Virology
-                                            </span>
-                                            </li>
-                                            <span class="w-fit text-[#a91d54] pt-1.5">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="size-3">
-                                                    <path fill-rule="evenodd"
-                                                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                        clip-rule="evenodd" />
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                Designing/Event Planning & Management/Techniques of Food Preservation
-                                            </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 8" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-8</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Bioentrepreneurship
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Research Methodology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Biodiversity & Conservation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Biosafety and IPR
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Microbial Diagnosis in Health Clinics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Research Project
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                    <div id="programsContainer">
                     </div>
                 </div>
             </section>
 
             <section id="Career-Prospects" class="flex w-full">
-                <div class="flex w-full gap-4 flex-col px-4 py-4 md:py-6 lg:py-8 xl:py-10 max-w-7xl mx-auto">
-                    <div class="flex w-full md:justify-center">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
                         <h2
-                            class="flex font-Bebas-Neue flex-wrap w-full items-center justify-left sm:justify-center text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             CAREER PROSPECTS FOR B.Sc. (Hons.) IN MICROBIOLOGY
                         </h2>
                     </div>
-                    <div class="flex flex-col gap-5 w-full">
-                        <div class="flex flex-col w-full rounded-lg gap-5 lg:col-span-2 bg-gray-100 p-5">
-                            <!-- <strong class="text-lg text-center lg:text-xl text-[#a91d54]">
-                                International Career Prospects for M.Sc in Medical Laboratory Technology
-                            </strong> -->
-                            <p class="text-sm md:text-base">
-                                Microbiology is a rapidly expanding field with significant contributions to healthcare,
-                                environmental science, agriculture, and biotechnology. This ever-evolving domain offers
-                                vast career opportunities for graduates with a robust foundation in microbiology. ITM
-                                University, Raipur, ensures its students are well-prepared to excel in this competitive
-                                landscape by equipping them with theoretical knowledge, practical skills, and industry
-                                experience.
-                            </p>
-                            <p class="text-sm md:text-base">
-                                Thanks to ITM University, Raipur's comprehensive curriculum and dedicated placement
-                                assistance, graduates secure competitive roles with placement packages of up to ₹10 LPA
-                                and an average of ₹3 LPA. The program opens doors to dynamic opportunities across
-                                diverse industries, including research institutions, pharmaceutical companies, food
-                                safety organizations, healthcare facilities, and environmental agencies.
-                            </p>
-                            <strong class="text-lg lg:text-xl text-[#a91d54]">
-                                <!-- Our Esteemed Recruiters: -->
-                            </strong>
-                            <ul class="grid grid-cols-1 md:grid-cols-2 w-full">
-                                <li class="flex w-full gap-2">
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                        <div class="flex items-center justify-center w-full md:bg-gray-100 md:p-4 lg:p-6 md:rounded-lg">
+                            <div class="flex flex-col gap-2 md:gap-4 w-full">
+                                <p class="text-sm md:text-base">
+                                    Microbiology is a rapidly expanding field with significant contributions to
+                                    healthcare, environmental science,
+                                    agriculture, and biotechnology. This ever-evolving domain offers vast career
+                                    opportunities for graduates with a robust
+                                    foundation in microbiology. ITM University, Raipur, ensures its students are
+                                    well-prepared to excel in this competitive
+                                    landscape by equipping them with theoretical knowledge, practical skills, and
+                                    industry experience.
+                                </p>
+                                <p class="text-sm md:text-base">
+                                    Thanks to ITM University, Raipur's comprehensive curriculum and dedicated placement
+                                    assistance, graduates secure
+                                    competitive roles with placement packages of up to ₹10 LPA and an average of ₹3 LPA.
+                                    The program opens doors to dynamic
+                                    opportunities across diverse industries, including research institutions,
+                                    pharmaceutical companies, food safety
+                                    organizations, healthcare facilities, and environmental agencies.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex w-full relative items-center justify-center">
+                            <ul class="space-y-2 list-outside pl-5 w-full">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1701,11 +883,9 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                     </span>
-                                    <span>
-                                        Microbiologist
-                                    </span>
+                                    <span>Microbiologist</span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1718,7 +898,7 @@
                                         Clinical Microbiologist
                                     </span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1731,7 +911,7 @@
                                         Biotechnologist
                                     </span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1744,7 +924,7 @@
                                         Quality Control Analyst
                                     </span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1757,7 +937,7 @@
                                         Research Scientist
                                     </span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1770,7 +950,7 @@
                                         Environmental Microbiologist
                                     </span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1783,7 +963,7 @@
                                         Food Microbiologist
                                     </span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1796,7 +976,7 @@
                                         Medical Laboratory Technician
                                     </span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1809,7 +989,7 @@
                                         Pharmaceutical Sales Representative
                                     </span>
                                 </li>
-                                <li class="flex w-full gap-2">
+                                <li class="flex gap-2 text-sm md:text-base">
                                     <span class="w-fit text-[#a91d54] pt-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                             class="size-3">
@@ -1824,20 +1004,20 @@
                                 </li>
                             </ul>
                         </div>
-
                     </div>
                 </div>
             </section>
 
             <section id="Placement" class="flex w-full h-auto bg-[#f8f8f8]">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-4 md:gap-6 lg:gap-8 max-w-7xl mx-auto">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             100% PLACEMENT ASSISTANCE
 
-                        </span>
-                        <p class="text-sm lg:text-base text-justify md:text-center">
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             Pursuing a B.Sc. (Hons.) in Microbiology at ITM University, Raipur, ensures unparalleled
                             career opportunities and professional growth. Here’s how we prepare students for success in
                             the biotechnology field:
@@ -1919,9 +1099,12 @@
 
 
             <section class="flex w-full py-8 md:py-0 md:pb-0">
-                <div class="flex w-full flex-col gap-5 md:gap-8 md:py-8 lg:gap-10 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-4 w-full px-4 md:items-center md:justify-center max-w-7xl mx-auto">
-                        <h2 class="font-Bebas-Neue text-2xl font-medium md:text-center md:text-3xl lg:text-4xl">Some Of
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Some Of
                             Our Esteemed Recruiters</h2>
                     </div>
 
@@ -2011,11 +1194,12 @@
 
             <section class="flex w-full h-auto bg-[#f8f8f8]">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
-                    <h2
-                        class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl md:text-center py-3 md:py-0">
-                        ELIGIBILITY AND HOW TO APPLY
-                    </h2>
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            ELIGIBILITY AND HOW TO APPLY</h2>
+                    </div>
 
                     <div id="accordion">
                         <div class="accordion-item mb-3">
@@ -2160,12 +1344,14 @@
             </section>
 
             <section class="flex w-full">
-                <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span class="font-Bebas-Neue text-[#333333] font-medium text-2xl md:text-3xl lg:text-4xl">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             Campus
                             Life
-                        </span>
+                        </h2>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div id="campus-data" class="flex w-fit gap-4">
@@ -2177,9 +1363,10 @@
 
             <section class="flex w-full h-auto bg-gray-50">
                 <div
-                    class="flex flex-col w-full px-5 py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-start md:text-center md:items-center gap-1 ">
-                        <h2 class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl md:text-center">
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             ABOUT ITM UNIVERSITY, RAIPUR
                         </h2>
                     </div>
@@ -2193,7 +1380,8 @@
                                     India. Strategically located in Raipur, a prominent industrial and educational hub,
                                     the university offers students strong career prospects in a rapidly changing global
                                     landscape.
-                                    <br /> <br />
+                                </p>
+                                <p class="text-sm lg:text-base text-justify">
                                     ITM University, Raipur, offers a transformative learning experience through
                                     industry-aligned programs, world-class infrastructure, and a faculty rich in
                                     academic and professional expertise. The lush green campus fosters holistic
@@ -2216,35 +1404,19 @@
                         </div>
                         <div class="flex w-full relative items-center justify-center">
                             <div class="flex w-full aspect-video rounded-lg">
-                                <img src="https://media.itmuniversity.org/university_building_1bd2fad4b5.jpg"
-                                    alt="graduate" class="flex w-full h-full object-contain rounded-lg">
+                                <img src="https://media.itmuniversity.org/Raipur_uni_img_56c241cf9d.avif" alt="graduate"
+                                    class="flex w-full h-full object-cover rounded-lg">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="Contact" class="flex h-auto w-full bg-[#f8f8f8]">
-                <div
-                    class="mx-auto flex w-full max-w-7xl flex-col gap-4 p-5 md:gap-6 md:py-8 lg:gap-8 lg:py-10 xl:py-14">
-                    <h2
-                        class="font-Bebas-Neue py-3 text-center text-2xl font-medium md:py-0 md:text-center md:text-3xl lg:text-4xl">
-                        CONTACT US</h2>
-                    <div class="flex w-full items-center justify-center">
-                        <div class="flex w-full flex-col gap-2 md:gap-4 bg-gray-200 p-4 rounded-md">
-                            <div class="flex md:flex-row flex-col gap-2 md:gap-4 ">
-                                <span><strong>Email:</strong> itmuradmission@itmuniversity.org</span>
-                                <span><strong>Phone:</strong> +91 9826598201</span>
-                            </div>
-                            <span><strong>Campus Location:</strong> Sector 40, Atal Nagar-Nava Raipur, Uparwara
-                                C.G.</span>
-                            <span><strong>Raipur Information Centre:</strong> 3rd Floor, Shyam Plaza, Pandri Raipur
-                                C.G.</span>
-                            <span><strong>Bhilai Information Centre:</strong> Shop No. 172, Ground Floor, Chouhan
-                                Estate, Near Chandra Maurya Talkies, GE Road, Bhilai C.G.</span>
-                        </div>
-                    </div>
-                </div>
+            <section class="flex w-full ">
+                <iframe class="h-80 w-full flex"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.558088222312!2d81.6451442695098!3d21.24936538005805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd9e72c2ce9f%3A0x7228c3775f5af066!2sITM%20University%2C%20Raipur!5e0!3m2!1sen!2sin!4v1748930772599!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
 
             <div id="cta-container" class="flex w-full"></div>
@@ -2278,23 +1450,23 @@
                 </div>-->
                         <form id="form1" autocomplete="off" class="flex flex-col rounded-md gap-4 py-2 px-2 w-full">
                             <div
-                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 flex-col relative border rounded-md">
                                 <input type="text" name="fullname" id="fullname1" autocomplete="false"
-                                    class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                    class="flex w-full border bg-white text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Full Name *">
                                 <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                     style="font-size: 10px; color:red;" id="fullnameError1"></span>
                             </div>
                             <div
-                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                 <input type="email" name="email" id="email1" autocomplete="false"
-                                    class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                    class="flex w-full border bg-white text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Email *">
                                 <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                     style="font-size: 10px; color:red;" id="emailError1"></span>
                             </div>
                             <div
-                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                 <div class="relative flex w-full rounded-md shadow-sm">
                                     <div class="flex w-20 items-center">
                                         <select id="countrySelect1" name="country" autocomplete="country"
@@ -2302,7 +1474,7 @@
                                         </select>
                                     </div>
                                     <input type="number" name="phone-number" id="number1" autocomplete="false"
-                                        class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                        class="flex w-full border bg-white text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                         placeholder="Enter Your Mobile Number *">
                                 </div>
                                 <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
@@ -2310,9 +1482,9 @@
                             </div>
                             <div class="grid grid-cols-2 gap-2 w-full">
                                 <div
-                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <select id="state1" name="state" autocomplete="none"
-                                        class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                        class="flex w-full border bg-white text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
                                             Select State</option>
                                     </select>
@@ -2320,9 +1492,9 @@
                                         style="font-size: 10px; color:red;" id="stateError1"></span>
                                 </div>
                                 <div
-                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <select id="city1" name="city" disabled autocomplete="none"
-                                        class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                        class="flex w-full border bg-white text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
                                             Select City</option>
                                     </select>
@@ -2349,7 +1521,7 @@
                                     </button>
                                 </div>
                                 <div
-                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <input type="text" id="captcha1" name="captcha" autocomplete="false"
                                         class="flex h-4/5 my-auto w-full text-sm py-2 px-3 rounded-sm outline-none border-none focus:outline-none"
                                         placeholder="Enter Captcha *">
@@ -2418,8 +1590,7 @@
 
     <!-- <script src="main.js"></script> -->
     <script src="/bsc-microbiology-hons/main.js"></script>
-    <script src="/bsc-microbiology-hons/js/ranking.js"></script>
-    <script src="/bsc-microbiology-hons/js/specialization.js"></script>
+    <script src="/bsc-microbiology-hons/js/course-structure.js"></script>
     <script src="/bsc-microbiology-hons/js/swiper.js"></script>
     <script src="/bsc-microbiology-hons/js/campus.js"></script>
     <script src="./form-js/data.js"></script>
