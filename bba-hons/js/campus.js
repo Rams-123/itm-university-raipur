@@ -20,15 +20,67 @@ const campusData = [
   },
 ];
 
-let campus = campusData.map(campusData1).join("");
-let campusCards = document.getElementById("campus-data");
-campusCards.innerHTML = campus;
-function campusData1(campusData) {
-  let listCard1 = `
-        <div class="flex gap-5 flex-col w-80 aspect-video relative">
-            <img src=${campusData.image} alt="event"
-            class="flex w-full h-full object-cover rounded-md">
-        </div>                  
-    `;
-  return listCard1;
+function openImageModal(imageUrl) {
+  const modal = document.getElementById("image-modal");
+  const modalContent = document.getElementById("modal-content");
+  const modalImg = document.getElementById("modal-img");
+
+  modalImg.src = imageUrl;
+  modal.classList.remove("hidden");
+
+  requestAnimationFrame(() => {
+    modalContent.classList.remove(
+      "opacity-0",
+      "scale-95",
+      "pointer-events-none"
+    );
+    modalContent.classList.add(
+      "opacity-100",
+      "scale-100",
+      "pointer-events-auto"
+    );
+  });
+
+  document.body.style.overflow = "hidden";
 }
+
+function closeImageModal() {
+  const modal = document.getElementById("image-modal");
+  const modalContent = document.getElementById("modal-content");
+
+  modalContent.classList.remove(
+    "opacity-100",
+    "scale-100",
+    "pointer-events-auto"
+  );
+  modalContent.classList.add("opacity-0", "scale-95", "pointer-events-none");
+
+  setTimeout(() => {
+    modal.classList.add("hidden");
+    document.getElementById("modal-img").src = "";
+    document.body.style.overflow = "";
+  }, 300);
+}
+
+function campusCard(data) {
+  return `
+    <div class="min-w-[300px] w-[300px] md:min-w-[320px] md:w-[320px] aspect-[4/3] flex-shrink-0 relative cursor-pointer group rounded-lg overflow-hidden shadow-md" onclick="openImageModal('${data.image}')">
+      <img src="${data.image}" alt="Campus" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+    </div>
+  `;
+}
+
+const campusCardsContainer = document.getElementById("campus-data");
+campusCardsContainer.innerHTML = campusData.map(campusCard).join("");
+
+// Close on backdrop click
+document
+  .getElementById("modal-backdrop")
+  .addEventListener("click", closeImageModal);
+
+// Close on ESC key
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    closeImageModal();
+  }
+});

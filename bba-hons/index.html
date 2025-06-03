@@ -215,6 +215,7 @@
         </div>
     </header>
 
+
     <div class="flex relative w-full h-[100vh-76px] flex-col overflow-y-auto">
 
         <div class="flex w-full fixed inset-x-0 bottom-0 h-fit z-30">
@@ -223,11 +224,11 @@
                     class="bg-[#a91d54] inline-flex border border-black text-white px-5 py-2 w-full text-center items-center justify-center ">
                     Enquire Now
                 </button>
-                <!-- <button
+                <button
                     onclick="applyNow(window.location.href + '?utm_source=web&amp;utm_medium=bbaIhtmLp&amp;utm_campaign=applynow')"
                     class="bg-[#ff9700] inline-flex border border-black text-white px-5 py-2 w-full text-center items-center justify-center ">
                     Apply Now
-                </button> -->
+                </button>
             </div>
         </div>
 
@@ -286,31 +287,31 @@
                             </div>
                             <div class="flex flex-col w-full md:items-end md:justify-center md:order-3 px-4 pb-4">
                                 <div
-                                    class="flex flex-col w-full md:shadow-lg rounded-lg gap-2 p-4 md:max-w-xs border border-[#a91d54] bg-[#FDEFDF] md:bg-white">
+                                    class="flex flex-col w-full md:shadow-lg rounded-lg gap-2 p-4 md:max-w-xs border border-gray-200 bg-[#FDEFDF] md:bg-white">
                                     <span class="w-fit font-bold mx-auto text-lg text-black">Enquire Now</span>
                                     <form id="form" autocomplete="off" class="flex flex-col rounded-md gap-4 w-full">
                                         <div
-                                            class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                            class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border border-gray-200 rounded-md">
                                             <input type="text" name="fullname" id="fullname" autocomplete="false"
-                                                class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                class="flex bg-white w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Full Name *">
                                             <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                 style="font-size: 10px; color:red;" id="fullnameError"></span>
                                         </div>
                                         <div
-                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                             <input type="email" name="email" id="email" autocomplete="false"
-                                                class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                class="flex bg-white w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Email *">
                                             <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                 style="font-size: 10px; color:red;" id="emailError"></span>
                                         </div>
                                         <div
-                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
-                                            <div class="relative flex w-full rounded-md shadow-sm">
+                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
+                                            <div class="relative bg-white flex w-full rounded-md shadow-sm">
                                                 <div class="flex w-20 items-center">
                                                     <select id="countrySelect" name="country" autocomplete="country"
-                                                        class="flex w-full  text-sm h-9 text-center rounded-md outline-none border-none focus:outline-none">
+                                                        class="flex  w-full  text-sm h-9 text-center rounded-md outline-none border-none focus:outline-none">
                                                     </select>
                                                 </div>
                                                 <input type="number" name="phone-number" id="number"
@@ -323,9 +324,9 @@
                                         </div>
                                         <div class="grid grid-cols-2 gap-2 w-full">
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                                 <select id="state" name="state" autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    class="flex bg-white w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                         selected>
                                                         Select State</option>
@@ -334,9 +335,9 @@
                                                     style="font-size: 10px; color:red;" id="stateError"></span>
                                             </div>
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                                 <select id="city" name="city" disabled autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    class="flex bg-white w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                         selected>
                                                         Select City</option>
@@ -364,9 +365,9 @@
                                                 </button>
                                             </div>
                                             <div
-                                                class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                                 <input type="text" id="captcha" name="captcha" autocomplete="false"
-                                                    class="flex h-4/5 my-auto w-full text-sm py-2 px-3 rounded-sm outline-none border-none focus:outline-none"
+                                                    class="flex bg-white h-4/5 my-auto w-full text-sm py-2 px-3 rounded-sm outline-none border-none focus:outline-none"
                                                     placeholder="Enter Captcha *">
                                                 <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
                                                     style="font-size: 10px; color:red;" id="captchaError"></span>
@@ -509,8 +510,8 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
                         <div class="flex w-full md:justify-end">
                             <div class="flex flex-col md:items-center aspect-video w-full h-full">
-                                <img src="https://cdn.itm.edu/assets/mlt_28b80b1567.avif" alt="Global Partnerships"
-                                    class="flex h-full w-full object-contain">
+                                <img src="https://media.itmuniversity.org/girl_Img_c6dc329436.webp"
+                                    alt="Global Partnerships" class="flex h-full w-fit object-contain rounded-xl ">
                             </div>
                         </div>
                         <div class="flex flex-col gap-3 md:gap-5 w-full md:justify-center md:items-center">
@@ -549,8 +550,8 @@
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center -mt-8">
                         <span
-                            class="font-Bebas-Neue font-medium text-black text-2xl md:text-3xl lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">Program
-                            Highlights
+                            class="font-Bebas-Neue font-medium text-black text-2xl md:text-3xl lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">
+                            INDUSTRY BENCHMARKED SPECIALIZATIONS
                         </span>
                         <p class="text-sm md:text-base md:text-center">
                             Each specialization equips students with targeted expertise, enabling them to align their
@@ -754,92 +755,107 @@
                                 <thead class="flex w-full">
                                     <tr class="flex w-full">
                                         <th
-                                            class="border-x w-2/5 font-bold p-2 items-center justify-center text-sm bg-[#a91d54] rounded-tl-md text-white">
+                                            class="border-x border-gray-200 w-2/5 font-bold p-2 items-center justify-center text-sm bg-[#a91d54] rounded-tl-md text-white">
                                             Conventional BBA
                                         </th>
                                         <th
-                                            class="border-x w-3/5 font-bold p-2 items-start text-left justify-left text-sm bg-[#333333] rounded-tr-md text-white">
+                                            class="border-x border-gray-200 w-3/5 font-bold p-2 items-start text-left justify-left text-sm bg-[#333333] rounded-tr-md text-white">
                                             BBA (Hons.) at ITM University, Raipur
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody class="flex flex-col w-full border">
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
                                             <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
                                                 Internships
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Limited
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Industry-Integrated Internships, Live projects
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
                                             <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
                                                 Certifications
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Not Included
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Professional Certifications with Specialization
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
                                             <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
                                                 Placements
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Limited Assistance
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 100% Placement Assistance
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
                                             <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
                                                 Practical Exposure
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Theoretical Learning
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Case Studies, Guest Lectures, Industrial Visits
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
                                             <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
                                                 Curriculum
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Outdated
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Modern Curriculum Crafted by Industry Experts
                                             </td>
                                         </tr>
@@ -855,11 +871,11 @@
                                     <thead>
                                         <tr class="flex w-full mx-auto">
                                             <td
-                                                class="flex border-x w-[40%]  px-5 py-2 border-y border-gray-300 rounded-tl-md text-base font-bold items-center justify-start bg-[#f8f8f8] text-[#333333]">
+                                                class="flex border-x w-[40%]  px-5 py-2 border-y border-gray-200 rounded-tl-md text-base font-bold items-center justify-start bg-[#f8f8f8] text-[#333333]">
                                                 Feature
                                             </td>
                                             <td
-                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 border-y border-gray-300 text-base font-bold items-center justify-center text-white bg-[#a91d54]">
+                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 border-y border-gray-200 text-base font-bold items-center justify-center text-white bg-[#a91d54]">
                                                 Conventional BBA
                                             </td>
                                             <td
@@ -870,26 +886,28 @@
                                     </thead>
                                     <tbody class="flex flex-col w-full">
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Internships
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b border-gray-200 text-sm">
                                                 Limited
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Industry-Integrated Internships, Live projects
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Certifications
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 border-gray-200 bg-white border-b text-sm">
                                                 Not Included
                                             </td>
                                             <td
@@ -898,12 +916,13 @@
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Placements
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] px-3 pt-3 pb-2 border-gray-200 bg-white border-b text-sm">
                                                 Limited Assistance
                                             </td>
                                             <td
@@ -912,12 +931,13 @@
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Practical Exposure
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x border-gray-200 w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Theoretical Learning
                                             </td>
                                             <td
@@ -926,12 +946,13 @@
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] items-center  border-y border-gray-200 border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Curriculum
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] px-3 border-gray-200 pt-3 pb-2 bg-white border-b text-sm">
                                                 Outdated
                                             </td>
                                             <td
@@ -948,957 +969,16 @@
             </section>
 
             <section id="Course-Structure" class="flex w-full h-auto mt-2">
-                <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-center md:items-start gap-1 ">
+                <div class="flex flex-col w-full p-5 py-8 gap-5 max-w-7xl mx-auto">
+                    <div class="flex w-full flex-col items-center md:items-start gap-1">
                         <div class="flex flex-col w-full items-center justify-center gap-2">
-                            <strong class="text-lg md:text-lg lg:text-2xl text-[#a91d54]">
-                                PROGRAM STRUCTURE
-                            </strong>
+                            <h1 class="text-4xl font-bold mb-2 text-[#333333]">PROGRAM STRUCTURE</h1>
+                            <!--<p class="text-gray-600 max-w-2xl mx-auto">Explore our comprehensive MBA programs designed to prepare you for leadership in various business domains.</p>-->
                         </div>
                     </div>
 
-                    <div class="flex flex-col gap-3 w-full">
-                        <div class="grid grid-cols-4 md:grid-cols-8 w-full">
-                            <button onclick="openPage('Sem 1', this, '#a91d54', 'tabcontent','tablink')"
-                                id="defaultOpen"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 1
-                            </button>
-                            <button onclick="openPage('Sem 2', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 2
-                            </button>
-                            <button onclick="openPage('Sem 3', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 3
-                            </button>
-                            <button onclick="openPage('Sem 4', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 4
-                            </button>
-                            <button onclick="openPage('Sem 5', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 5
-                            </button>
-                            <button onclick="openPage('Sem 6', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 6
-                            </button>
-                            <button onclick="openPage('Sem 7', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 7
-                            </button>
-                            <button onclick="openPage('Sem 8', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 8
-                            </button>
-                        </div>
-                        <div class="flex w-full ">
-                            <div id="Sem 1" class="none tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-1</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Environmental Studies
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Fundamentals of Management
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Fundamentals of Accounting
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Business Mathematics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Managing People and Organization
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/Yoga &
-                                                    Mental Wellness/Creative Arts
-                                                </span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 2" class="none tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-2</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    English I
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Managerial Economics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Management Accounting
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Statistics for Business Decisions
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Corporate Leadership Skills
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/Yoga &
-                                                    Mental Wellness/Creative Arts
-                                                </span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 3" class="none tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-3</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    English II
-                                                </span>
-                                            </li>
-
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Cost Accounting
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Marketing Management
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Human Resource Management
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Sales & Distribution Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Human Resource Planning & Practices (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Markets & Institutions (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 4" class="none tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-4</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Environmental Studies II
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Organizational Behaviour
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Entrepreneurship
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Income Tax Law and Practice
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Retail Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Training & Development (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/Yoga &
-                                                    Mental Wellness/Creative Arts
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 5" class="none tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-5</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Supply Chain Management
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Research Methodology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Investment Analysis and Portfolio Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Performance & Compensation Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Service Marketing (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Team Dynamics (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    GST & Customs Law (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Consumer Behavior (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Public Speaking Skills
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/Yoga &
-                                                    Mental Wellness/Creative Arts
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 6" class="none tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Semester-6</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    International Business
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Behavioral Finance (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Product & Brand Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Strategic Human Resource Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    HR Audit (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Digital Marketing (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Banking & Insurance Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Internship
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 7" class="none tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Sem 7</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Strategic Management
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Business Ethics & Corporate Governance
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Business Analytics
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Technology (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Customer Relationship Management (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Organizational Change and Development (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 8" class="none tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <strong class="text-lg text-[#a91d54]">Sem 8</strong>
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Business Policy and Strategy
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Creativity & Innovation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Management of Industrial Relations and Labour Laws (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Green Marketing (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Corporate Restructuring and Valuation (Elective)
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction to Python/Web
-                                                    Designing/Event Planning & Management/Techniques of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Dissertation/Academic Project/Entrepreneurship
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                    <div id="programsContainer">
+                        <!-- Programs will be rendered here -->
                     </div>
                 </div>
             </section>
@@ -2314,14 +1394,34 @@
             <section class="flex w-full">
                 <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span class="font-Bebas-Neue text-[#333333] font-medium text-2xl md:text-3xl lg:text-4xl">
-                            Campus
-                            Life
+                        <span class="font-Bebas-Neue text-[#333333] font-bold text-2xl md:text-3xl lg:text-4xl">
+                            CAMPUS LIFE
                         </span>
                     </div>
-                    <div class="flex w-full overflow-x-auto pb-3 card-scroll">
-                        <div id="campus-data" class="flex w-fit gap-4">
 
+                    <!-- Fixed scrolling container with proper spacing -->
+                    <div class="w-full overflow-x-auto card-scroll">
+                        <div id="campus-data" class="flex gap-6">
+                            <!-- JS will inject cards here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal (unchanged) -->
+                <div id="image-modal"
+                    class="fixed inset-0 z-50 hidden items-center justify-center px-4 bg-black/40 backdrop-blur-sm">
+                    <div id="modal-backdrop" class="absolute inset-0 z-0"></div>
+                    <div id="modal-content"
+                        class="relative w-full max-w-4xl mx-auto z-10 opacity-0 top-[35%] md:top-32 scale-95 pointer-events-none transition-all duration-300 ease-out">
+                        <button onclick="closeImageModal()" aria-label="Close modal"
+                            class="absolute -top-14 right-0 z-50 cursor-pointer bg-[#282a2b] text-white rounded-full p-2 shadow-md transition border border-[#5e81bb]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                        <div class="rounded-2xl overflow-hidden border-2 border-[#fefeff] shadow-2xl">
+                            <img id="modal-img" src="" alt="Campus preview" class="w-full h-auto object-cover" />
                         </div>
                     </div>
                 </div>
@@ -2374,28 +1474,15 @@
                 </div>
             </section>
 
-            <section id="Contact" class="flex h-auto w-full bg-[#f8f8f8]">
-                <div
-                    class="mx-auto flex w-full max-w-7xl flex-col gap-4 p-5 md:gap-6 md:py-8 lg:gap-8 lg:py-10 xl:py-14">
-                    <h2
-                        class="font-Bebas-Neue py-3 text-center text-2xl font-medium md:py-0 md:text-center md:text-3xl lg:text-4xl">
-                        CONTACT US</h2>
-                    <div class="flex w-full items-center justify-center">
-                        <div class="flex w-full flex-col gap-2 md:gap-4 bg-gray-200 p-4 rounded-md">
-                            <div class="flex md:flex-row flex-col gap-2 md:gap-4 ">
-                                <span><strong>Email:</strong> itmuradmission@itmuniversity.org</span>
-                                <span><strong>Phone:</strong> +91 9826598201</span>
-                            </div>
-                            <span><strong>Campus Location:</strong> Sector 40, Atal Nagar-Nava Raipur, Uparwara
-                                C.G.</span>
-                            <span><strong>Raipur Information Centre:</strong> 3rd Floor, Shyam Plaza, Pandri Raipur
-                                C.G.</span>
-                            <span><strong>Bhilai Information Centre:</strong> Shop No. 172, Ground Floor, Chouhan
-                                Estate, Near Chandra Maurya Talkies, GE Road, Bhilai C.G.</span>
-                        </div>
-                    </div>
-                </div>
+            <section class="flex w-full ">
+                <iframe class="h-80 w-full flex"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.558088222312!2d81.6451442695098!3d21.24936538005805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd9e72c2ce9f%3A0x7228c3775f5af066!2sITM%20University%2C%20Raipur!5e0!3m2!1sen!2sin!4v1748930772599!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
+
+            <!-- <div id="cta-container" class="flex w-full"></div> -->
+            <div id="footer-container" class="flex w-full"></div>
 
             <footer class="bg-[#333333] text-white w-full py-4">
                 <div class="max-w-7xl p-4 mx-auto grid grid-cols-1 mb-10">
@@ -2433,7 +1520,7 @@
                 </div>-->
                         <form id="form1" autocomplete="off" class="flex flex-col rounded-md gap-4 w-full">
                             <div
-                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border border-gray-200 rounded-md">
                                 <input type="text" name="fullname" id="fullname1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Full Name *">
@@ -2441,7 +1528,7 @@
                                     style="font-size: 10px; color:red;" id="fullnameError1"></span>
                             </div>
                             <div
-                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                 <input type="email" name="email" id="email1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Email *">
@@ -2449,7 +1536,7 @@
                                     style="font-size: 10px; color:red;" id="emailError1"></span>
                             </div>
                             <div
-                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                 <div class="relative flex w-full rounded-md shadow-sm">
                                     <div class="flex w-20 items-center">
                                         <select id="countrySelect1" name="country" autocomplete="country"
@@ -2465,7 +1552,7 @@
                             </div>
                             <div class="grid grid-cols-2 gap-2 w-full">
                                 <div
-                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                     <select id="state1" name="state" autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -2475,7 +1562,7 @@
                                         style="font-size: 10px; color:red;" id="stateError1"></span>
                                 </div>
                                 <div
-                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                     <select id="city1" name="city" disabled autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -2504,7 +1591,7 @@
                                     </button>
                                 </div>
                                 <div
-                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border border-gray-200 rounded-md">
                                     <input type="text" id="captcha1" name="captcha" autocomplete="false"
                                         class="flex h-4/5 my-auto w-full text-sm py-2 px-3 rounded-sm outline-none border-none focus:outline-none"
                                         placeholder="Enter Captcha *">
@@ -2575,6 +1662,7 @@
     <script src="/bba-hons/main.js"></script>
     <script src="/bba-hons/js/ranking.js"></script>
     <script src="/bba-hons/js/specialization.js"></script>
+    <script src="/bba-hons/js/course-structure.js"></script>
     <script src="/bba-hons/js/swiper.js"></script>
     <script src="/bba-hons/js/campus.js"></script>
     <script src="./form-js/data.js"></script>
