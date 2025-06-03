@@ -64,7 +64,7 @@ function closeImageModal() {
 
 function campusCard(data) {
   return `
-    <div class="min-w-[300px] w-[300px] md:min-w-[320px] md:w-[320px] aspect-[4/3] flex-shrink-0 relative cursor-pointer group rounded-lg overflow-hidden shadow-md" onclick="openImageModal('${data.image}')">
+    <div class="min-w-[300px] w-[300px] md:min-w-[320px] md:w-[320px] aspect-[4/3] mb-4 flex-shrink-0 relative cursor-pointer group rounded-lg overflow-hidden shadow-md" onclick="openImageModal('${data.image}')">
       <img src="${data.image}" alt="Campus" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
     </div>
   `;

@@ -23,6 +23,7 @@ const specializationsData = [
       "Product Marketing Manager",
       "Public Relations Specialist",
     ],
+    certifications: "(If Available - Data Pending)",
     brochureLink: "Download Brochure",
   },
   {
@@ -48,6 +49,7 @@ const specializationsData = [
       "Organizational Development Consultant",
       "Payroll Manager",
     ],
+    certifications: "(If Available - Data Pending)",
     brochureLink: "Download Brochure",
   },
   {
@@ -73,6 +75,7 @@ const specializationsData = [
       "Internal Auditor",
       "Risk Manager",
     ],
+    certifications: "(If Available - Data Pending)",
     brochureLink: "Download Brochure",
   },
   {
@@ -98,6 +101,7 @@ const specializationsData = [
       "Email Marketing Specialist",
       "Analytics and Insights Manager",
     ],
+    certifications: "(If Available - Data Pending)",
     brochureLink: "Download Brochure",
   },
   {
@@ -123,6 +127,7 @@ const specializationsData = [
       "Franchise Owner",
       "Operations Manager",
     ],
+    certifications: "(If Available - Data Pending)",
     brochureLink: "Download Brochure",
   },
 ];
