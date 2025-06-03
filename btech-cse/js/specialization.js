@@ -91,7 +91,7 @@ function createSpecializationAccordion() {
     const accordionItem = document.createElement("div");
     accordionItem.id = specialization.id;
     accordionItem.className =
-      "specialization-accordion-item mb-3 scroll-mt-12 w-full";
+      "specialization-accordion-item mb-1 scroll-mt-12 w-full";
 
     // Create the HTML structure for each accordion item
     accordionItem.innerHTML = `
@@ -116,7 +116,7 @@ function createSpecializationAccordion() {
 
                         <div class="grid grid-cols-1 gap-4">
                             <div>
-                                <h5 class="font-inter text-base text-[#a91d54] mb-2 font-semibold">
+                                <h5 class="font-inter text-base text-[#a91d54] mb-1 font-semibold">
                                     Key Topics Covered
                                 </h5>
                                 <ul class="flex flex-wrap w-full gap-2">
@@ -142,7 +142,7 @@ function createSpecializationAccordion() {
                                 </ul>
                             </div>
                             <div>
-                                <h5 class="font-inter text-base text-[#a91d54] mb-2 font-semibold">
+                                <h5 class="font-inter text-base text-[#a91d54] mb-1 font-semibold">
                                     Indicative Job Roles on Program Completion
                                 </h5>
                                 <ul class="flex flex-wrap w-full gap-2">

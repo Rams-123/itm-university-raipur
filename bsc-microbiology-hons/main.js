@@ -1,25 +1,3 @@
-const mobileMenu = document.getElementById("mobile-nav");
-const openButton = document.getElementById("open");
-const closeButton = document.getElementById("close");
-
-openButton.addEventListener("click", () => {
-  mobileMenu.style.display = "flex";
-  openButton.style.display = "none";
-  closeButton.style.display = "block";
-});
-
-closeButton.addEventListener("click", () => {
-  mobileMenu.style.display = "none";
-  openButton.style.display = "block";
-  closeButton.style.display = "none";
-});
-
-function closeMenu() {
-  mobileMenu.style.display = "none";
-  openButton.style.display = "block";
-  closeButton.style.display = "none";
-}
-
 function openModal() {
   const modal = document.getElementById("modal");
   modal.style.display = "flex";
@@ -51,7 +29,4 @@ function openPage(pageName, elmnt, color, tabcontentId, tablinkId) {
 
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("defaultOpen").click();
-  document.getElementById("defaultOpen1").click();
-  document.getElementById("defaultOpen2").click();
-  document.getElementById("defaultOpen3").click();
 });

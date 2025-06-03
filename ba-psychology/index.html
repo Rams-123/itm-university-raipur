@@ -178,33 +178,33 @@
                                         class="flex flex-col rounded-md gap-4 py-2 px-2 w-full">
 
                                         <div
-                                            class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                            class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 flex-col relative border rounded-md">
                                             <input type="text" name="fullname" id="fullname" autocomplete="false"
-                                                class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                class="flex w-full bg-white border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Full Name *">
                                             <span class="flex absolute -bottom-4 left-0 pl-3"
                                                 style="font-size: 10px; color:red;" id="fullnameError"></span>
                                         </div>
 
                                         <div
-                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                             <input type="email" name="email" id="email" autocomplete="false"
-                                                class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                class="flex w-full bg-white border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Email *">
                                             <span class="flex absolute -bottom-4 left-0 pl-3"
                                                 style="font-size: 10px; color:red;" id="emailError"></span>
                                         </div>
                                         <div
-                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                            class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                             <div class="relative flex w-full rounded-md shadow-sm">
                                                 <div class="flex w-20 items-center">
                                                     <select id="countrySelect" name="country" autocomplete="country"
-                                                        class="flex w-full  text-sm h-9 rounded-md outline-none border-none focus:outline-none">
+                                                        class="flex w-full bg-white text-sm h-9 rounded-md outline-none border-none focus:outline-none">
                                                     </select>
                                                 </div>
                                                 <input type="number" name="phone-number" id="number"
                                                     autocomplete="false"
-                                                    class="flex w-full border text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                    class="flex w-full bg-white border text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                     placeholder="Enter Your Mobile Number *">
                                             </div>
                                             <span class="flex absolute -bottom-4 left-0 pl-3"
@@ -212,9 +212,9 @@
                                         </div>
                                         <div class="grid grid-cols-2 gap-2 w-full">
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <select id="state" name="state" autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    class="flex w-full bg-white border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                         selected>
                                                         Select State</option>
@@ -223,9 +223,9 @@
                                                     style="font-size: 10px; color:red;" id="stateError"></span>
                                             </div>
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <select id="city" name="city" disabled autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                                    class="flex w-full bg-white border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                                     <option value="" class="flex w-full h-full text-sm py-2 " disabled
                                                         selected>
                                                         Select City</option>
@@ -255,7 +255,7 @@
                                                 </button>
                                             </div>
                                             <div
-                                                class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                                class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                                 <input type="text" id="captcha" name="captcha" autocomplete="false"
                                                     class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
                                                     placeholder="Enter Captcha *">
@@ -290,17 +290,16 @@
                 </div>
             </section>
 
-            <section id="Highlights"
-                class="flex mt-4 relative w-full md:bg-contain md:bg-[center_left_-60%] xl:bg-[center_left_-80%] bg-no-repeat">
+            <section id="Highlights" class="flex w-full">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center -mt-8">
-                        <span
-                            class="font-Bebas-Neue font-medium text-black text-2xl md:text-3xl  lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">Program
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Program
                             Highlights
-                        </span>
+                        </h2>
                     </div>
-
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div class="flex w-fit gap-4">
                             <div
@@ -387,16 +386,15 @@
                 </div>
             </section>
 
-            <section id="events" class="flex w-full h-auto bg-gray-50 pt-4 md:pt-0">
+            <section id="events" class="flex w-full">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-start md:items-center gap-1 ">
-                        <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
-
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             ITM BA (PSYCHOLOGY) (HONS.) 2025-28
                         </h2>
-                        <p class="text-sm md:text-base md:text-center">
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             The BA (Psychology) (Hons.) program at ITM University, Raipur, is a dynamic three-year
                             undergraduate course with an
                             optional fourth year for an honors degree, aligned with the National Education Policy (NEP)
@@ -406,7 +404,6 @@
                             exposure, and research excellence.
                         </p>
                     </div>
-
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
                         <div class="flex w-full md:justify-end">
                             <div class="flex flex-col md:items-center aspect-video w-full h-full">
@@ -455,12 +452,14 @@
             </section>
 
             <section class="flex w-full">
-                <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span
-                            class="font-Bebas-Neue text-[#333333] font-medium text-2xl md:text-3xl lg:text-4xl">INDUSTRY
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            INDUSTRY
                             PREFERRED SPECIALIZATIONS
-                        </span>
+                        </h2>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <ul class="flex gap-4 w-fit">
@@ -605,12 +604,14 @@
             </section>
 
             <section class="flex w-full">
-                <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span
-                            class="font-Bebas-Neue text-[#333333] font-medium text-2xl md:text-3xl lg:text-4xl">Rankings
-                        </span>
-                        <p class="text-sm md:text-base md:text-center">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Rankings
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             ITM University, Raipur, has consistently demonstrated excellence in various academic,
                             environmental, and
                             innovation-related rankings, establishing itself as a leading institution in India.
@@ -625,12 +626,14 @@
             </section>
 
             <section id="Why" class="flex w-full ">
-                <div class="flex flex-col gap-4 lg:gap-6 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span class="font-Bebas-Neue text-[#333333] font-semibold text-2xl md:text-3xl lg:text-4xl">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             WHY CHOOSE BA (PSYCHOLOGY) (HONS.) AT ITM UNIVERSITY, RAIPUR?
-                        </span>
-                        <p class="text-sm md:text-base md:text-center">
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             The BA (Psychology) (Hons.) program at ITM University, Raipur, is designed for students
                             passionate about understanding
                             human behavior and building impactful careers in mental health, counseling, research, HR,
@@ -704,81 +707,100 @@
                                 </thead>
                                 <tbody class="flex flex-col w-full border">
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
                                             <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
                                                 Internship & Practical Exposure
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Limited Scope
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Intensive Internships Across Professional Settings
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Specialized Fields
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Mostly Theoretical
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Covers Forensic, Sports, Neuro, and Military Psychology
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Research Opportunities
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Rarely Emphasized
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Research-Driven Curriculum with Faculty Collaboration
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Skill-Based Learning
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Minimal Focus
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 NEP-Aligned Skill & Career Readiness Training
                                             </td>
                                         </tr>
                                     </div>
                                     <div>
-                                        <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
-                                            <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full odd:text-sm odd:font-bold even:text-sm">
+                                            <td colspan="2"
+                                                class="w-full px-2 py-2 border-x border-gray-200 text-[#a91d54]">
                                                 Industry Engagement
                                             </td>
                                         </tr>
-                                        <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
+                                        <tr
+                                            class="flex border-y border-gray-200 w-full  odd:text-sm odd:font-bold even:text-sm">
                                             <td
-                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                                class="w-2/5 px-2 py-2 bg-gray-100 border-x border-gray-200 items-center justify-start flex">
                                                 Basic Academics
                                             </td>
-                                            <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
+                                            <td
+                                                class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x border-gray-200">
                                                 Strong Integration with Real-World Cases & Experts
                                             </td>
                                         </tr>
@@ -809,72 +831,77 @@
                                     </thead>
                                     <tbody class="flex flex-col w-full">
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Internship & Practical Exposure
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Limited Scope
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Intensive Internships Across Professional Settings
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Specialized Fields
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Mostly Theoretical
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Covers Forensic, Sports, Neuro, and Military Psychology
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Research Opportunities
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Rarely Emphasized
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Research-Driven Curriculum with Faculty Collaboration
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Skill-Based Learning
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Minimal Focus
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 NEP-Aligned Skill & Career Readiness Training
                                             </td>
                                         </tr>
                                         <tr class="flex w-full">
-                                            <td class="flex w-[40%] items-center  border-y border-l">
+                                            <td class="flex w-[40%] border-gray-200 items-center  border-y border-l">
                                                 <span class="flex  px-5 py-2 h-full ">
                                                     Industry Engagement
                                                 </span>
                                             </td>
-                                            <td class="flex border-x w-[30%] px-3 pt-3 pb-2 bg-white border-b text-sm">
+                                            <td
+                                                class="flex border-x w-[30%] border-gray-200 px-3 pt-3 pb-2 bg-white border-b text-sm">
                                                 Basic Academics
                                             </td>
                                             <td
-                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-300 bg-[#ffeede] text-sm">
+                                                class="flex border-x items-start w-[30%] px-3 pt-3 pb-2 border-b border-gray-200 bg-[#ffeede] text-sm">
                                                 Strong Integration with Real-World Cases & Experts
                                             </td>
                                         </tr>
@@ -886,993 +913,29 @@
                 </div>
             </section>
 
-            <section id="Course-Structure" class="flex w-full h-auto mt-2">
+            <section id="Course-Structure" class="flex w-full ">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-center md:items-start gap-1 ">
-                        <div class="flex flex-col w-full items-center justify-center gap-2">
-                            <strong class="text-lg md:text-lg lg:text-2xl text-[#a91d54]">
-                                PROGRAM STRUCTURE
-                            </strong>
-                        </div>
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            PROGRAM STRUCTURE
+                        </h2>
                     </div>
-
-                    <div class="flex flex-col gap-3 w-full">
-                        <div class="grid grid-cols-4 md:grid-cols-8 w-full">
-                            <button onclick="openPage('Sem 1', this, '#a91d54', 'tabcontent','tablink')"
-                                id="defaultOpen"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 1
-                            </button>
-                            <button onclick="openPage('Sem 2', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 2
-                            </button>
-                            <button onclick="openPage('Sem 3', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 3
-                            </button>
-                            <button onclick="openPage('Sem 4', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 4
-                            </button>
-                            <button onclick="openPage('Sem 5', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 5
-                            </button>
-                            <button onclick="openPage('Sem 6', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 6
-                            </button>
-                            <button onclick="openPage('Sem 7', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 7
-                            </button>
-                            <button onclick="openPage('Sem 8', this, '#a91d54', 'tabcontent','tablink')"
-                                class="tablink cursor-pointer bg-white hover:bg-brand hover:text-white py-2 rounded-md">
-                                Sem 8
-                            </button>
-                        </div>
-                        <div class="flex w-full ">
-                            <div id="Sem 1" class="flex tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Semester-1</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Introduction to Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Biopsychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Life Span Development
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology Practical - I
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Environmental Studies - I
-                                                </span>
-                                            </li>
-
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Reaction Time and Span of Attention
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/ Yoga &
-                                                    Mental Wellness / Creative Arts
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction To Python/Web
-                                                    Designing/Event Planning & Management/Techniques Of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 2" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Semester-2</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Cognitive Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Social Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Educational Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology Practical - II
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    English - I
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Transactional Analysis
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/ Yoga &
-                                                    Mental Wellness / Creative Arts
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction To Python/Web
-                                                    Designing/Event Planning & Management/Techniques Of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 3" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Semester-3</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychological Testing
-                                                </span>
-                                            </li>
-
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology of Personality
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Positive Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology Practical - III
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Systems and Schools in Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Indian Approaches of Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction To Python/Web
-                                                    Designing/Event Planning & Management/Techniques Of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Environmental Studies - I
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Sem 4" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Semester-4</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Clinical Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Counselling Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Experimental Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology Practical-IV
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology of Ageing
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Youth Gender and Identity
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    English - II
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/ Yoga &
-                                                    Mental Wellness / Creative Arts
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 5" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Semester-5</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Organizational Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Sports Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology Practical - V
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Military Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Community Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Peace Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Health Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Problem Solving and Creative Thinking
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Financial Literacy/Academic Writing/Professional Image Build/ Yoga &
-                                                    Mental Wellness / Creative Arts
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 6" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Semester-6</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Forensic Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology Practical - VI
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Corporate Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Cyber Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Cultural Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology of Space
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Industry Internship
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 7" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Sem 7 (Optional as Honors)</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Research Methodology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction To Python/Web
-                                                    Designing/Event Planning & Management/Techniques Of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div id="Sem 8" class="hidden tabcontent p-5 border rounded-lg bg-white w-full">
-                                <div class="grid grid-cols-1 gap-5 w-full">
-                                    <div class="flex flex-col w-full gap-5">
-                                        <!-- <strong class="text-lg text-[#a91d54]">Sem 8 (Optional as Honors)</strong> -->
-                                        <ul class="flex flex-col gap-2 w-full">
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Statistics in Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology at Work
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology Practical - VII
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology of Disability
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Gender Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Contemporary Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Rehabilitation Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology Practical - VIII
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Consumer Psychology
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Psychology of Advertising
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Dissertation
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Academic Project
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Entrepreneurship
-                                                </span>
-                                            </li>
-                                            <li class="flex w-full gap-2">
-                                                <span class="w-fit text-[#a91d54] pt-1.5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        fill="currentColor" class="size-3">
-                                                        <path fill-rule="evenodd"
-                                                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                                <span>
-                                                    Selling Skills/Digital Marketing/Introduction To Python/Web
-                                                    Designing/Event Planning & Management/Techniques Of Food
-                                                    Preservation
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                    <div id="programsContainer">
                     </div>
                 </div>
             </section>
 
             <section id="Programs-Offered" class="flex w-full h-auto bg-[#f8f8f8]">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-4 md:gap-6 lg:gap-8 max-w-7xl mx-auto">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span
-                            class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">SPECIALIZATIONS
-                        </span>
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            SPECIALIZATIONS
+                        </h2>
                     </div>
-
                     <div id="accordion" class="w-full">
                         <div id="Organizational Psychology" class="accordion-item mb-3 scroll-mt-12">
                             <button
@@ -3142,11 +2205,15 @@
                 </div>
             </section>
 
-            <section class="flex w-full py-8 md:py-0 md:pb-0">
-                <div class="flex w-full flex-col gap-5 md:gap-8 md:py-8 lg:gap-10 lg:py-10 xl:py-14">
-                    <div class="flex flex-col gap-4 w-full px-4 md:items-center md:justify-center max-w-7xl mx-auto">
-                        <h2 class="font-Bebas-Neue text-2xl font-medium md:text-center md:text-3xl lg:text-4xl">Some Of
-                            Our Esteemed Recruiters</h2>
+            <section class="flex w-full ">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Some Of
+                            Our Esteemed Recruiters
+                        </h2>
                     </div>
                     <div class="trusted-by-swiper flex h-fit w-full overflow-hidden">
                         <div class="swiper-wrapper flex w-auto">
@@ -3238,13 +2305,14 @@
 
             <section id="Placement" class="flex w-full h-auto bg-[#f8f8f8]">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-4 md:gap-6 lg:gap-8 max-w-7xl mx-auto">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span
-                            class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">100%
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            100%
                             PLACEMENT ASSISTANCE
-                        </span>
-                        <p class="text-sm lg:text-base text-justify md:text-center">
+                        </h2>
+                        <p class="text-sm md:text-base md:text-center max-w-6xl mx-auto">
                             Pursuing a BA (Psychology) (Hons.) at ITM University, Raipur, opens doors to diverse and
                             meaningful careers across
                             mental health, counseling, human resources, education, research, and beyond. The program
@@ -3253,7 +2321,6 @@
                             sciences.
                         </p>
                     </div>
-
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
 
                         <div class="flex flex-col gap-3 md:gap-5 items-center justify-center w-full">
@@ -3343,12 +2410,13 @@
 
             <section class="flex w-full h-auto bg-[#f8f8f8]">
                 <div
-                    class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
-                    <h2
-                        class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl md:text-center py-3 md:py-0">
-                        ELIGIBILITY AND HOW TO APPLY
-                    </h2>
-
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            ELIGIBILITY AND HOW TO APPLY
+                        </h2>
+                    </div>
                     <div id="accordion">
                         <div class="accordion-item mb-3">
                             <button
@@ -3490,11 +2558,14 @@
             </section>
 
             <section class="flex w-full">
-                <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center md:items-center">
-                        <span class="font-Bebas-Neue text-[#333333] font-medium text-2xl md:text-3xl lg:text-4xl">Campus
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
+                            Campus
                             Life
-                        </span>
+                        </h2>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div id="campus-data" class="flex w-fit gap-4">
@@ -3506,9 +2577,10 @@
 
             <section class="flex w-full h-auto bg-gray-50">
                 <div
-                    class="flex flex-col w-full px-5 py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
-                    <div class="flex w-full flex-col items-start md:text-center md:items-center gap-1 ">
-                        <h2 class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl md:text-center">
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center">
+                        <h2
+                            class="text-black font-bold font-sans text-2xl md:text-3xl lg:text-4xl w-full md:text-center rounded-md uppercase">
                             ABOUT ITM University, Raipur
                         </h2>
                     </div>
@@ -3551,8 +2623,8 @@
                         </div>
                         <div class="flex w-full relative items-center justify-center">
                             <div class="flex w-full aspect-video rounded-lg">
-                                <img src="https://media.itmuniversity.org/university_building_16b72d2d6f.jpg"
-                                    alt="graduate" class="flex w-full h-full object-contain rounded-lg">
+                                <img src="https://media.itmuniversity.org/Raipur_uni_img_56c241cf9d.avif" alt="graduate"
+                                    class="flex w-full h-full object-cover rounded-lg">
                             </div>
                         </div>
                     </div>
@@ -3591,7 +2663,7 @@
                         <form id="form1" autocomplete="off" class="flex flex-col rounded-md gap-4 py-2 px-2 w-full">
 
                             <div
-                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 flex-col relative border rounded-md">
                                 <input type="text" name="fullname" id="fullname1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Full Name *">
@@ -3600,7 +2672,7 @@
                             </div>
 
                             <div
-                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                 <input type="email" name="email" id="email1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Email *">
@@ -3608,7 +2680,7 @@
                                     id="emailError1"></span>
                             </div>
                             <div
-                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                 <div class="relative flex w-full rounded-md shadow-sm">
                                     <div class="flex w-20 items-center">
                                         <select id="countrySelect1" name="country" autocomplete="country"
@@ -3624,7 +2696,7 @@
                             </div>
                             <div class="grid grid-cols-2 gap-2 w-full">
                                 <div
-                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <select id="state1" name="state" autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -3634,7 +2706,7 @@
                                         style="font-size: 10px; color:red;" id="stateError1"></span>
                                 </div>
                                 <div
-                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="location1 flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <select id="city1" name="city" disabled autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -3665,7 +2737,7 @@
                                     </button>
                                 </div>
                                 <div
-                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <input type="text" id="captcha1" name="captcha" autocomplete="false"
                                         class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
                                         placeholder="Enter Captcha *">
@@ -3733,6 +2805,7 @@
 
     <script src="/ba-psychology/main.js"></script>
     <script src="/ba-psychology/js/ranking.js"></script>
+    <script src="/ba-psychology/js/course-structure.js"></script>
     <script src="/ba-psychology/js/swiper.js"></script>
     <script src="/ba-psychology/js/campus.js"></script>
     <script src="./form-js/data.js"></script>
