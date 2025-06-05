@@ -109,8 +109,8 @@
                     <div
                         class="flex items-center md:items-start pt-20 md:pt-0 h-[calc(100vh-50px)] bg-[url('https://cdn.itm.edu/assets/1_Mobile_Banner_430x720_ce1f228949.avif')] md:bg-none bg-cover bg-[center_top_20%] justify-start md:justify-center flex-col gap-4 px-5 py-4">
                         <span
-                            class="text-xl text-center md:text-left md:text-2xl lg:text-7xl text-[#FFBE41] bg-white md:text-white md:bg-transparent rounded-md px-2 py-1 font-Bebas-Neue leading-none">
-                            <span class="md:bg-black px-4 rounded-md">Campus life</span>
+                            class="text-xl text-center md:text-left font-sans md:text-[24px] lg:text-7xl text-[#FFBE41] bg-white md:text-white md:bg-transparent rounded-md px-2 py-1 font-sans leading-none">
+                            <span class="md:bg-[#a91d54] px-4 rounded-md">CAMPUS LIFE</span>
                         </span>
                         <button onclick="openModal()"
                             class="bg-[#DBA28F] rounded-full gap-2  inline-flex text-black px-6 py-2 w-fit text-center items-center justify-center ">Download
@@ -130,7 +130,7 @@
                             <span class="w-fit font-bold mx-auto text-lg text-black">Enquire Now</span>
                             <form id="form" autocomplete="off" class="flex flex-col rounded-md gap-4 py-2 px-2 w-full">
                                 <div
-                                    class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                    class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 flex-col relative border rounded-md">
                                     <input type="text" name="fullname" id="fullname" autocomplete="false"
                                         class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                         placeholder="Enter Your Full Name *">
@@ -138,7 +138,7 @@
                                         style="font-size: 10px; color:red;" id="fullnameError"></span>
                                 </div>
                                 <div
-                                    class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <input type="email" name="email" id="email" autocomplete="false"
                                         class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                         placeholder="Enter Your Email *">
@@ -146,7 +146,7 @@
                                         style="font-size: 10px; color:red;" id="emailError"></span>
                                 </div>
                                 <div
-                                    class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <div class="relative flex w-full rounded-md shadow-sm">
                                         <div class="flex w-20 items-center">
                                             <select id="countrySelect" name="country" autocomplete="country"
@@ -162,7 +162,7 @@
                                 </div>
                                 <div class="grid grid-cols-2 gap-2 w-full">
                                     <div
-                                        class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                        class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                         <select id="state" name="state" autocomplete="none"
                                             class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                             <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -172,7 +172,7 @@
                                             style="font-size: 10px; color:red;" id="stateError"></span>
                                     </div>
                                     <div
-                                        class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                        class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                         <select id="city" name="city" disabled autocomplete="none"
                                             class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                             <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -184,7 +184,7 @@
                                 </div>
                                 <div class="grid grid-cols-2 gap-2 w-full">
                                     <div
-                                        class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                        class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                         <select id="program" name="program" autocomplete="none"
                                             class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                             <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -194,7 +194,7 @@
                                             style="font-size: 10px; color:red;" id="programError"></span>
                                     </div>
                                     <div
-                                        class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                        class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                         <select id="course" name="course" disabled autocomplete="none"
                                             class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                             <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -205,7 +205,7 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                     <select id="specialization" name="specialization" disabled autocomplete="none"
                                         class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
                                         <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
@@ -233,7 +233,7 @@
                                         </button>
                                     </div>
                                     <div
-                                        class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                        class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border-gray-200 border rounded-md">
                                         <input type="text" id="captcha" name="captcha" autocomplete="false"
                                             class="flex h-4/5 my-auto w-full text-sm py-2 px-3 rounded-sm outline-none border-none focus:outline-none"
                                             placeholder="Enter Captcha *">
@@ -270,8 +270,8 @@
                 <div
                     class="flex w-full flex-col px-4 py-4 gap-4 md:gap-6 lg:gap-8 sm:py-6 md:py-8 lg:py-10 xl:py-14 max-w-7xl mx-auto">
                     <div class="flex flex-col w-full md:justify-center gap-4 md:items-center">
-                        <h2 class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl">
-                            Campus Life</h2>
+                        <h2 class="font-sans font-bold text-[#333333] text-[24px] md:text-3xl lg:text-4xl">
+                            CAMPUS LIFE</h2>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div class="flex w-full">
@@ -310,8 +310,8 @@
                 <div
                     class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
                     <div class="flex w-full flex-col items-start md:items-center gap-1 py-4 md:py-0">
-                        <h2 class="font-Bebas-Neue font-medium text-[24px] md:text-3xl lg:text-4xl">
-                            Why ITM Feels Like Home
+                        <h2 class="font-sans font-bold text-[#333333] text-[24px] md:text-3xl lg:text-4xl">
+                            WHY IHM FEELS LIKE HOME
                         </h2>
                     </div>
 
@@ -379,8 +379,8 @@
                     <div class="flex w-full flex-col items-start md:items-center gap-1 ">
                         <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
 
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
-                            A Hub of Creativity and Connection - Clubs and Societies
+                        <h2 class="font-sans text-[#333333] font-bold text-[24px] md:text-3xl lg:text-4xl">
+                            A HUB OF CREATIVITY AND CONNECTION - CLUBS AND SOCIETIES
                         </h2>
                         <p class="text-sm md:text-base md:text-center">
                             At ITM University, every student finds their tribe. Whether you’re a budding entrepreneur,
@@ -440,7 +440,7 @@
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-5 md:py-8 lg:py-10 xl:py-14">
                     <!-- <div class="flex flex-col gap-2 md:gap-3 w-full justify-start md:items-center -mt-8">
                         <span
-                            class="font-Bebas-Neue font-medium text-black text-2xl md:text-3xl lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">
+                            class="font-sans font-medium text-black text-2xl md:text-3xl lg:text-4xl pt-3 border border-gray-200 w-full md:text-center py-2 rounded-md">
                             Where Ideas Come to Life - Incubation and Innovation
                         </span>
                     </div>
@@ -534,9 +534,8 @@
                 <div
                     class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 gap-5 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
                     <div class="flex w-full flex-col items-start md:items-center gap-1">
-                        <h2 class="text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl"
-                            style="font-family: 'Bebas-Neue', sans-serif;">
-                            ITMUR Student House & Clubs System
+                        <h2 class="text-[#333333] font-bold text-[24px] md:text-3xl font-sans lg:text-4xl">
+                            ITMUR STUDENT HOUSE & CLUBS SYSTEM
                         </h2>
                         <h3 class="text-lg md:text-xl font-semibold text-[#a91d54]">
                             Student Houses :
@@ -571,7 +570,7 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
                             <div class="flex w-full px-8 flex-col">
                                 <h2 class="text-[#333333] font-medium text-[24px] md:text-2xl lg:text-3xl"
-                                    style="font-family: 'Bebas-Neue', sans-serif;">
+                                    style="font-family: 'sans', sans-serif;">
                                     Purpose of the House System
                                 </h2>
                                 <ul class="list-disc pl-3 space-y-2 text-sm items-start py-5">
@@ -596,7 +595,7 @@
                             </div>
                             <div class="flex w-full px-8 flex-col">
                                 <h2 class="text-[#333333] font-medium text-[24px] md:text-2xl lg:text-3xl"
-                                    style="font-family: 'Bebas-Neue', sans-serif;">
+                                    style="font-family: 'sans', sans-serif;">
                                     Student Clubs
                                 </h2>
                                 <p class="text-sm md:text-base py-3">
@@ -614,7 +613,7 @@
 
                             <div class="flex w-full px-8 flex-col">
                                 <h2 class="text-[#333333] font-medium text-[24px] md:text-2xl lg:text-3xl"
-                                    style="font-family: 'Bebas-Neue', sans-serif;">
+                                    style="font-family: 'sans', sans-serif;">
                                     Objectives
                                 </h2>
 
@@ -647,8 +646,8 @@
                     class="flex flex-col w-full gap-4 md:gap-6 lg:gap-8 xl:gap-10 p-4 md:py-8 lg:py-10 xl:py-14 max-w-7xl mx-auto">
                     <div class="flex flex-col w-full gap-4">
                         <h2
-                            class="text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl font-Bebas-Neue md:text-center">
-                            Join a Community That Inspires You
+                            class="text-[#333333] font-bold text-[24px] md:text-3xl lg:text-4xl font-sans md:text-center">
+                            JOIN A COMMUNITY THAT INSPIRES YOU
                         </h2>
                         <p class="md:text-center text-ms md:text-base max-w-5xl mx-auto">
                             Life at ITM University, Raipur, is a journey filled with opportunities to discover who you
@@ -704,73 +703,17 @@
                 </div>
             </section>
 
-            <section class="flex flex-col h-auto w-full max-w-7xl mx-auto md:mb-10">
-                <div class="flex p-4 rounded-md bg-[#ffecdb]  flex-col">
-                    <span class="text-base md:text-lg text-black font-bold">Campus Location:</span>
-                    <p class="text-sm md:text-base">
-                        Sector 40, Atal Nagar-Nava Raipur, Uparwara C.G.
-                    </p>
-                    <br />
-                    <p class="text-sm md:text-base">
-                        Raipur Information Centre: 3rd Floor, Shyam Plaza, Pandri Raipur C.G.
-                    </p>
-                    <br />
-                    <p class="text-sm md:text-base">
-                        Bhilai Information Centre : Shop No. 172, Ground Floor, Chouhan Estate, Near Chandra Maurya
-                        Talkies, GE Road, Bhilai C.G.
-                    </p>
-                </div>
+            <section class="flex w-full ">
+                <iframe class="h-80 w-full flex"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.558088222312!2d81.6451442695098!3d21.24936538005805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd9e72c2ce9f%3A0x7228c3775f5af066!2sITM%20University%2C%20Raipur!5e0!3m2!1sen!2sin!4v1748930772599!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
-
-
-            <!-- <section class="flex flex-col w-full">
-                <div
-                    class="flex w-full flex-col px-4 py-4 gap-4 md:gap-6 lg:gap-8 sm:py-6 md:py-8 lg:py-10 xl:py-14 max-w-7xl mx-auto">
-                    <div class="flex flex-col w-full md:justify-center gap-4 md:items-center">
-                        <h2 class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl">
-                            ITM IHM Students Who Have Made It Abroad In Top 7 Destinations</h2>
-                    </div>
-                    <div class="swiper-container1 relative overflow-hidden w-full h-full flex">
-                        <div id="campus-data" class="swiper-wrapper flex w-full">
-
-                        </div>
-                        <div class="swiper-button-next "></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </section> -->
-
-            <!-- <div class="grid grid-cols-1  gap-2 p-4">
-                <section class="flex w-full">
-                    <iframe class="flex h-80 w-full rounded-lg"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.3873956035573!2d73.02981097539693!3d19.046697652891382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3d11e16f1bb%3A0xab69c6d8c3cac8a4!2sITM%20Institute%20of%20Hotel%20Management%2C%20Nerul%20Navi%20Mumbai%20-%20Hotel%20Management%20College!5e0!3m2!1sen!2sin!4v1731405757187!5m2!1sen!2sin"
-                        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;"
-                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </section>
-            </div> -->
-
-            <!-- <section class="flex flex-col w-full">
-                <div
-                    class="flex w-full flex-col px-4 py-4 gap-4 md:gap-6 lg:gap-8 sm:py-6 md:py-8 lg:py-10 xl:py-14 max-w-7xl mx-auto">
-                    <div class="flex flex-col w-full md:justify-center gap-4 md:items-center">
-                        <h2 class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl">
-                            Campus Festivals
-                        </h2>
-                    </div>
-                    <div class="swiper-container1 relative overflow-hidden w-full h-full flex">
-                        <div id="campus-event" class="swiper-wrapper flex w-full">
-
-                        </div>
-                        <div class="swiper-button-next "></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </section> -->
 
             <div id="cta-container" class="flex w-full"></div>
             <div id="footer-container" class="flex w-full"></div>
         </main>
+
         <section id="modal"
             class="hidden w-full h-screen bg-black/50 top-0 right-0 left-0 z-30 items-center justify-center fixed">
             <div class="flex max-w-7xl relative w-full py-5 md:py-10  mx-auto my-auto">

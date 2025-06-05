@@ -25,6 +25,8 @@
     <meta name="robots" content="index, follow" />
     <link rel="alternate" href="https://www.itm.edu/lp/ihm-admissions-bba-ihtm-v1" hreflang="en-in" />
     <link rel="stylesheet" href="../output.css">
+    <script src="../header.js"></script>
+    <script src="../footer.js"></script>
 
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="shortcut icon" href="https://isu.ac.in/images/favicon.ico">
@@ -56,131 +58,7 @@
 
 <body class="flex flex-col w-full h-screen font-inter ">
 
-    <header class="flex flex-col w-full border-b">
-        <div class="w-full hidden md:flex bg-[#a91d54]">
-            <div
-                class="flex w-full max-w-7xl px-4 py-1 text-center mx-auto text-white items-center justify-center text-sm md:text-base">
-                ITM University, Raipur | Facilities
-            </div>
-        </div>
-        <div class="flex max-w-7xl gap-4 mx-auto w-full justify-between px-4 md:px-0 py-2">
-            <div class="flex w-fit">
-                <div class="flex w-fit h-10">
-                    <img src="https://www.itm.edu/lp/raipur/assets/logo/logo.webp" alt="vug logo"
-                        class="flex h-full w-fit object-contain object-left">
-                </div>
-            </div>
-            <nav class="hidden lg:flex flex-1 justify-end items-center">
-                <ul class="flex w-fit gap-2">
-                    <li class="flex w-fit">
-                        <a href="#Highlights" class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
-                            <span>Highlights</span>
-                        </a>
-                    </li>
-                    <!-- <li class="flex w-fit">
-                        <a href="#Specializations"
-                            class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
-                            <span>
-                                Programs</span>
-                        </a>
-                    </li> -->
-                    <li class="flex w-fit">
-                        <a href="#Course-Structure"
-                            class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
-                            <span>Course Structure</span>
-                        </a>
-                    </li>
-                    <li class="flex w-fit">
-                        <a href="#Placement" class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
-                            <span>Placements</span>
-                        </a>
-                    </li>
-                    <li class="flex w-fit">
-                        <button onclick="openModal()"
-                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-full text-white transition-all ">
-                            <span>Enquire Now</span>
-                        </button>
-                    </li>
-                    <!-- <li class="flex w-fit">
-                        <button onclick="applyNow()"
-                            class="flex w-fit text-sm px-4 py-2 bg-[#FF9700] rounded-full text-black transition-all ">
-                            <span>Apply Now</span>
-                        </button>
-                    </li> -->
-                </ul>
-            </nav>
-            <div class="flex w-fit items-center">
-                <button id="open"
-                    class="flex lg:hidden w-fit h-fit text-sm px-2 py-2 bg-[#a91d54] rounded-md text-white transition-all">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd"
-                                d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </span>
-                </button>
-                <nav id="mobile-nav"
-                    class="hidden lg:hidden flex-col absolute w-full py-1 z-20 gap-2 max-w-sm  right-0 top-0 h-screen bg-white shadow-md">
-                    <div class="flex w-full px-2 items-center justify-between">
-                        <div class="h-10 w-auto ">
-                            <img loading="lazy" class="flex w-full h-full object-contain"
-                                src="https://www.itm.edu/lp/raipur/assets/logo/logo.webp" alt="logo">
-                        </div>
-                        <div class="flex w-auto h-full items-center justify-end">
-
-                            <button id="close" class="flex  rounded-full     py-2 px-2 items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                    class="w-6 h-6">
-                                    <path fill-rule="evenodd"
-                                        d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                    <ul class="flex flex-col h-[calc(100%-50px)] overflow-y-scroll w-full gap-2 p-4">
-                        <li class="flex w-full">
-                            <a href="#Highlights" onclick="closeMenu()"
-                                class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
-                                <span>Highlights</span>
-                            </a>
-                        </li>
-                        <!-- <li class="flex w-full">
-                            <a href="#Specializations" onclick="closeMenu()"
-                                class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
-                                <span>Specializations</span>
-                            </a>
-                        </li> -->
-                        <li class="flex w-full">
-                            <a href="#Course Structure" onclick="closeMenu()"
-                                class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
-                                <span>Course Structure</span>
-                            </a>
-                        </li>
-                        <li class="flex w-full">
-                            <a href="#Placement" onclick="closeMenu()"
-                                class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
-                                <span>Placements</span>
-                            </a>
-                        </li>
-                        <li class="flex w-full">
-                            <button onclick="openModal()"
-                                class="flex w-32 text-center items-center justify-center text-sm px-4 py-2 bg-[#a91d54] rounded-3xl text-white transition-all ">
-                                <span>Enquire Now</span>
-                            </button>
-                        </li>
-                        <!-- <li class="flex w-full">
-                            <button onclick="applyNow()"
-                                class="flex w-32 text-center items-center justify-center text-sm px-4 py-2 bg-[#FF9700]  rounded-3xl text-black transition-all ">
-                                <span>Apply Now</span>
-                            </button>
-                        </li> -->
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <div id="header-container" class="flex w-full"> </div>
 
     <div class="flex relative w-full h-[100vh-76px] flex-col overflow-y-auto">
 
@@ -242,11 +120,11 @@
                                     <h1
                                         class="flex font-semibold flex-col py-5 text-[40px] lg:text-6xl xl:text-5xl w-fit items-center md:items-start">
                                         <span
-                                            class="font-Bebas-Neue px-4 py-1.5 text-white font-semibold w-fit leading-10 md:leading-none rounded-md">
+                                            class="font-sans px-4 py-1.5 text-white font-semibold w-fit leading-10 md:leading-none rounded-md">
                                             Facilities
                                         </span>
                                         <!-- <span
-                                            class="font-Bebas-Neue py-0.5 md:py-2 font-semibold text-white bg-[#a91d54] px-3  rounded-md">
+                                            class="font-sans py-0.5 md:py-2 font-semibold text-white bg-[#a91d54] px-3  rounded-md">
                                             Development
                                             Cell
                                         </span> -->
@@ -407,7 +285,7 @@
                     <div class="flex w-full flex-col items-start md:items-center gap-1 ">
                         <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
 
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
+                        <h2 class="font-sans text-[#333333] font-bold text-[24px] md:text-3xl lg:text-4xl">
                             ITM UNIVERSITY BUS ROUTE & TIMINGS
                         </h2>
                         <p class="text-sm md:text-base md:text-center">
@@ -1612,8 +1490,8 @@
                     <div class="flex w-full flex-col items-start md:items-center gap-1 ">
                         <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
 
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
-                            Hostel Facilities at ITM University, Raipur
+                        <h2 class="font-sans text-[#333333] font-bold text-[24px] md:text-3xl lg:text-4xl">
+                            HOSTEL FACILITIES AT ITM UNIVERSITY, RAIPUR
                         </h2>
                         <p class="text-sm md:text-base md:text-center">
                             ITM University offers comfortable and secure hostel accommodation for both male and female
@@ -1701,8 +1579,8 @@
                     <div class="flex w-full flex-col items-start md:items-center gap-1 ">
                         <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
 
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
-                            Lab Facilities at ITM University, Raipur
+                        <h2 class="font-sans text-[#333333] font-bold text-[24px] md:text-3xl lg:text-4xl">
+                            LAB FACILITIES AT ITM UNIVERSITY, RAIPUR
                         </h2>
                         <p class="text-sm md:text-base md:text-center mx-w-7xl">
                             ITM University offers program-specific, well-equipped laboratories to support hands-on
@@ -1731,8 +1609,8 @@
                     <div class="flex w-full flex-col items-start md:items-center gap-1 ">
                         <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
 
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
-                            Extracurricular & Sports Activities at ITM University, Raipur
+                        <h2 class="font-sans text-[#333333] font-bold text-[24px] md:text-3xl lg:text-4xl">
+                            EXTRACURRICULAR & SPORTS ACTIVITIES AT ITM UNIVERSITY, RAIPUR
                         </h2>
                         <p class="text-sm md:text-base md:text-center mx-w-7xl">
                             At ITM University, student development goes beyond academics. The university focuses on four
@@ -1747,7 +1625,7 @@
                             </ul>
                         </div>
 
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
+                        <h2 class="font-sans text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
                             Extracurricular Engagement
                         </h2>
                         <p class="text-sm md:text-base md:text-center mx-w-7xl">
@@ -1812,8 +1690,8 @@
                     <div class="flex w-full flex-col items-start md:items-center gap-1 ">
                         <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
 
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
-                            Library Facility
+                        <h2 class="font-sans text-[#333333] font-bold text-[24px] md:text-3xl lg:text-4xl">
+                            LIBRARY FACILITY
                         </h2>
                         <p class="text-sm md:text-base md:text-center mx-w-7xl">
                             ITM University, Raipur Library caters to the teaching, learning and research needs of the
@@ -2449,7 +2327,8 @@
 
                         </div>
                         <div class="max-w-7xl mx-auto w-full">
-                            <h1 class="text-3xl font-bold text-center  mb-6 py-4">Library E-Newsletter
+                            <h1 class="text-3xl font-sans text-[24px] text-[#333333] font-bold text-center  mb-6 py-4">
+                                LIBRARY E-NEWSLETTER
                             </h1>
 
                             <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -2475,8 +2354,8 @@
                     <div class="flex w-full flex-col items-start md:items-center gap-1 ">
                         <div class="flex md:hidden w-full h-0.5 bg-[#a91d54] mb-4"></div>
 
-                        <h2 class="font-Bebas-Neue text-[#333333] font-medium text-[24px] md:text-3xl lg:text-4xl">
-                            Canteen Facility
+                        <h2 class="font-sans text-[#333333] font-bold text-[24px] md:text-3xl lg:text-4xl">
+                            CANTEEN FACILITY
                         </h2>
                         <p class="text-sm md:text-base md:text-center mx-w-7xl">
                             ITM University Canteen provides best meal services to the students with nominal charges with
@@ -2497,50 +2376,27 @@
                             is fully committed to keep the quality of the canteen for the utmost benefit of all
                             concerned.
                         </p>
+                    </div>
+                </div>
+            </section>
 
+            <section class="flex w-full ">
+                <iframe class="h-80 w-full flex"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.558088222312!2d81.6451442695098!3d21.24936538005805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd9e72c2ce9f%3A0x7228c3775f5af066!2sITM%20University%2C%20Raipur!5e0!3m2!1sen!2sin!4v1748930772599!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
 
+            <div id="cta-container" class="flex w-full pb-3"></div>
+            <div id="footer-container" class="flex w-full"> </div>
 
-                        <section id="Contact" class="flex h-auto w-full bg-[#f8f8f8]">
-                            <div
-                                class="mx-auto flex w-full max-w-7xl flex-col gap-4 p-5 md:gap-6 md:py-8 lg:gap-8 lg:py-10 xl:py-14">
-                                <h2
-                                    class="font-Bebas-Neue py-3 text-center text-2xl font-medium md:py-0 md:text-center md:text-3xl lg:text-4xl">
-                                    CONTACT US</h2>
-                                <div class="flex w-full items-center justify-center">
-                                    <div class="flex w-full flex-col gap-2 md:gap-4 bg-gray-200 p-4 rounded-md">
-                                        <div class="flex md:flex-row flex-col gap-2 md:gap-4 ">
-                                            <span><strong>Email:</strong> itmuradmission@itmuniversity.org</span>
-                                            <span><strong>Phone:</strong> +91 9826-59-8201</span>
-                                        </div>
-                                        <span>
-                                            <strong>Campus Location:</strong> Sector 40, Atal Nagar-Nava Raipur,
-                                            Uparwara
-                                            C.G.
-                                        </span>
-                                        <span>
-                                            <strong>Raipur Information Centre:</strong> 3rd Floor, Shyam Plaza, Pandri
-                                            Raipur C.G.
-                                        </span>
-                                        <span>
-                                            <strong>Bhilai Information Centre:</strong> Shop No. 172, Ground Floor,
-                                            Chouhan Estate,
-                                            Near Chandra Maurya Talkies, GE Road, Bhilai C.G.
-                                        </span>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <div id="cta-container" class="flex w-full pb-3"></div>
-
-                        <footer class="bg-[#333333] text-white w-full py-4">
-                            <div class="max-w-7xl p-4 mx-auto grid grid-cols-1 mb-10">
-                                <div class="w-full text-sm flex items-center justify-center">
-                                    <p id="copyright" class="text-xs md:text-sm"></p>
-                                </div>
-                            </div>
-                        </footer>
+            <footer class="bg-[#333333] text-white w-full py-4">
+                <div class="max-w-7xl p-4 mx-auto grid grid-cols-1 mb-10">
+                    <div class="w-full text-sm flex items-center justify-center">
+                        <p id="copyright" class="text-xs md:text-sm"></p>
+                    </div>
+                </div>
+            </footer>
 
         </main>
         <section id="modal"
