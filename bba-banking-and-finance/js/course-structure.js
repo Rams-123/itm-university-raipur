@@ -63,18 +63,6 @@ const programsData = {
             "Final Placement Interviews",
           ],
         },
-        {
-          name: "Semester VII (Optional - Honors)",
-          courses: [
-            "Advanced On-The-Job Training or Research Projects in Specialized Areas of Banking & Finance",
-          ],
-        },
-        {
-          name: "Semester VIII (Optional - Honors)",
-          courses: [
-            "Advanced On-The-Job Training or Research Projects in Specialized Areas of Banking & Finance",
-          ],
-        },
       ],
     },
   ],

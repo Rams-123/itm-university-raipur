@@ -1,7 +1,7 @@
 // Sample JSON data for specializations
 const specializationsData = [
   {
-    id: "finance",
+    id: "Finance-specialization",
     title: "1. Finance",
     description:
       "The Finance specialization gives students a deep understanding of financial markets, investment strategies, and risk management. This program is designed for those aspiring to build careers in financial analysis, portfolio management, investment banking, or corporate finance.",
@@ -28,7 +28,7 @@ const specializationsData = [
   },
 
   {
-    id: "banking",
+    id: "Banking-specialization",
     title: "2. Banking",
     description:
       "The Banking specialization equips students with a comprehensive understanding of banking systems, credit management, and insurance principles. This program prepares students for dynamic careers in risk management, credit analysis, and insurance consultancy, ensuring financial services and regulatory compliance expertise.",
@@ -54,7 +54,7 @@ const specializationsData = [
     brochureLink: "Download Brochure",
   },
   {
-    id: "marketing",
+    id: "Marketing-specialization",
     title: "3. Marketing",
     description:
       "The Marketing specialization equips students with modern marketing tools and strategies, focusing on consumer behavior, advertising, and international marketing. This specialization prepares students for creative and analytical roles in various industries.",
@@ -78,7 +78,7 @@ const specializationsData = [
     brochureLink: "Download Brochure",
   },
   {
-    id: "entrepreneurship",
+    id: "Entrepreneurship-specialization",
     title: "4. Entrepreneurship",
     description:
       "Designed for aspiring entrepreneurs, this specialization provides a comprehensive understanding of business strategy, innovation, and operational management. Students learn to build and sustain successful business ventures in competitive markets.",

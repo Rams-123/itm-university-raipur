@@ -53,7 +53,7 @@ const specializationsData = [
     brochureLink: "Download Brochure",
   },
   {
-    id: "finance",
+    id: "finance-management",
     title: "3. Finance",
     description:
       "This specialization provides in-depth financial planning, and investment analysis knowledge, helping students develop financial management skills. Students gain critical skills in interpreting economic data, managing budgets, and ensuring organizational profitability. The curriculum emphasizes theoretical understanding and practical applications, preparing students to excel in the dynamic financial sector.",
@@ -105,7 +105,7 @@ const specializationsData = [
     brochureLink: "Download Brochure",
   },
   {
-    id: "entrepreneurship",
+    id: "entrepreneurship-management",
     title: "5. Entrepreneurship",
     description:
       "The Entrepreneurship specialization is designed for students aspiring to become business leaders and innovators. It focuses on building skills in business planning, strategic management, and innovation. Students learn to identify market opportunities, develop new ventures, and sustain business growth. This specialization fosters a mindset of resilience and creativity, which is essential for entrepreneurial success.",

@@ -1,43 +1,35 @@
 const rankingData = [
   {
     heading: "NAAC Accredited",
-    paragraph:
-      "Prestigious B+ grade certification by NAAC for excellence",
+    paragraph: "Prestigious B+ grade certification by NAAC for excellence",
   },
   {
     heading: "Academic Excellence",
-    paragraph:
-      "Consistent A3 Band achievement in OBE Rankings.",
+    paragraph: "Consistent A3 Band achievement in OBE Rankings.",
   },
   {
     heading: "Top University",
-    paragraph:
-      "UniRank No. 1 in Chhattisgarh for four years.",
+    paragraph: "UniRank No. 1 in Chhattisgarh for four years.",
   },
   {
     heading: "Green Champion",
-    paragraph:
-      "Award for Swachhta Action Plan performance excellence.",
+    paragraph: "Award for Swachhta Action Plan performance excellence.",
   },
   {
     heading: "Clean Campus",
-    paragraph:
-      "Recognized as Cleanest Non-Residential Campus by MHRD (2018).",
+    paragraph: "Recognized as Cleanest Non-Residential Campus by MHRD (2018).",
   },
   {
     heading: "Innovation Leader",
-    paragraph:
-      "A 4-star rating in ARIIA and was awarded.",
+    paragraph: "A 4-star rating in ARIIA and was awarded.",
   },
   {
     heading: "Entrepreneurship Leader",
-    paragraph:
-      "A 3-star rating in IIC Rankings was awarded.",
+    paragraph: "A 3-star rating in IIC Rankings was awarded.",
   },
   {
     heading: "Brand Promising",
-    paragraph:
-      "Ranked 13th in India, 1st in Chhattisgarh ARIIA.",
+    paragraph: "Ranked 13th in India, 1st in Chhattisgarh ARIIA.",
   },
 ];
 

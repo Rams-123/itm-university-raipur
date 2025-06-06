@@ -71,14 +71,6 @@ const programsData = {
             "Final Placement Interviews",
           ],
         },
-        {
-          name: "Year 4 - Semester VII (Optional - Honors)",
-          courses: ["Advanced On-The-Job Training or Research Projects"],
-        },
-        {
-          name: "Year 4 - Semester VIII (Optional - Honors)",
-          courses: ["Advanced On-The-Job Training or Research Projects"],
-        },
       ],
     },
   ],
