@@ -1464,6 +1464,42 @@
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BA_Psychology_Hons_Banner_c02d76dae1\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/BA_Psychology_Hons_Banner_c02d76dae1.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BA_Psychology_web_c794bdd7c1\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BA_Psychology_web_c794bdd7c1.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_6dc488cf86\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BBA_6dc488cf86.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_Banking_and_Finance_web_e30afc8b84\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BBA_Banking_and_Finance_web_e30afc8b84.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_Logistics_web_339159bb99\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BBA_Logistics_web_339159bb99.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BCA_web_d4e92a12d9\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BCA_web_d4e92a12d9.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Com_web_ca4d2816dc\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/B_Com_web_ca4d2816dc.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Sc_IHTM_web_5d6b5b1827\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/B_Sc_IHTM_web_5d6b5b1827.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Tech_CSE_web_7cd6ca8f3e\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/B_Tech_CSE_web_7cd6ca8f3e.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/LL_M_web_a3eb09acea\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/LL_M_web_a3eb09acea.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/MBA_i_Connect_web_6c61d07379\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/MBA_i_Connect_web_6c61d07379.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/MCA_web_4f75b7cc06\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/MCA_web_4f75b7cc06.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/M_Sc_Microbiology_web_966414752b\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/M_Sc_Microbiology_web_966414752b.avif');
+  }
   .from-\[\#a91d54\]\/5 {
     --tw-gradient-from: color-mix(in oklab, #a91d54 5%, transparent);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -1758,6 +1794,9 @@
   .pr-4 {
     padding-right: calc(var(--spacing) * 4);
   }
+  .pb-1 {
+    padding-bottom: calc(var(--spacing) * 1);
+  }
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
   }
@@ -1854,6 +1893,9 @@
   .text-\[24px\] {
     font-size: 24px;
   }
+  .text-\[36px\] {
+    font-size: 36px;
+  }
   .text-\[40px\] {
     font-size: 40px;
   }
@@ -1904,6 +1946,9 @@
   }
   .text-\[\#ffbe40\] {
     color: #ffbe40;
+  }
+  .text-\[24x\] {
+    color: 24x;
   }
   .text-black {
     color: var(--color-black);
@@ -1961,9 +2006,6 @@
   }
   .underline {
     text-decoration-line: underline;
-  }
-  .decoration-\[\#a91d54\] {
-    text-decoration-color: #a91d54;
   }
   .decoration-4 {
     text-decoration-thickness: 4px;
@@ -2580,11 +2622,6 @@
       margin-bottom: calc(var(--spacing) * 8);
     }
   }
-  .md\:mb-10 {
-    @media (width >= 48rem) {
-      margin-bottom: calc(var(--spacing) * 10);
-    }
-  }
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
@@ -2860,11 +2897,6 @@
   .md\:bg-\[\#a91d54\] {
     @media (width >= 48rem) {
       background-color: #a91d54;
-    }
-  }
-  .md\:bg-black {
-    @media (width >= 48rem) {
-      background-color: var(--color-black);
     }
   }
   .md\:bg-gray-100 {
@@ -3269,11 +3301,6 @@
   .lg\:px-8 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 8);
-    }
-  }
-  .lg\:px-10 {
-    @media (width >= 64rem) {
-      padding-inline: calc(var(--spacing) * 10);
     }
   }
   .lg\:py-8 {
