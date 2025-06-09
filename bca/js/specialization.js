@@ -27,7 +27,7 @@ const specializationsData = [
   {
     id: "mobile-application-information-security",
     elective: "",
-    title: "2. BCA in Mobile Application & Information Security",
+    title: "2. Mobile Application & Information Security",
     description:
       "This program specializes in mobile app development and the security of digital information systems. Students are trained to design and develop mobile applications for platforms like Android and iOS while gaining a deep understanding of IT security practices. Key focus areas include mobile software engineering, cryptography, ethical hacking, and network security. Students work on practical projects and internships, enhancing their technical skills and industry readiness.\n\nGraduates of this program are prepared for careers in app development, IT security, and cybersecurity analysis, equipped to meet the demands of the rapidly growing mobile technology and information security sectors.",
     topics: [
@@ -70,19 +70,17 @@ function createSpecializationAccordion() {
     accordionItem.innerHTML = `
                 <button class="specialization-accordion-button flex justify-between items-center w-full bg-white border border-gray-300 p-3 rounded-md">
                   <span class="font-inter text-base text-left font-medium">
-                    ${
-                      specialization.elective
-                        ? `<span class="text-[#a91d54] font-semibold">${specialization.elective}</span> `
-                        : ""
-                    }
+                    ${specialization.elective
+        ? `<span class="text-[#a91d54] font-semibold">${specialization.elective}</span> `
+        : ""
+      }
                     ${specialization.title}
                   </span>
                   <span class="specialization-accordion-icon transition-transform duration-300">⌃</span>
                 </button>
 
-                    <div class="specialization-accordion-content border border-t-0 border-gray-200 bg-white p-4 gap-4 flex-col ${
-                      index === 0 ? "flex" : "hidden"
-                    }">
+                    <div class="specialization-accordion-content border border-t-0 border-gray-200 bg-white p-4 gap-4 flex-col ${index === 0 ? "flex" : "hidden"
+      }">
                         <p class="text-sm mb-4">
                             ${specialization.description}
                         </p>
@@ -94,8 +92,8 @@ function createSpecializationAccordion() {
                                 </h5>
                                 <ul class="flex flex-wrap w-full gap-2">
                                     ${specialization.topics
-                                      .map(
-                                        (topic) => `
+        .map(
+          (topic) => `
                                         <li class="flex gap-2 w-fit px-4 py-2 bg-gray-100 rounded-md">
                                             <span class="pt-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -110,8 +108,8 @@ function createSpecializationAccordion() {
                                             </span>
                                         </li>
                                     `
-                                      )
-                                      .join("")}
+        )
+        .join("")}
                                 </ul>
                             </div>
                             <div>
@@ -120,8 +118,8 @@ function createSpecializationAccordion() {
                                 </h5>
                                 <ul class="flex flex-wrap w-full gap-2">
                                     ${specialization.jobRoles
-                                      .map(
-                                        (role) => `
+        .map(
+          (role) => `
                                         <li class="flex gap-2 w-fit px-4 py-2 bg-gray-100 rounded-md">
                                             <span class="pt-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -136,8 +134,8 @@ function createSpecializationAccordion() {
                                             </span>
                                         </li>
                                     `
-                                      )
-                                      .join("")}
+        )
+        .join("")}
                                 </ul>
                             </div>
                         </div>
