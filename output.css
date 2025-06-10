@@ -286,6 +286,9 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
@@ -354,6 +357,9 @@
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
+  }
+  .left-1 {
+    left: calc(var(--spacing) * 1);
   }
   .left-1\/2 {
     left: calc(1/2 * 100%);
@@ -551,6 +557,9 @@
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
   }
+  .h-0 {
+    height: calc(var(--spacing) * 0);
+  }
   .h-0\.5 {
     height: calc(var(--spacing) * 0.5);
   }
@@ -665,11 +674,17 @@
   .w-0 {
     width: calc(var(--spacing) * 0);
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
   .w-1\/3 {
     width: calc(1/3 * 100%);
+  }
+  .w-2 {
+    width: calc(var(--spacing) * 2);
   }
   .w-2\/5 {
     width: calc(2/5 * 100%);
@@ -818,6 +833,13 @@
   .table-auto {
     table-layout: auto;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .-translate-x-1 {
+    --tw-translate-x: calc(var(--spacing) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -828,6 +850,10 @@
   }
   .translate-x-full {
     --tw-translate-x: 100%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-1 {
+    --tw-translate-y: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-y-1\/2 {
@@ -875,6 +901,9 @@
   }
   .cursor-pointer {
     cursor: pointer;
+  }
+  .resize {
+    resize: both;
   }
   .scroll-mt-12 {
     scroll-margin-top: calc(var(--spacing) * 12);
@@ -1290,9 +1319,6 @@
   .bg-\[\#ffefdf\] {
     background-color: #ffefdf;
   }
-  .bg-\[a91d54\] {
-    background-color: a91d54;
-  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -1307,6 +1333,9 @@
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
     }
+  }
+  .bg-blue-200 {
+    background-color: var(--color-blue-200);
   }
   .bg-blue-200\/30 {
     background-color: color-mix(in srgb, oklch(88.2% 0.059 254.128) 30%, transparent);
@@ -1347,6 +1376,9 @@
   .bg-orange-400 {
     background-color: var(--color-orange-400);
   }
+  .bg-pink-200 {
+    background-color: var(--color-pink-200);
+  }
   .bg-pink-200\/30 {
     background-color: color-mix(in srgb, oklch(89.9% 0.061 343.231) 30%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -1362,11 +1394,17 @@
       background-color: color-mix(in oklab, var(--color-pink-300) 30%, transparent);
     }
   }
+  .bg-purple-200 {
+    background-color: var(--color-purple-200);
+  }
   .bg-purple-200\/20 {
     background-color: color-mix(in srgb, oklch(90.2% 0.063 306.703) 20%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-purple-200) 20%, transparent);
     }
+  }
+  .bg-purple-300 {
+    background-color: var(--color-purple-300);
   }
   .bg-purple-300\/20 {
     background-color: color-mix(in srgb, oklch(82.7% 0.119 306.383) 20%, transparent);
@@ -1405,26 +1443,17 @@
     --tw-gradient-position: to top in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/1_Mobile_Banner_430x720_ce1f228949\.avif\'\)\] {
-    background-image: url('https://cdn.itm.edu/assets/1_Mobile_Banner_430x720_ce1f228949.avif');
-  }
   .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/2_Mobile_Banner_430x720_87810c3fda\.avif\'\)\] {
     background-image: url('https://cdn.itm.edu/assets/2_Mobile_Banner_430x720_87810c3fda.avif');
   }
   .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/Industrial_Chem_Desktop_d34c7759dc\.avif\'\)\] {
     background-image: url('https://cdn.itm.edu/assets/Industrial_Chem_Desktop_d34c7759dc.avif');
   }
-  .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/LL_M_Banner_3b9d97aee3\.avif\'\)\] {
-    background-image: url('https://cdn.itm.edu/assets/LL_M_Banner_3b9d97aee3.avif');
-  }
   .bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/banner2_716f835544\.avif\'\)\] {
     background-image: url('https://cdn.itm.edu/assets/banner2_716f835544.avif');
   }
   .bg-\[url\(\'https\:\/\/media\.itm\.ac\.in\/Admission_3_Mobile_Banner_430_X720_782616d34a\.avif\'\)\] {
     background-image: url('https://media.itm.ac.in/Admission_3_Mobile_Banner_430_X720_782616d34a.avif');
-  }
-  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BA_Psychology_Hons_Banner_c02d76dae1\.avif\'\)\] {
-    background-image: url('https://media.itmuniversity.org/BA_Psychology_Hons_Banner_c02d76dae1.avif');
   }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BA_Psychology_web_c794bdd7c1\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/BA_Psychology_web_c794bdd7c1.avif');
@@ -1450,6 +1479,9 @@
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Tech_CSE_web_7cd6ca8f3e\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/B_Tech_CSE_web_7cd6ca8f3e.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/Facilities_78d943992f\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/Facilities_78d943992f.avif');
+  }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/LL_M_web_a3eb09acea\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/LL_M_web_a3eb09acea.avif');
   }
@@ -1462,6 +1494,12 @@
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/M_Sc_Microbiology_web_966414752b\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/M_Sc_Microbiology_web_966414752b.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/campus_page_mob_e039ebc36f\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/campus_page_mob_e039ebc36f.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/ranking_and_placements_ee47645aae\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/ranking_and_placements_ee47645aae.avif');
+  }
   .from-\[\#a91d54\]\/5 {
     --tw-gradient-from: color-mix(in oklab, #a91d54 5%, transparent);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -1472,6 +1510,10 @@
   }
   .from-\[\#a91d54\]\/90 {
     --tw-gradient-from: color-mix(in oklab, #a91d54 90%, transparent);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-black {
+    --tw-gradient-from: var(--color-black);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .from-black\/40 {
@@ -1500,6 +1542,10 @@
     --tw-gradient-from: var(--color-pink-300);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+  .from-purple-900 {
+    --tw-gradient-from: var(--color-purple-900);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .from-purple-900\/90 {
     --tw-gradient-from: color-mix(in srgb, oklch(38.1% 0.176 304.987) 90%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -1524,6 +1570,11 @@
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
+  .via-pink-800 {
+    --tw-gradient-via: var(--color-pink-800);
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
   .via-pink-800\/80 {
     --tw-gradient-via: color-mix(in srgb, oklch(45.9% 0.187 3.815) 80%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -1534,6 +1585,10 @@
   }
   .to-\[\#a91d54\]\/20 {
     --tw-gradient-to: color-mix(in oklab, #a91d54 20%, transparent);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-black {
+    --tw-gradient-to: var(--color-black);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-black\/70 {
@@ -1553,6 +1608,10 @@
   }
   .to-pink-500 {
     --tw-gradient-to: var(--color-pink-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-purple-100 {
+    --tw-gradient-to: var(--color-purple-100);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-purple-100\/30 {
@@ -1656,6 +1715,9 @@
   }
   .px-22 {
     padding-inline: calc(var(--spacing) * 22);
+  }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
   }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
@@ -1885,9 +1947,6 @@
   .text-\[\#ffbe40\] {
     color: #ffbe40;
   }
-  .text-\[24x\] {
-    color: 24x;
-  }
   .text-black {
     color: var(--color-black);
   }
@@ -1994,6 +2053,10 @@
     --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
   .blur-sm {
     --tw-blur: blur(var(--blur-sm));
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
@@ -2003,6 +2066,10 @@
   }
   .backdrop-blur-sm {
     --tw-backdrop-blur: blur(var(--blur-sm));
+    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+  }
+  .backdrop-filter {
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
   }
@@ -2844,11 +2911,6 @@
       background-color: var(--color-white);
     }
   }
-  .md\:bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/1_Banner_1920x720_180ea9c772\.avif\'\)\] {
-    @media (width >= 48rem) {
-      background-image: url('https://cdn.itm.edu/assets/1_Banner_1920x720_180ea9c772.avif');
-    }
-  }
   .md\:bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/2_Banner_1920x720_fb69d4d914\.avif\'\)\] {
     @media (width >= 48rem) {
       background-image: url('https://cdn.itm.edu/assets/2_Banner_1920x720_fb69d4d914.avif');
@@ -2859,9 +2921,14 @@
       background-image: url('https://cdn.itm.edu/assets/lp1_5_698103b72c.webp');
     }
   }
-  .md\:bg-\[url\(\'https\:\/\/media\.itm\.ac\.in\/Admission_3_Banner_1920_X720_0562c2e45f\.avif\'\)\] {
+  .md\:bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/admissions_a73bbcb331\.avif\'\)\] {
     @media (width >= 48rem) {
-      background-image: url('https://media.itm.ac.in/Admission_3_Banner_1920_X720_0562c2e45f.avif');
+      background-image: url('https://media.itmuniversity.org/admissions_a73bbcb331.avif');
+    }
+  }
+  .md\:bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/campus_page_5633daec1a\.avif\'\)\] {
+    @media (width >= 48rem) {
+      background-image: url('https://media.itmuniversity.org/campus_page_5633daec1a.avif');
     }
   }
   .md\:bg-none {
@@ -3281,6 +3348,12 @@
       line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
+  .lg\:text-5xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+  }
   .lg\:text-6xl {
     @media (width >= 64rem) {
       font-size: var(--text-6xl);
@@ -3426,6 +3499,12 @@
     @media (width >= 80rem) {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+  }
+  .xl\:text-6xl {
+    @media (width >= 80rem) {
+      font-size: var(--text-6xl);
+      line-height: var(--tw-leading, var(--text-6xl--line-height));
     }
   }
   .xl\:text-lg {
@@ -3760,6 +3839,11 @@ details>summary::-webkit-details-marker {
   inherits: false;
   initial-value: 0 0 #0000;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -3912,6 +3996,7 @@ details>summary::-webkit-details-marker {
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
