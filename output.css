@@ -9,56 +9,30 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
-    --color-red-700: oklch(50.5% 0.213 27.518);
     --color-orange-50: oklch(98% 0.016 73.684);
     --color-orange-100: oklch(95.4% 0.038 75.164);
     --color-orange-400: oklch(75% 0.183 55.934);
-    --color-orange-800: oklch(47% 0.157 37.304);
     --color-amber-50: oklch(98.7% 0.022 95.277);
-    --color-yellow-100: oklch(97.3% 0.071 103.193);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
     --color-yellow-500: oklch(79.5% 0.184 86.047);
-    --color-green-100: oklch(96.2% 0.044 156.743);
-    --color-green-400: oklch(79.2% 0.209 151.711);
     --color-green-700: oklch(52.7% 0.154 150.069);
-    --color-green-800: oklch(44.8% 0.119 151.328);
-    --color-teal-100: oklch(95.3% 0.051 180.801);
-    --color-cyan-100: oklch(95.6% 0.045 203.388);
-    --color-cyan-400: oklch(78.9% 0.154 211.53);
     --color-blue-50: oklch(97% 0.014 254.604);
     --color-blue-100: oklch(93.2% 0.032 255.585);
     --color-blue-200: oklch(88.2% 0.059 254.128);
     --color-blue-300: oklch(80.9% 0.105 251.813);
-    --color-blue-400: oklch(70.7% 0.165 254.624);
-    --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-blue-600: oklch(54.6% 0.245 262.881);
-    --color-blue-700: oklch(48.8% 0.243 264.376);
-    --color-blue-800: oklch(42.4% 0.199 265.638);
     --color-indigo-100: oklch(93% 0.034 272.788);
     --color-indigo-800: oklch(39.8% 0.195 277.366);
     --color-purple-100: oklch(94.6% 0.033 307.174);
     --color-purple-200: oklch(90.2% 0.063 306.703);
     --color-purple-300: oklch(82.7% 0.119 306.383);
-    --color-purple-400: oklch(71.4% 0.203 305.504);
     --color-purple-500: oklch(62.7% 0.265 303.9);
-    --color-purple-600: oklch(55.8% 0.288 302.321);
-    --color-purple-700: oklch(49.6% 0.265 301.924);
-    --color-purple-800: oklch(43.8% 0.218 303.724);
     --color-purple-900: oklch(38.1% 0.176 304.987);
-    --color-pink-100: oklch(94.8% 0.028 342.258);
     --color-pink-200: oklch(89.9% 0.061 343.231);
     --color-pink-300: oklch(82.3% 0.12 346.018);
-    --color-pink-400: oklch(71.8% 0.202 349.761);
     --color-pink-500: oklch(65.6% 0.241 354.308);
     --color-pink-700: oklch(52.5% 0.223 3.958);
     --color-pink-800: oklch(45.9% 0.187 3.815);
-    --color-rose-100: oklch(94.1% 0.03 12.58);
-    --color-slate-50: oklch(98.4% 0.003 247.858);
-    --color-slate-300: oklch(86.9% 0.022 252.894);
-    --color-slate-500: oklch(55.4% 0.046 257.417);
-    --color-slate-600: oklch(44.6% 0.043 257.281);
-    --color-slate-700: oklch(37.2% 0.044 257.287);
-    --color-slate-800: oklch(27.9% 0.041 260.031);
     --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-200: oklch(92.8% 0.006 264.531);
@@ -104,19 +78,14 @@
     --text-6xl--line-height: 1;
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
-    --text-8xl: 6rem;
-    --text-8xl--line-height: 1;
-    --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
     --tracking-tight: -0.025em;
-    --tracking-wide: 0.025em;
     --leading-tight: 1.25;
     --leading-relaxed: 1.625;
-    --leading-loose: 2;
     --radius-sm: 0.25rem;
     --radius-md: 0.375rem;
     --radius-lg: 0.5rem;
@@ -1266,9 +1235,6 @@
   .border-orange-100 {
     border-color: var(--color-orange-100);
   }
-  .border-red-700 {
-    border-color: var(--color-red-700);
-  }
   .border-white {
     border-color: var(--color-white);
   }
@@ -1471,26 +1437,59 @@
   .bg-\[url\(\'https\:\/\/media\.itm\.ac\.in\/Admission_3_Mobile_Banner_430_X720_782616d34a\.avif\'\)\] {
     background-image: url('https://media.itm.ac.in/Admission_3_Mobile_Banner_430_X720_782616d34a.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BA_Psychology_64f313a2cf\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BA_Psychology_64f313a2cf.avif');
+  }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BA_Psychology_web_c794bdd7c1\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/BA_Psychology_web_c794bdd7c1.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_2b1b8f9a62\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BBA_2b1b8f9a62.avif');
   }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_6dc488cf86\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/BBA_6dc488cf86.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_Banking_and_Finance_08b2648eca\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BBA_Banking_and_Finance_08b2648eca.avif');
+  }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_Banking_and_Finance_web_e30afc8b84\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/BBA_Banking_and_Finance_web_e30afc8b84.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_LL_B_2141f81fb2\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BBA_LL_B_2141f81fb2.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_Logistics_28f3abfdb6\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BBA_Logistics_28f3abfdb6.avif');
   }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BBA_Logistics_web_339159bb99\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/BBA_Logistics_web_339159bb99.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BCA_0a0796edbe\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/BCA_0a0796edbe.avif');
+  }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/BCA_web_d4e92a12d9\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/BCA_web_d4e92a12d9.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Com_Hons_9499c026e8\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/B_Com_Hons_9499c026e8.avif');
   }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Com_web_ca4d2816dc\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/B_Com_web_ca4d2816dc.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Sc_Biotechnology_c2ec112ffa\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/B_Sc_Biotechnology_c2ec112ffa.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Sc_IHTM_49e62da334\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/B_Sc_IHTM_49e62da334.avif');
+  }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Sc_IHTM_web_5d6b5b1827\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/B_Sc_IHTM_web_5d6b5b1827.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Sc_Microbiology_4f1d652ee0\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/B_Sc_Microbiology_4f1d652ee0.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Tech_CSE_17f5eec521\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/B_Tech_CSE_17f5eec521.avif');
   }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/B_Tech_CSE_web_7cd6ca8f3e\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/B_Tech_CSE_web_7cd6ca8f3e.avif');
@@ -1498,17 +1497,38 @@
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/Facilities_78d943992f\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/Facilities_78d943992f.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/Facilities_e8a2fa85ed\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/Facilities_e8a2fa85ed.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/LLM_4330e53e84\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/LLM_4330e53e84.avif');
+  }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/LL_M_web_a3eb09acea\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/LL_M_web_a3eb09acea.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/MBA_82f586896d\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/MBA_82f586896d.avif');
   }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/MBA_i_Connect_web_6c61d07379\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/MBA_i_Connect_web_6c61d07379.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/MCA_445ab3c533\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/MCA_445ab3c533.avif');
+  }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/MCA_web_4f75b7cc06\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/MCA_web_4f75b7cc06.avif');
   }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/M_Sc_Microbiology_6650411869\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/M_Sc_Microbiology_6650411869.avif');
+  }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/M_Sc_Microbiology_web_966414752b\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/M_Sc_Microbiology_web_966414752b.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/Ranking_and_Placement_3746f52ea0\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/Ranking_and_Placement_3746f52ea0.avif');
+  }
+  .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/admissions_6f725fa4a9\.avif\'\)\] {
+    background-image: url('https://media.itmuniversity.org/admissions_6f725fa4a9.avif');
   }
   .bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/campus_page_mob_e039ebc36f\.avif\'\)\] {
     background-image: url('https://media.itmuniversity.org/campus_page_mob_e039ebc36f.avif');
@@ -2663,6 +2683,11 @@
       height: 700px;
     }
   }
+  .md\:h-\[720px\] {
+    @media (width >= 48rem) {
+      height: 720px;
+    }
+  }
   .md\:h-\[calc\(100vh-50px\)\] {
     @media (width >= 48rem) {
       height: calc(100vh - 50px);
@@ -2942,6 +2967,11 @@
   .md\:bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/lp1_5_698103b72c\.webp\'\)\] {
     @media (width >= 48rem) {
       background-image: url('https://cdn.itm.edu/assets/lp1_5_698103b72c.webp');
+    }
+  }
+  .md\:bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/admissions_6f725fa4a9\.avif\'\)\] {
+    @media (width >= 48rem) {
+      background-image: url('https://media.itmuniversity.org/admissions_6f725fa4a9.avif');
     }
   }
   .md\:bg-\[url\(\'https\:\/\/media\.itmuniversity\.org\/admissions_a73bbcb331\.avif\'\)\] {
