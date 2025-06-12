@@ -2,7 +2,7 @@
 const programsData = {
   programs: [
     {
-      name: "BSc IHTM Program",
+      name: "B.Sc. IHTM Program",
       semesters: [
         {
           name: "Year 1 - Semester 1",
