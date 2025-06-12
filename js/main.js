@@ -46,7 +46,7 @@ var swiperOptions2 = {
   loop: true,
   spaceBetween: 10,
   grabCursor: false,
-  slidesPerView: 6,
+  slidesPerView: 10,
   loop: true,
   autoplay: {
     delay: 1,
