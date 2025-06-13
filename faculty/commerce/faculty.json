@@ -1,119 +1,111 @@
 [
-    {
-        "id": "School of Commerce, Management and Research",
-        "data": [
-                {
-                  "srNo": 1,
-                  "name": "Dr. Soma Hazra Chowdhury",
-                  "designation": "Assistant Professor",
-                  "qualification": "Ph.D, MBA, BBA",
-                  "yearOfExp": "17 Years",
-                  "img": "https://media.itmuniversity.org/Soma_Hazra_Chowdhury_5a0c2a513a.jpg"
-                },
-                {
-                  "srNo": 2,
-                  "name": "Dr. Anjali G. Nath",
-                  "designation": "Assistant Professor",
-                  "qualification": "Ph.D, MBA, B.Tech, UGC-NET",
-                  "yearOfExp": "3.5 Years",
-                  "img": "https://media.itmuniversity.org/Anjali_G_Nath_01a4f8594a.jpg"
-                },
-                {
-                  "srNo": 3,
-                  "name": "Prof. Abhinav Kumar Jha",
-                  "designation": "Assistant Professor",
-                  "qualification": "Ph.D(P), MA, BA",
-                  "yearOfExp": "0.3 Years",
-                  "img": "https://media.itmuniversity.org/Abhinav_Kumar_Jha_1a05e98e8e.jpg"
-                },
-                {
-                  "srNo": 4,
-                  "name": "Dr. Manisha Pandey",
-                  "designation": "Professor",
-                  "qualification": "Ph.D, MBA, MA, B.Sc",
-                  "yearOfExp": "22 Years",
-                  "img": "https://cdn.itm.edu/assets/Manisha_Pandey_05a31a503c.jpeg"
-                },
-                {
-                  "srNo": 5,
-                  "name": "Dr. Babita Panda",
-                  "designation": "Assistant Professor",
-                  "qualification": "Ph.D, M.Phil, MA (Economics), BA",
-                  "yearOfExp": "6 Years",
-                  "img": "https://cdn.itm.edu/assets/Babita_Panda_bfb85fcee5.png"
-                },
-                {
-                  "srNo": 6,
-                  "name": "Dr. Yasin Sheikh",
-                  "designation": "Professor and HOD SCMR, Director IQAC",
-                  "qualification": "Ph.D in Business Management from RTM Nagpur University, MBA (Marketing & HR), B.Sc (Microbiology)",
-                  "yearOfExp": "32 Years",
-                  "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Dr.Yasin-Sheikh.webp?mtime=20230703161422&focal=none"
-                },
-                {
-                  "srNo": 7,
-                  "name": "Prof. Rajesh Ubale",
-                  "designation": "Associate Professor (SCMR)",
-                  "qualification": "Ph.D (Pursuing), M.Sc (Statistics), MBA",
-                  "yearOfExp": "23 Years",
-                  "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Prof.-Rajesh-Ubale.webp?mtime=20230703161428&focal=none"
-                },
-                {
-                  "srNo": 8,
-                  "name": "Prof. Joydeep Dilipkumar Banerjee",
-                  "designation": "Assistant Professor",
-                  "qualification": "Ph.D(P), MBA, B.Com",
-                  "yearOfExp": "27.4 Years",
-                  "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Prof.Joydeep-Banerjee.webp?mtime=20230703161430&focal=none"
-                },
-                {
-                  "srNo": 9,
-                  "name": "Dr. Khushboo Sohan Sahu",
-                  "designation": "Associate Professor",
-                  "qualification": "Ph.D, MBA, B.Com",
-                  "yearOfExp": "12 Years",
-                  "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Dr.-Khushboo-Sohan-Sahu.webp?mtime=20230703161423&focal=none"
-                },
-                {
-                  "srNo": 10,
-                  "name": "Dr. Paritosh Dube",
-                  "designation": "Associate Professor",
-                  "qualification": "Ph.D, MBA, M.Com, NET, PGDCM",
-                  "yearOfExp": "19 Years Teaching, 3 Years Industry",
-                  "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Dr.-Paritosh-Dube.webp?mtime=20230703161424&focal=none"
-                },
-                {
-                  "srNo": 11,
-                  "name": "Mohammad Faisal Khan",
-                  "designation": "Trainer",
-                  "qualification": "Ph.D(Pursuing), MBA (Marketing & International Business Mgmt.), B.Sc (Biotechnology)",
-                  "yearOfExp": "10 Years",
-                  "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Mohammad-Faisal-Khan.webp?mtime=20230703161426&focal=none"
-                },
-                {
-                  "srNo": 12,
-                  "name": "Mukesh Bhojwani",
-                  "designation": "Associate Professor (SCMR)",
-                  "qualification": "Ph.D, M.Phil, M.Com, B.Com",
-                  "yearOfExp": "14.10 Years",
-                  "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Dr.-Mukesh-Bhojwani.webp?mtime=20230703161425&focal=none"
-                },
-                {
-                    "srNo": 13,
-                    "name": "Prof. Ajay Kumar Baghel",
-                    "designation": "Assistant Professor",
-                    "qualification": "MBA, B.Sc",
-                    "yearOfExp": "13.5 Years",
-                    "img": "https://media.itmuniversity.org/Ajay_Baghel_a5957c4b5c.jpg"
-               },
-                {
-                    "srNo": 13,
-                    "name": "Prof. Shubham Rajpal",
-                    "designation": "Assistant Professor",
-                    "qualification": "Ph.D (P),M.Com,B.Com ,UGC- NET,CG-SET.",
-                    "yearOfExp": "5Years",
-                    "img": "https://media.itmuniversity.org/Shubham_Rajpal_d2cdb39347.jpg"
-                }
-        ]
-    }
+  {
+    "id": "School of Commerce, Management and Research",
+    "data": [
+      {
+        "srNo": 2,
+        "name": "Dr. Anjali G. Nath",
+        "designation": "Assistant Professor",
+        "qualification": "Ph.D, MBA, B.Tech, UGC-NET",
+        "yearOfExp": "3.5 Years",
+        "img": "https://media.itmuniversity.org/Anjali_G_Nath_01a4f8594a.jpg"
+      },
+      {
+        "srNo": 3,
+        "name": "Prof. Abhinav Kumar Jha",
+        "designation": "Assistant Professor",
+        "qualification": "Ph.D(P), MA, BA",
+        "yearOfExp": "0.3 Years",
+        "img": "https://media.itmuniversity.org/Abhinav_Kumar_Jha_1a05e98e8e.jpg"
+      },
+      {
+        "srNo": 4,
+        "name": "Dr. Manisha Pandey",
+        "designation": "Professor",
+        "qualification": "Ph.D, MBA, MA, B.Sc",
+        "yearOfExp": "22 Years",
+        "img": "https://cdn.itm.edu/assets/Manisha_Pandey_05a31a503c.jpeg"
+      },
+      {
+        "srNo": 5,
+        "name": "Dr. Babita Panda",
+        "designation": "Assistant Professor",
+        "qualification": "Ph.D, M.Phil, MA (Economics), BA",
+        "yearOfExp": "6 Years",
+        "img": "https://cdn.itm.edu/assets/Babita_Panda_bfb85fcee5.png"
+      },
+      {
+        "srNo": 6,
+        "name": "Dr. Yasin Sheikh",
+        "designation": "Professor and HOD SCMR, Director IQAC",
+        "qualification": "Ph.D in Business Management from RTM Nagpur University, MBA (Marketing & HR), B.Sc (Microbiology)",
+        "yearOfExp": "32 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Dr.Yasin-Sheikh.webp?mtime=20230703161422&focal=none"
+      },
+      {
+        "srNo": 7,
+        "name": "Prof. Rajesh Ubale",
+        "designation": "Associate Professor (SCMR)",
+        "qualification": "Ph.D (Pursuing), M.Sc (Statistics), MBA",
+        "yearOfExp": "23 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Prof.-Rajesh-Ubale.webp?mtime=20230703161428&focal=none"
+      },
+      {
+        "srNo": 8,
+        "name": "Prof. Joydeep Dilipkumar Banerjee",
+        "designation": "Assistant Professor",
+        "qualification": "Ph.D(P), MBA, B.Com",
+        "yearOfExp": "27.4 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Prof.Joydeep-Banerjee.webp?mtime=20230703161430&focal=none"
+      },
+      {
+        "srNo": 9,
+        "name": "Dr. Khushboo Sohan Sahu",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D, MBA, B.Com",
+        "yearOfExp": "12 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Dr.-Khushboo-Sohan-Sahu.webp?mtime=20230703161423&focal=none"
+      },
+      {
+        "srNo": 10,
+        "name": "Dr. Paritosh Dube",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D, MBA, M.Com, NET, PGDCM",
+        "yearOfExp": "19 Years Teaching, 3 Years Industry",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Dr.-Paritosh-Dube.webp?mtime=20230703161424&focal=none"
+      },
+      {
+        "srNo": 11,
+        "name": "Mohammad Faisal Khan",
+        "designation": "Trainer",
+        "qualification": "Ph.D(Pursuing), MBA (Marketing & International Business Mgmt.), B.Sc (Biotechnology)",
+        "yearOfExp": "10 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Mohammad-Faisal-Khan.webp?mtime=20230703161426&focal=none"
+      },
+      {
+        "srNo": 12,
+        "name": "Mukesh Bhojwani",
+        "designation": "Associate Professor (SCMR)",
+        "qualification": "Ph.D, M.Phil, M.Com, B.Com",
+        "yearOfExp": "14.10 Years",
+        "img": "https://dg1xqmhtoint1.cloudfront.net/img/raipur/faculty/faculties-commerce-management/faculties-commerce-management-2023/Dr.-Mukesh-Bhojwani.webp?mtime=20230703161425&focal=none"
+      },
+      {
+        "srNo": 13,
+        "name": "Prof. Ajay Kumar Baghel",
+        "designation": "Assistant Professor",
+        "qualification": "MBA, B.Sc",
+        "yearOfExp": "13.5 Years",
+        "img": "https://media.itmuniversity.org/Ajay_Baghel_a5957c4b5c.jpg"
+      },
+      {
+        "srNo": 13,
+        "name": "Prof. Shubham Rajpal",
+        "designation": "Assistant Professor",
+        "qualification": "Ph.D (P),M.Com,B.Com ,UGC- NET,CG-SET.",
+        "yearOfExp": "5Years",
+        "img": "https://media.itmuniversity.org/Shubham_Rajpal_d2cdb39347.jpg"
+      }
+    ]
+  }
 ]
