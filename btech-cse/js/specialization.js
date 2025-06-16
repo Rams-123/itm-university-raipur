@@ -27,8 +27,8 @@ const specializationsData = [
   },
   {
     id: "artificial-intelligence-machine-learning",
-    elective: "Elective Subject",
-    title: "1. Artificial Intelligence & Machine Learning (AIML)",
+    elective: "",
+    title: "2. Artificial Intelligence & Machine Learning (AIML)",
     description:
       "The AIML specialization empowers students with advanced skills in AI-driven innovation, machine learning algorithms, and intelligent automation. Through hands-on projects and industry collaborations, students gain expertise in building AI models, deep learning applications, and natural language processing.\n\nThis specialization prepares graduates to develop intelligent solutions for various industries, from healthcare to finance and beyond.",
     topics: [
@@ -52,8 +52,8 @@ const specializationsData = [
   },
   {
     id: "data-science",
-    elective: "Elective Subject",
-    title: "2. Data Science (DS)",
+    elective: "",
+    title: "3. Data Science (DS)",
     description:
       "The Data Science specialization equips students with expertise in data analytics, statistical modeling, and predictive insights. Students learn to extract meaningful information from complex datasets, applying machine learning and AI techniques to solve real-world business challenges.\n\nThis specialization focuses on practical applications, ensuring students are industry-ready for data-driven roles.",
     topics: [
@@ -97,17 +97,19 @@ function createSpecializationAccordion() {
     accordionItem.innerHTML = `
                 <button class="specialization-accordion-button flex justify-between items-center w-full bg-white border border-gray-300 p-3 rounded-md">
                   <span class="font-inter text-base text-left font-medium">
-                    ${specialization.elective
-        ? `<span class="text-[#a91d54] font-semibold">${specialization.elective}</span> `
-        : ""
-      }
+                    ${
+                      specialization.elective
+                        ? `<span class="text-[#a91d54] font-semibold">${specialization.elective}</span> `
+                        : ""
+                    }
                     ${specialization.title}
                   </span>
                   <span class="specialization-accordion-icon transition-transform duration-300">⌃</span>
                 </button>
 
-                    <div class="specialization-accordion-content border border-t-0 border-gray-200 bg-white p-4 gap-4 flex-col ${index === 0 ? "flex" : "hidden"
-      }">
+                    <div class="specialization-accordion-content border border-t-0 border-gray-200 bg-white p-4 gap-4 flex-col ${
+                      index === 0 ? "flex" : "hidden"
+                    }">
                         <p class="text-sm mb-4">
                             ${specialization.description}
                         </p>
@@ -119,8 +121,8 @@ function createSpecializationAccordion() {
                                 </h5>
                                 <ul class="flex flex-wrap w-full gap-2">
                                     ${specialization.topics
-        .map(
-          (topic) => `
+                                      .map(
+                                        (topic) => `
                                         <li class="flex gap-2 w-fit px-4 py-2 bg-gray-100 rounded-md">
                                             <span class="pt-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -135,8 +137,8 @@ function createSpecializationAccordion() {
                                             </span>
                                         </li>
                                     `
-        )
-        .join("")}
+                                      )
+                                      .join("")}
                                 </ul>
                             </div>
                             <div>
@@ -145,8 +147,8 @@ function createSpecializationAccordion() {
                                 </h5>
                                 <ul class="flex flex-wrap w-full gap-2">
                                     ${specialization.jobRoles
-        .map(
-          (role) => `
+                                      .map(
+                                        (role) => `
                                         <li class="flex gap-2 w-fit px-4 py-2 bg-gray-100 rounded-md">
                                             <span class="pt-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -161,8 +163,8 @@ function createSpecializationAccordion() {
                                             </span>
                                         </li>
                                     `
-        )
-        .join("")}
+                                      )
+                                      .join("")}
                                 </ul>
                             </div>
                         </div>
